@@ -1,2 +1,10 @@
-# 여행영어 단어장
-전 버전 외형 + 스와이프 전용 카드 이동 + 터치 공개/가리기
+# 여행영단어 331
+
+GitHub Pages 업로드용 파일입니다.
+
+업로드할 파일:
+- index.html
+- 404.html
+- manifest.webmanifest
+- sw.js
+- .nojekyll
