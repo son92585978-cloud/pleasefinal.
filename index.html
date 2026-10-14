@@ -289,7 +289,7 @@ function cleanSpeechText(text){
 function makeUtterance(text){
   const u = new SpeechSynthesisUtterance(cleanSpeechText(text));
   u.lang = 'en-US';
-  u.rate = 0.88;   // clear study pace, not unnaturally slow
+  u.rate = 0.72;   // clear study pace, not unnaturally slow
   u.pitch = 0.97;  // calm, official briefing-like delivery
   u.volume = 1.0;
   const v = preferredEnglishVoice || chooseEnglishVoice();
@@ -320,8 +320,8 @@ function speakSequence(items){
   const next=()=>{
     if(i>=list.length) return;
     const u=makeUtterance(list[i++]);
-    u.onend=()=>setTimeout(next,130);
-    u.onerror=()=>setTimeout(next,130);
+    u.onend=()=>setTimeout(next,280);
+    u.onerror=()=>setTimeout(next,280);
     window.speechSynthesis.speak(u);
   };
   next();
@@ -390,7 +390,7 @@ function cardContent(c, compact=false){
       <button class="speak-btn"
         onclick="event.stopPropagation();stopSpeech()">⏹ 정지</button>
     </div>
-    <div class="voice-note">미국식 영어 · 또렷한 브리핑 톤 · 기기에서 가장 자연스러운 en-US 음성을 우선 사용</div>
+    <div class="voice-note">미국식 영어 · 천천히 또렷한 브리핑 톤 · 기기에서 가장 자연스러운 en-US 음성을 우선 사용</div>
 
     ${meaningBlock}
 
