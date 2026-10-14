@@ -1,4 +1,4 @@
-const CACHE='travel-work-331-v2';
+const CACHE='travel-work-331-v3-audio-2examples';
 const ASSETS=['./','./index.html','./404.html','./manifest.webmanifest'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting();});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim();});
