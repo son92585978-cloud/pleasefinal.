@@ -1,6 +1,5 @@
-const CACHE = 'travel-work-331-v4-slow-audio';
+const CACHE = 'travel-work-331-v7-ai-ime-fixed';
 const ASSETS = [
-  './',
   './index.html',
   './404.html',
   './manifest.webmanifest',
@@ -23,26 +22,22 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  const req = event.request;
-
-  if (req.mode === 'navigate') {
+  const req=event.request;
+  if(req.mode==='navigate'){
     event.respondWith(
-      fetch(req).then(res => {
-        const copy = res.clone();
-        caches.open(CACHE).then(cache => cache.put('./index.html', copy));
+      fetch(req,{cache:'no-store'}).then(res=>{
+        const copy=res.clone();
+        caches.open(CACHE).then(cache=>cache.put('./index.html',copy));
         return res;
-      }).catch(() => caches.match('./index.html'))
+      }).catch(()=>caches.match('./index.html'))
     );
     return;
   }
-
   event.respondWith(
-    caches.match(req).then(cached =>
-      cached || fetch(req).then(res => {
-        const copy = res.clone();
-        caches.open(CACHE).then(cache => cache.put(req, copy));
-        return res;
-      })
-    )
+    fetch(req).then(res=>{
+      const copy=res.clone();
+      caches.open(CACHE).then(cache=>cache.put(req,copy));
+      return res;
+    }).catch(()=>caches.match(req))
   );
 });

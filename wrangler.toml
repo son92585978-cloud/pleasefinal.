@@ -1,0 +1,6 @@
+name = "travel-english-ai"
+main = "ai-worker.js"
+compatibility_date = "2026-10-14"
+
+[vars]
+AI_MODEL = "gpt-6-luna"

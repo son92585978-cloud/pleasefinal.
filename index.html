@@ -138,6 +138,17 @@ textarea.input{min-height:85px;resize:vertical}
   .line-speak{width:32px;height:32px;font-size:14px}
 }
 
+
+/* V7 AI autofill */
+.ai-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ai-row .input{flex:1;min-width:180px}
+.ai-btn{border:0;background:#6f4dff;color:#fff;border-radius:14px;padding:12px 14px;font-size:15px;font-weight:900;cursor:pointer}
+.ai-btn:disabled{opacity:.55;cursor:wait}
+.ai-status{font-size:13px;line-height:1.45;color:#745f53;background:#fff3e9;border-radius:12px;padding:10px 12px;display:none}
+.ai-settings{border:1px solid #ead7ca;border-radius:14px;padding:10px 12px;background:#fffdfb}
+.ai-settings summary{cursor:pointer;font-weight:900;color:#6d5549}
+.ai-help{font-size:12px;line-height:1.5;color:#8b7468;margin-top:7px}
+
 </style>
 
 
@@ -161,6 +172,7 @@ textarea.input{min-height:85px;resize:vertical}
     <button class="iconbtn" id="bookBtn" title="책 모드">📖</button>
     <button class="iconbtn" id="wrongBtn" title="오답만">❌</button>
     <button class="iconbtn" id="addBtn" title="단어 추가">＋</button>
+    <button class="iconbtn" id="installBtn" title="앱 설치" style="display:none">⬇앱</button>
     <button class="iconbtn" id="prevBtn">◀</button>
     <button class="iconbtn" id="nextBtn">▶</button>
     <div class="progressbox">
@@ -226,7 +238,7 @@ function saveState(){
 function current(){const a=activeCards();return a.length?a[Math.max(0,Math.min(index,a.length-1))]:null}
 
 
-// ===== Natural English speech (official briefing-style, device voice permitting) =====
+// ===== Natural English speech V5 (natural US voice priority) =====
 let preferredEnglishVoice = null;
 
 function getVoicesSafe(){
@@ -234,40 +246,57 @@ function getVoicesSafe(){
   catch(e){ return []; }
 }
 
+function voiceQualityScore(v){
+  const name=(v.name||'').toLowerCase();
+  const lang=(v.lang||'').toLowerCase();
+  let s=0;
+
+  // Language/locale first.
+  if(lang==='en-us') s+=220;
+  else if(lang.startsWith('en-us')) s+=205;
+  else if(lang.startsWith('en')) s+=90;
+  else s-=180;
+
+  // Prefer voices whose names usually indicate higher-quality synthesis.
+  if(name.includes('neural')) s+=150;
+  if(name.includes('natural')) s+=145;
+  if(name.includes('premium')) s+=125;
+  if(name.includes('enhanced')) s+=115;
+  if(name.includes('wavenet')) s+=110;
+  if(name.includes('studio')) s+=105;
+
+  // Common natural English voices exposed by major OS/browser engines.
+  if(name.includes('aria')) s+=95;
+  if(name.includes('jenny')) s+=92;
+  if(name.includes('ava')) s+=90;
+  if(name.includes('guy')) s+=88;
+  if(name.includes('samantha')) s+=84;
+  if(name.includes('alex')) s+=82;
+  if(name.includes('allison')) s+=80;
+  if(name.includes('david')) s+=78;
+  if(name.includes('google us english')) s+=90;
+  if(name.includes('google')) s+=35;
+  if(name.includes('microsoft')) s+=35;
+  if(name.includes('apple')) s+=28;
+
+  // Avoid voices that commonly sound synthetic/robotic.
+  if(name.includes('espeak')) s-=220;
+  if(name.includes('compact')) s-=90;
+  if(name.includes('basic')) s-=70;
+  if(name.includes('robot')) s-=160;
+
+  // A tiny preference only; remote neural voices can sound better than local ones.
+  if(v.localService) s+=3;
+
+  return s;
+}
+
 function chooseEnglishVoice(){
   const voices = getVoicesSafe();
   if(!voices.length) return null;
-
-  const scoreVoice = (v)=>{
-    const name=(v.name||'').toLowerCase();
-    const lang=(v.lang||'').toLowerCase();
-    let s=0;
-    if(lang==='en-us') s+=100;
-    else if(lang.startsWith('en-us')) s+=95;
-    else if(lang.startsWith('en')) s+=55;
-
-    // Prefer natural, clear US voices commonly exposed on Android/Chrome/Windows/macOS.
-    if(name.includes('natural')) s+=45;
-    if(name.includes('google us english')) s+=42;
-    if(name.includes('aria')) s+=40;
-    if(name.includes('jenny')) s+=38;
-    if(name.includes('samantha')) s+=36;
-    if(name.includes('ava')) s+=35;
-    if(name.includes('allison')) s+=34;
-    if(name.includes('alex')) s+=33;
-    if(name.includes('guy')) s+=32;
-    if(name.includes('david')) s+=30;
-    if(name.includes('microsoft')) s+=18;
-    if(name.includes('google')) s+=16;
-    if(v.localService) s+=4;
-
-    // Avoid robotic/compact synthesizers when a better voice exists.
-    if(name.includes('espeak')) s-=50;
-    if(name.includes('compact')) s-=25;
-    return s;
-  };
-
-  return [...voices].sort((a,b)=>scoreVoice(b)-scoreVoice(a))[0] || null;
+  const english = voices.filter(v => String(v.lang||'').toLowerCase().startsWith('en'));
+  const pool = english.length ? english : voices;
+  return [...pool].sort((a,b)=>voiceQualityScore(b)-voiceQualityScore(a))[0] || null;
 }
 
 function refreshEnglishVoice(){
@@ -286,24 +315,29 @@ function cleanSpeechText(text){
     .trim();
 }
 
-function makeUtterance(text){
-  const u = new SpeechSynthesisUtterance(cleanSpeechText(text));
+function makeUtterance(text, mode='sentence'){
+  const cleaned = cleanSpeechText(text);
+  const u = new SpeechSynthesisUtterance(cleaned);
   u.lang = 'en-US';
-  u.rate = 0.72;   // clear study pace, not unnaturally slow
-  u.pitch = 0.97;  // calm, official briefing-like delivery
+
+  // Keep single words extra clear; sentences a little faster so intonation stays natural.
+  // This feels close to the previous slow version while sounding less "stretched".
+  u.rate = mode === 'word' ? 0.68 : 0.76;
+  u.pitch = 1.00;
   u.volume = 1.0;
+
   const v = preferredEnglishVoice || chooseEnglishVoice();
   if(v) u.voice = v;
   return u;
 }
 
-function speakText(text){
+function speakText(text, mode='sentence'){
   if(!('speechSynthesis' in window)){
     alert('이 브라우저에서는 음성 재생을 지원하지 않습니다.');
     return;
   }
   window.speechSynthesis.cancel();
-  const u = makeUtterance(text);
+  const u = makeUtterance(text, mode);
   window.speechSynthesis.speak(u);
 }
 
@@ -312,16 +346,26 @@ function speakSequence(items){
     alert('이 브라우저에서는 음성 재생을 지원하지 않습니다.');
     return;
   }
-  const list=(items||[]).map(cleanSpeechText).filter(Boolean);
-  if(!list.length) return;
-  window.speechSynthesis.cancel();
 
+  const list=(items||[])
+    .map((item,idx)=>({
+      text:cleanSpeechText(typeof item==='string' ? item : item.text),
+      mode:(typeof item==='object' && item.mode) ? item.mode : (idx===0 ? 'word' : 'sentence'),
+      pause:(typeof item==='object' && Number.isFinite(item.pause)) ? item.pause : 430
+    }))
+    .filter(x=>x.text);
+
+  if(!list.length) return;
+
+  window.speechSynthesis.cancel();
   let i=0;
+
   const next=()=>{
     if(i>=list.length) return;
-    const u=makeUtterance(list[i++]);
-    u.onend=()=>setTimeout(next,280);
-    u.onerror=()=>setTimeout(next,280);
+    const item=list[i++];
+    const u=makeUtterance(item.text,item.mode);
+    u.onend=()=>setTimeout(next,item.pause);
+    u.onerror=()=>setTimeout(next,item.pause);
     window.speechSynthesis.speak(u);
   };
   next();
@@ -330,17 +374,31 @@ function speakSequence(items){
 function speakCurrentCard(){
   const c=current();
   if(!c) return;
-  const items=[c.word];
+
+  const items=[{text:c.word,mode:'word',pause:520}];
   const pairs=Array.isArray(c.dialogue_pairs)?c.dialogue_pairs:[];
-  pairs.forEach(p=>{
-    String(p.en||'').split('\n').forEach(line=>items.push(line));
+
+  pairs.forEach((p,pairIndex)=>{
+    const lines=String(p.en||'').split('\n').filter(Boolean);
+    lines.forEach((line,lineIndex)=>{
+      // Slightly longer pause after the reply and between examples.
+      const isLastLine=lineIndex===lines.length-1;
+      const isLastPair=pairIndex===pairs.length-1;
+      items.push({
+        text:line,
+        mode:'sentence',
+        pause:isLastLine ? (isLastPair ? 300 : 720) : 430
+      });
+    });
   });
+
   speakSequence(items);
 }
 
 function stopSpeech(){
   if('speechSynthesis' in window) window.speechSynthesis.cancel();
 }
+
 
 function cardContent(c, compact=false){
   const meaningBlock = revealed
@@ -364,7 +422,7 @@ function cardContent(c, compact=false){
           <div class="dialogue tap-toggle blurred english-line"
                onclick="event.stopPropagation();this.classList.toggle('blurred')">${esc(line)}</div>
           <button class="line-speak" title="이 문장 듣기"
-             onclick="event.stopPropagation();speakText(decodeURIComponent('${encodeURIComponent(line)}'))">🔊</button>
+             onclick="event.stopPropagation();speakText(decodeURIComponent('${encodeURIComponent(line)}'),'sentence')">🔊</button>
         </div>
         <div class="ko-line">${koLines[j] ? '→ '+esc(koLines[j]) : ''}</div>
       </div>
@@ -384,13 +442,13 @@ function cardContent(c, compact=false){
     <div class="pronunciation">[${esc(c.pronunciation||'')}]</div>
     <div class="word-audio-row">
       <button class="speak-btn primary-speak"
-        onclick="event.stopPropagation();speakText(decodeURIComponent('${encodeURIComponent(c.word)}'))">🔊 단어</button>
+        onclick="event.stopPropagation();speakText(decodeURIComponent('${encodeURIComponent(c.word)}'),'word')">🔊 단어</button>
       <button class="speak-btn"
         onclick="event.stopPropagation();speakCurrentCard()">🔊 단어+예시 전체</button>
       <button class="speak-btn"
         onclick="event.stopPropagation();stopSpeech()">⏹ 정지</button>
     </div>
-    <div class="voice-note">미국식 영어 · 천천히 또렷한 브리핑 톤 · 기기에서 가장 자연스러운 en-US 음성을 우선 사용</div>
+    <div class="voice-note">미국식 영어 · 자연스러운 고품질 en-US 음성 우선 · 단어는 천천히, 문장은 자연스러운 속도로</div>
 
     ${meaningBlock}
 
@@ -439,39 +497,202 @@ function renderSearch(){
     <input id="searchInput" class="input" placeholder="영어 또는 뜻을 검색하세요" value="${esc(query)}">
     <div id="results">${q?(res.length?res.map(c=>`<div class="result" data-word="${esc(c.word)}"><b>${esc(c.word)}</b><div class="small">${esc(c.meaning)}</div></div>`).join(''):`<div class="empty">검색 결과가 없습니다.</div>`):`<div class="empty">예: deposit, 보증금, 환불, 관광...</div>`}</div>
   </div>`;
-  const inp=document.getElementById('searchInput');inp.focus();inp.setSelectionRange(query.length,query.length);
-  inp.addEventListener('input',e=>{query=e.target.value;renderSearch()});
+  const inp=document.getElementById('searchInput');
+  inp.focus();inp.setSelectionRange(query.length,query.length);
+
+  // Korean/IME fix: do not re-render while Hangul is still being composed.
+  let searchComposing=false;
+  inp.addEventListener('compositionstart',()=>{searchComposing=true});
+  inp.addEventListener('compositionend',e=>{
+    searchComposing=false;
+    query=e.target.value;
+    renderSearch();
+  });
+  inp.addEventListener('input',e=>{
+    query=e.target.value;
+    if(searchComposing || e.isComposing) return;
+    renderSearch();
+  });
+
   document.querySelectorAll('.result').forEach(el=>el.addEventListener('click',()=>jumpToWord(el.dataset.word)));
   document.getElementById('pt').textContent='검색';document.getElementById('bar').style.width='0%';
 }
 function renderAdd(){
   const main=document.getElementById('main');
+  const aiEndpoint=storage.getItem('travelAiEndpoint')||'';
+  const hasAi=!!aiEndpoint;
+
   main.innerHTML=`<div class="addPanel">
     <div class="panelTitle">＋ 내 단어 추가</div>
     <div class="formgrid">
-      <input id="aw" class="input" placeholder="영단어 / 표현 (예: refund)">
-      <input id="am" class="input" placeholder="뜻 (예: 환불하다 / 환불)">
-      <textarea id="amn" class="input" placeholder="암기 연결 또는 기억할 표현"></textarea>
-      <textarea id="ad1" class="input" placeholder="실생활 대화 1&#10;A: ...&#10;B: ..."></textarea>
-      <textarea id="ad2" class="input" placeholder="실생활 대화 2 (선택)"></textarea>
-      <textarea id="ad3" class="input" placeholder="실생활 대화 3 (선택)"></textarea>
+      <div class="ai-row">
+        <input id="aw" class="input" placeholder="영단어 / 표현만 입력 (예: delight)" autocomplete="off" autocapitalize="none" spellcheck="false">
+        <button class="ai-btn" id="aiFillBtn">✨ AI 자동완성</button>
+      </div>
+      <div id="aiStatus" class="ai-status"></div>
+
+      <input id="ap" class="input" placeholder="발음 (예: 딜라이트)">
+      <input id="am" class="input" placeholder="뜻 (예: 기쁘게 하다 / 큰 기쁨)">
+      <textarea id="amn" class="input" placeholder="발음 연상법"></textarea>
+
+      <textarea id="ad1" class="input" placeholder="영어 대화 1&#10;A: ...&#10;B: ..."></textarea>
+      <textarea id="ak1" class="input" placeholder="대화 1 한국어&#10;A: ...&#10;B: ..."></textarea>
+
+      <textarea id="ad2" class="input" placeholder="영어 대화 2&#10;A: ...&#10;B: ..."></textarea>
+      <textarea id="ak2" class="input" placeholder="대화 2 한국어&#10;A: ...&#10;B: ..."></textarea>
+
+      <textarea id="ad3" class="input" placeholder="영어 대화 3 (선택)"></textarea>
+      <textarea id="ak3" class="input" placeholder="대화 3 한국어 (선택)"></textarea>
+
       <textarea id="ac" class="input" placeholder="비슷한 표현 / 주의점"></textarea>
+
+      <details class="ai-settings" ${hasAi?'':'open'}>
+        <summary>⚙️ AI 연결 설정 ${hasAi?'· 연결 주소 저장됨':''}</summary>
+        <div class="ai-help">
+          OpenAI API 키를 이 HTML에 넣지 않습니다. 아래에는 Cloudflare Worker 주소와 연결 암호만 저장합니다.
+        </div>
+        <input id="aiEndpoint" class="input" style="margin-top:9px" placeholder="AI Worker 주소 (https://...workers.dev)" value="${esc(aiEndpoint)}">
+        <input id="aiToken" type="password" class="input" style="margin-top:8px" placeholder="연결 암호" value="${esc(storage.getItem('travelAiToken')||'')}">
+        <button class="secondary" id="saveAiSettings" style="margin-top:8px">AI 연결 설정 저장</button>
+      </details>
+
       <button class="primary" id="saveWord">저장하고 카드에 추가</button>
       <button class="secondary" id="backCards">카드로 돌아가기</button>
     </div>
+
     <div class="sec"><div class="lab">현재 내가 추가한 단어: ${customCards.length}개</div>
       ${customCards.length?customCards.map((c,i)=>`<div class="result"><b>${esc(c.word)}</b><div class="small">${esc(c.meaning)}</div><button class="secondary" style="margin-top:7px;padding:7px 10px" onclick="deleteCustom(${i})">삭제</button></div>`).join(''):`<div class="empty">아직 추가한 단어가 없습니다.</div>`}
     </div>
   </div>`;
+
   document.getElementById('saveWord').onclick=saveCustom;
   document.getElementById('backCards').onclick=()=>{mode='cards';render()};
-  document.getElementById('pt').textContent='단어 추가';document.getElementById('bar').style.width='0%';
+  document.getElementById('saveAiSettings').onclick=saveAiSettings;
+  document.getElementById('aiFillBtn').onclick=aiAutofillCurrentWord;
+
+  const aw=document.getElementById('aw');
+  aw.addEventListener('keydown',e=>{
+    if(e.key==='Enter' && !e.isComposing){
+      e.preventDefault();
+      aiAutofillCurrentWord();
+    }
+  });
+
+  document.getElementById('pt').textContent='단어 추가';
+  document.getElementById('bar').style.width='0%';
 }
+
+function setAiStatus(message, visible=true){
+  const el=document.getElementById('aiStatus');
+  if(!el) return;
+  el.textContent=message||'';
+  el.style.display=visible?'block':'none';
+}
+
+function saveAiSettings(){
+  const endpoint=document.getElementById('aiEndpoint').value.trim().replace(/\/+$/,'');
+  const token=document.getElementById('aiToken').value.trim();
+  storage.setItem('travelAiEndpoint',endpoint);
+  storage.setItem('travelAiToken',token);
+  setAiStatus(endpoint?'AI 연결 설정을 저장했습니다. 이제 단어만 입력하고 ✨ AI 자동완성을 누르세요.':'AI 서버 주소를 비웠습니다.');
+}
+
+function parseAiCardPayload(data){
+  if(!data || typeof data!=='object') throw new Error('AI 응답 형식이 올바르지 않습니다.');
+  const d=data.card && typeof data.card==='object' ? data.card : data;
+  if(!d.meaning || !d.pronunciation || !d.mnemonic) throw new Error('AI 응답에 뜻/발음/연상법이 빠졌습니다.');
+  if(!Array.isArray(d.dialogues) || d.dialogues.length<2) throw new Error('AI 예문이 2개보다 적습니다.');
+  return d;
+}
+
+async function aiAutofillCurrentWord(){
+  const word=(document.getElementById('aw')?.value||'').trim();
+  if(!word){alert('먼저 영단어 또는 표현을 입력해주세요.');return}
+
+  const endpoint=(storage.getItem('travelAiEndpoint')||'').replace(/\/+$/,'');
+  const token=storage.getItem('travelAiToken')||'';
+
+  if(!endpoint){
+    setAiStatus('AI 연결 주소가 아직 없습니다. 아래 ⚙️ AI 연결 설정에 Worker 주소를 한 번만 넣어주세요.');
+    const details=document.querySelector('.ai-settings');
+    if(details) details.open=true;
+    return;
+  }
+
+  const btn=document.getElementById('aiFillBtn');
+  btn.disabled=true;
+  btn.textContent='⏳ 만드는 중...';
+  setAiStatus(`“${word}” 뜻 · 발음 · 연상법 · 여행대화 2개를 만들고 있습니다...`);
+
+  try{
+    const res=await fetch(endpoint+'/autofill',{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json',
+        ...(token?{'X-App-Token':token}:{})
+      },
+      body:JSON.stringify({word})
+    });
+
+    let data=null;
+    try{data=await res.json()}catch(e){}
+    if(!res.ok){
+      throw new Error((data&&data.error)||`AI 서버 오류 (${res.status})`);
+    }
+
+    const d=parseAiCardPayload(data);
+
+    document.getElementById('ap').value=d.pronunciation||'';
+    document.getElementById('am').value=d.meaning||'';
+    document.getElementById('amn').value=d.mnemonic||'';
+    document.getElementById('ac').value=d.similar||d.caution||'';
+
+    const pairs=d.dialogues.slice(0,3);
+    [1,2,3].forEach((n,idx)=>{
+      const p=pairs[idx]||{};
+      document.getElementById('ad'+n).value=p.en||'';
+      document.getElementById('ak'+n).value=p.ko||'';
+    });
+
+    setAiStatus('자동완성했습니다. 내용 한 번 확인하고 “저장하고 카드에 추가”를 누르세요.');
+  }catch(err){
+    console.error(err);
+    setAiStatus('자동완성 실패: '+(err?.message||String(err)));
+  }finally{
+    btn.disabled=false;
+    btn.textContent='✨ AI 자동완성';
+  }
+}
+
 function saveCustom(){
-  const word=document.getElementById('aw').value.trim(), meaning=document.getElementById('am').value.trim();
+  const word=document.getElementById('aw').value.trim();
+  const pronunciation=document.getElementById('ap').value.trim();
+  const meaning=document.getElementById('am').value.trim();
+
   if(!word||!meaning){alert('단어와 뜻은 꼭 입력해주세요.');return}
-  const ds=['ad1','ad2','ad3'].map(id=>document.getElementById(id).value.trim()).filter(Boolean);
-  const c={word,meaning,mnemonic:document.getElementById('amn').value.trim(),dialogues:ds,caution:document.getElementById('ac').value.trim(),custom:true,day:'MY',num:customCards.length+1};
+
+  const dialogue_pairs=[];
+  [1,2,3].forEach(n=>{
+    const en=(document.getElementById('ad'+n)?.value||'').trim();
+    const ko=(document.getElementById('ak'+n)?.value||'').trim();
+    if(en) dialogue_pairs.push({en,ko});
+  });
+
+  const c={
+    word,
+    pronunciation,
+    meaning,
+    mnemonic:document.getElementById('amn').value.trim(),
+    dialogues:dialogue_pairs.map(p=>p.en),
+    dialogue_pairs,
+    similar:document.getElementById('ac').value.trim(),
+    caution:'',
+    note:'',
+    custom:true,
+    day:'MY',
+    num:customCards.length+1
+  };
+
   customCards.push(c);
   storage.setItem('travelCustomCards',JSON.stringify(customCards));
   alert('추가했습니다.');
@@ -556,6 +777,59 @@ btn.addEventListener('click',()=>{
       else prevCard();
     }
   }, {passive:true});
+})();
+</script>
+
+
+<script>
+(function(){
+  const installBtn = document.getElementById('installBtn');
+  let deferredInstallPrompt = null;
+
+  function isStandalone(){
+    return window.matchMedia('(display-mode: standalone)').matches ||
+           window.navigator.standalone === true;
+  }
+
+  function updateInstallButton(){
+    if(!installBtn) return;
+    if(isStandalone()){
+      installBtn.style.display='none';
+      return;
+    }
+    installBtn.style.display='inline-block';
+  }
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    updateInstallButton();
+  });
+
+  window.addEventListener('appinstalled', () => {
+    deferredInstallPrompt = null;
+    if(installBtn) installBtn.style.display='none';
+  });
+
+  if(installBtn){
+    installBtn.addEventListener('click', async () => {
+      if(isStandalone()){
+        installBtn.style.display='none';
+        return;
+      }
+
+      if(deferredInstallPrompt){
+        deferredInstallPrompt.prompt();
+        try { await deferredInstallPrompt.userChoice; } catch(e) {}
+        deferredInstallPrompt = null;
+        return;
+      }
+
+      alert('크롬 오른쪽 위 ⋮ 메뉴에서 “앱 설치” 또는 “홈 화면에 추가”를 눌러주세요. 메뉴가 바로 안 보이면 페이지를 한 번 새로고침한 뒤 다시 확인해주세요.');
+    });
+  }
+
+  updateInstallButton();
 })();
 </script>
 
