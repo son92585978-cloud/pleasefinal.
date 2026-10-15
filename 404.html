@@ -113,6 +113,17 @@ textarea.input{min-height:85px;resize:vertical}
 .ko-line{font-weight:500}
 @media(max-width:650px){.card.spread{gap:12px;padding:16px 12px 85px}.spread .study-left{padding-right:10px}.spread .box{padding:9px}.spread .word{overflow-wrap:anywhere}.spread .dialogue,.spread .ko-line{padding-left:6px;padding-right:2px;font-size:13px}.spread .pronunciation{font-size:14px}}
 
+/* Voice selection and speed */
+.voice-controls{margin:10px 0 15px;padding:12px;border:1px solid #d8cabe;border-radius:12px;min-width:0}
+.voice-buttons{display:flex;gap:8px;margin-bottom:12px}
+.voice-buttons button{flex:1;background:#ece4dc;color:#3b3028;border:2px solid transparent}
+.voice-buttons button[aria-pressed="true"]{background:var(--accent);color:white;border-color:#3b3028}
+.voice-speed{display:block;font-size:13px;font-weight:700}
+.speech-rate-value{float:right;font-variant-numeric:tabular-nums}
+.voice-speed input{display:block;width:100%;margin:12px 0;accent-color:var(--accent);min-height:24px}
+.speed-limits{display:flex;justify-content:space-between;font-size:11px;font-weight:400}
+.voice-controls summary{cursor:pointer;font-size:12px;padding:8px 0}
+.voice-controls select{display:block;width:100%;max-width:100%;min-height:40px;margin:4px 0 8px;font-size:12px}
 /* V3 speech support */
 .word-audio-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:2px 0 7px}
 .speak-btn{
@@ -291,21 +302,61 @@ function voiceQualityScore(v){
   return s;
 }
 
+let speechGender=storage.getItem('speechGender')==='male'?'male':'female';
+const savedSpeechRate=Number(storage.getItem('speechRate'));
+let speechRate=savedSpeechRate>=0.5&&savedSpeechRate<=1.5?savedSpeechRate:0.8;
+let speechRun=0, speechTimer=null;
+function englishVoices(){return getVoicesSafe().filter(v=>/^en(?:[-_]|$)/i.test(v.lang||'')).sort((a,b)=>voiceQualityScore(b)-voiceQualityScore(a));}
+function voiceKey(v){return v.voiceURI||v.name+'|'+v.lang;}
+function knownGender(v){
+  const n=v.name||'';
+  if(/\b(female|woman|aria|jenny|ava|samantha|allison|zira|susan|salli|joanna|karen|moira|tessa|victoria|siri female)\b/i.test(n))return 'female';
+  if(/\b(male|man|guy|david|mark|ryan|eric|alex|daniel|james|tom|fred|oliver|george|arthur|siri male)\b/i.test(n))return 'male';
+  return null;
+}
 function chooseEnglishVoice(){
-  const voices = getVoicesSafe();
-  if(!voices.length) return null;
-  const english = voices.filter(v => String(v.lang||'').toLowerCase().startsWith('en'));
-  const pool = english.length ? english : voices;
-  return [...pool].sort((a,b)=>voiceQualityScore(b)-voiceQualityScore(a))[0] || null;
+  const voices=englishVoices(), saved=storage.getItem('speechVoice:'+speechGender);
+  return voices.find(v=>voiceKey(v)===saved)||voices.find(v=>knownGender(v)===speechGender)||null;
 }
-
-function refreshEnglishVoice(){
-  preferredEnglishVoice = chooseEnglishVoice();
+function speechControls(){
+  const voices=englishVoices(), chosen=chooseEnglishVoice();
+  const label=speechGender==='male'?'남성':'여성';
+  const status= !('speechSynthesis' in window)?'이 브라우저는 음성 재생을 지원하지 않습니다.':chosen?esc(chosen.name)+' · '+esc(chosen.lang):voices.length?label+' 음성을 자동으로 찾지 못했습니다. 아래에서 들어보고 지정해주세요.':'영어 음성이 없습니다. 기기 음성 설정에서 영어 음성을 추가한 뒤 다시 열어주세요.';
+  return `<div class="voice-controls" onclick="event.stopPropagation()">
+    <div class="voice-buttons" role="group" aria-label="음성 선택">
+      <button type="button" class="speak-btn" aria-pressed="${speechGender==='male'}" onclick="setSpeechGender('male')">남성</button>
+      <button type="button" class="speak-btn" aria-pressed="${speechGender==='female'}" onclick="setSpeechGender('female')">여성</button>
+    </div>
+    <label class="voice-speed">읽기 속도 <output class="speech-rate-value">${speechRate.toFixed(2)}배</output>
+      <input aria-label="읽기 속도" type="range" min="0.5" max="1.5" step="0.05" value="${speechRate}" oninput="setSpeechRate(this.value)">
+      <span class="speed-limits"><span>느리게 0.5배</span><span>빠르게 1.5배</span></span>
+    </label>
+    <div class="voice-note" aria-live="polite">${status}</div>
+    <details ${chosen?'':'open'}><summary>음성 직접 지정 · 미리 듣기</summary>
+      <p class="voice-note">기기에서 제공하는 영어 음성입니다. 들어본 뒤 현재 ${label} 버튼에 지정하세요.</p>
+      <select aria-label="${label} 버튼에 지정할 음성" onchange="assignSpeechVoice(this.value)">
+        <option value="">자동 선택</option>${voices.map(v=>`<option value="${esc(voiceKey(v))}" ${chosen&&voiceKey(chosen)===voiceKey(v)?'selected':''}>${esc(v.name)} (${esc(v.lang)})</option>`).join('')}
+      </select>
+      <button type="button" class="speak-btn" onclick="speakText('Hello! Have a wonderful trip.')">▶ 미리 듣기</button>
+    </details>
+  </div>`;
 }
-if('speechSynthesis' in window){
-  refreshEnglishVoice();
-  window.speechSynthesis.onvoiceschanged = refreshEnglishVoice;
+function refreshSpeechControls(){document.querySelectorAll('.speech-settings').forEach(el=>el.innerHTML=speechControls());}
+function refreshEnglishVoice(){preferredEnglishVoice=chooseEnglishVoice();refreshSpeechControls();}
+function setSpeechGender(g){stopSpeech();speechGender=g==='male'?'male':'female';storage.setItem('speechGender',speechGender);refreshEnglishVoice();}
+function assignSpeechVoice(key){stopSpeech();storage.setItem('speechVoice:'+speechGender,key);refreshEnglishVoice();document.querySelectorAll('.voice-controls details').forEach(el=>el.open=true);}
+function setSpeechRate(value){
+  const n=Number(value);if(!Number.isFinite(n))return;
+  stopSpeech();speechRate=Math.max(0.5,Math.min(1.5,n));storage.setItem('speechRate',String(speechRate));
+  document.querySelectorAll('.speech-rate-value').forEach(el=>el.textContent=speechRate.toFixed(2)+'배');
+  document.querySelectorAll('.voice-speed input').forEach(el=>el.value=speechRate);
 }
+function speechReady(){
+  if(!('speechSynthesis' in window)){alert('이 브라우저에서는 음성 재생을 지원하지 않습니다.');return false;}
+  if(!chooseEnglishVoice()){alert('선택한 음성이 없습니다. 음성 직접 지정에서 영어 음성을 선택해주세요.');return false;}
+  return true;
+}
+if('speechSynthesis' in window){refreshEnglishVoice();window.speechSynthesis.onvoiceschanged=refreshEnglishVoice;}
 
 function cleanSpeechText(text){
   return String(text||'')
@@ -322,53 +373,35 @@ function makeUtterance(text, mode='sentence'){
 
   // Keep single words extra clear; sentences a little faster so intonation stays natural.
   // This feels close to the previous slow version while sounding less "stretched".
-  u.rate = mode === 'word' ? 0.68 : 0.76;
+  u.rate = speechRate;
   u.pitch = 1.00;
   u.volume = 1.0;
 
-  const v = preferredEnglishVoice || chooseEnglishVoice();
-  if(v) u.voice = v;
+  const v = chooseEnglishVoice();
+  if(v){u.voice=v;u.lang=v.lang;}
   return u;
 }
 
 function speakText(text, mode='sentence'){
-  if(!('speechSynthesis' in window)){
-    alert('이 브라우저에서는 음성 재생을 지원하지 않습니다.');
-    return;
-  }
-  window.speechSynthesis.cancel();
-  const u = makeUtterance(text, mode);
-  window.speechSynthesis.speak(u);
+  stopSpeech();if(!speechReady())return;
+  window.speechSynthesis.speak(makeUtterance(text,mode));
 }
-
 function speakSequence(items){
-  if(!('speechSynthesis' in window)){
-    alert('이 브라우저에서는 음성 재생을 지원하지 않습니다.');
-    return;
-  }
-
-  const list=(items||[])
-    .map((item,idx)=>({
-      text:cleanSpeechText(typeof item==='string' ? item : item.text),
-      mode:(typeof item==='object' && item.mode) ? item.mode : (idx===0 ? 'word' : 'sentence'),
-      pause:(typeof item==='object' && Number.isFinite(item.pause)) ? item.pause : 430
-    }))
-    .filter(x=>x.text);
-
-  if(!list.length) return;
-
-  window.speechSynthesis.cancel();
+  stopSpeech();if(!speechReady())return;
+  const run=speechRun;
+  const list=(items||[]).map((item,idx)=>({
+    text:cleanSpeechText(typeof item==='string'?item:item.text),
+    mode:typeof item==='object'&&item.mode?item.mode:(idx===0?'word':'sentence'),
+    pause:typeof item==='object'&&Number.isFinite(item.pause)?item.pause:430
+  })).filter(x=>x.text);
   let i=0;
-
   const next=()=>{
-    if(i>=list.length) return;
-    const item=list[i++];
-    const u=makeUtterance(item.text,item.mode);
-    u.onend=()=>setTimeout(next,item.pause);
-    u.onerror=()=>setTimeout(next,item.pause);
+    if(run!==speechRun||i>=list.length)return;
+    const item=list[i++], u=makeUtterance(item.text,item.mode);
+    u.onend=()=>{if(run===speechRun)speechTimer=setTimeout(next,item.pause);};
+    u.onerror=()=>{if(run===speechRun)stopSpeech();};
     window.speechSynthesis.speak(u);
-  };
-  next();
+  };next();
 }
 
 function speakCurrentCard(){
@@ -396,6 +429,7 @@ function speakCurrentCard(){
 }
 
 function stopSpeech(){
+  speechRun++;clearTimeout(speechTimer);speechTimer=null;
   if('speechSynthesis' in window) window.speechSynthesis.cancel();
 }
 
@@ -448,7 +482,7 @@ function cardContent(c, compact=false){
       <button class="speak-btn"
         onclick="event.stopPropagation();stopSpeech()">⏹ 정지</button>
     </div>
-    <div class="voice-note">미국식 영어 · 자연스러운 고품질 en-US 음성 우선 · 단어는 천천히, 문장은 자연스러운 속도로</div>
+    <div class="speech-settings">${speechControls()}</div>
 
     ${meaningBlock}
 

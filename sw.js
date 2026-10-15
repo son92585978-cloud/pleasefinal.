@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v7-ai-ime-fixed';
+const CACHE = 'travel-work-331-v8-voice-speed';
 const ASSETS = [
   './index.html',
   './404.html',
