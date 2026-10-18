@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v11-conversation';
+const CACHE = 'travel-work-331-v12-expression-dialogue';
 const ASSETS = [
   './index.html',
   './404.html',
