@@ -179,6 +179,7 @@ textarea.input{min-height:85px;resize:vertical}
 
 .writing-compare b,.writing-example b{display:block;font-size:12px;color:#8b674e;margin-bottom:5px}.writing-example{background:#f8efe5;padding:12px;border-radius:10px}.writing-dialogue{background:#f4eee4;border:1px solid #d6c6b5;border-radius:14px;margin:12px 0 24px;padding:14px}.writing-dialogue summary{line-height:1.7}.writing-note{overflow-wrap:anywhere}
 .question-guide{margin:14px 0;padding:14px;border:1px solid #dbc7b5;border-radius:14px;background:#fffaf4}.question-guide summary{line-height:1.6}.question-guide-en{font-weight:650;color:#80553a}
+.return-study{display:block;width:100%;margin:0 0 12px;padding:12px;cursor:pointer}
 </style>
 
 
@@ -422,7 +423,7 @@ function cardContent(c, compact=false){
     </div>
 
     </div><div class="study-right"><div class="sec">
-      <div class="lab">💬 뜻 보고 말해보기 <span class="writing-version">V14</span></div><div class="writing-help">한글의 주어를 보고 문장을 시작해보세요. 괄호는 앞에서 말한 대상을 알려줍니다. 나눈 해석과 영어는 각각 열고 닫을 수 있어요.</div>
+      <div class="lab">💬 뜻 보고 말해보기 <span class="writing-version">V15</span></div><div class="writing-help">한글의 주어를 보고 문장을 시작해보세요. 괄호는 앞에서 말한 대상을 알려줍니다. 나눈 해석과 영어는 각각 열고 닫을 수 있어요.</div>
       ${questionGuide()}
       ${dialogueHtml}
     </div>
@@ -436,7 +437,7 @@ function cardContent(c, compact=false){
 }
 function renderCards(){
   stopSpeech();
-  storage.setItem('index',String(index));
+  index=Math.max(0,Math.min(index,Math.max(0,activeCards().length-1)));
   const a=activeCards(), c=current(), main=document.getElementById('main');
   if(!c){
     main.innerHTML=`<div class="wrongPanel"><div class="panelTitle">오답 카드가 없습니다</div><div class="empty">❌를 눌러 틀린 단어를 체크하면 여기에 모입니다.</div></div>`;
@@ -464,6 +465,7 @@ function renderSearch(){
   </div>`;
   const inp=document.getElementById('searchInput');
   inp.focus();inp.setSelectionRange(query.length,query.length);
+  renderReturnControl();rememberRoute();
 
   // Korean/IME fix: do not re-render while Hangul is still being composed.
   let searchComposing=false;
@@ -667,8 +669,79 @@ function deleteCustom(i){
   if(!confirm('이 단어를 삭제할까요?'))return;
   customCards.splice(i,1);storage.setItem('travelCustomCards',JSON.stringify(customCards));renderAdd();
 }
-function render(){const eb=document.getElementById('edit-current-card-btn');if(eb)eb.style.display=mode==='cards'?'block':'none';updateButtons(); if(mode==='search')renderSearch(); else if(mode==='add')renderAdd(); else renderCards()}
+// V15: keep the study session separate from temporary search/review screens.
+const NAV_KEY='travelNavigationV15', STUDY_KEY='travelStudyBookmarkV15';
+let navParents=[], lookupOnly=false, navReady=false, navReturning=false;
+function cardIdentity(c){return c?JSON.stringify([c.word,c.day??null,c.num??null]):null;}
+function captureRoute(){return {mode,wrongOnly,lookupOnly,index,query,shuffled,seed:storage.getItem('travelShuffleSeed')||'0.314159',key:cardIdentity(current()),revealed,mnemonicRevealed,englishRevealed,scroll:document.getElementById('main')?.scrollTop||0};}
+function restoreRoute(r){
+ mode=['cards','search','add'].includes(r?.mode)?r.mode:'cards';wrongOnly=!!r?.wrongOnly;lookupOnly=!!r?.lookupOnly;
+ shuffled=!!r?.shuffled;storage.setItem('travelShuffle',String(shuffled));storage.setItem('travelShuffleSeed',String(r?.seed||'0.314159'));
+ index=Number.isFinite(r?.index)?r.index:0;query=typeof r?.query==='string'?r.query:'';
+ const a=activeCards();if(cardIdentity(a[index])!==r?.key&&r?.key){const found=a.findIndex(c=>cardIdentity(c)===r.key);if(found>=0)index=found;}
+ index=Math.max(0,Math.min(index,Math.max(0,a.length-1)));
+ revealed=r?.revealed??!hideMeaning;mnemonicRevealed=r?.mnemonicRevealed??!hideMnemonic;englishRevealed=r?.englishRevealed??false;
+ requestAnimationFrame(()=>{const main=document.getElementById('main');if(main)main.scrollTop=r?.scroll||0;});
+}
+function rememberRoute(){
+ if(!navReady)return;
+ const route=captureRoute();
+ if(mode==='cards'){
+  if(wrongOnly)storage.setItem('travelWrongBookmarkV15',JSON.stringify(route));
+  else if(!lookupOnly){storage.setItem('index',String(index));storage.setItem(STUDY_KEY,JSON.stringify(route));}
+ }
+ history.replaceState({...history.state,[NAV_KEY]:{route,parents:navParents}},'');
+}
+function openTemporary(change){
+ stopSpeech();rememberRoute();const previous=captureRoute();navParents.push(previous);change();
+ history.pushState({[NAV_KEY]:{route:captureRoute(),parents:navParents}},'');render();
+ const main=document.getElementById('main');if(main)main.scrollTop=0;
+}
+function returnToPrevious(){
+ if(navReturning)return;
+ if(history.state?.[NAV_KEY]&&navParents.length){navReturning=true;history.back();return;}
+ mode='cards';lookupOnly=false;wrongOnly=false;render();
+}
+function returnToStudy(){
+ if(navReturning)return;
+ const target=navParents.findIndex(r=>r.mode==='cards'&&!r.wrongOnly&&!r.lookupOnly);
+ if(target>=0&&history.state?.[NAV_KEY]){navReturning=true;history.go(-(navParents.length-target));return;}
+ let saved;try{saved=JSON.parse(storage.getItem(STUDY_KEY)||'null')}catch(e){}
+ navParents=[];restoreRoute(saved||{mode:'cards',wrongOnly:false,index:Number(storage.getItem('index'))||0,shuffled,seed:storage.getItem('travelShuffleSeed')});render();
+}
+function toggleReview(){
+ if(wrongOnly){returnToStudy();return;}
+ openTemporary(()=>{
+  wrongOnly=true;lookupOnly=false;mode='cards';index=0;
+  let saved;try{saved=JSON.parse(storage.getItem('travelWrongBookmarkV15')||'null')}catch(e){}
+  const a=activeCards(),found=saved?.key?a.findIndex(c=>cardIdentity(c)===saved.key):-1;
+  index=found>=0?found:Math.max(0,Math.min(saved?.index||0,Math.max(0,a.length-1)));
+  revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;englishRevealed=false;
+ });
+}
+function togglePanel(panel){if(mode===panel){returnToPrevious();return;}openTemporary(()=>{mode=panel;});}
+function renderReturnControl(){
+ const main=document.getElementById('main');
+ if(!main||!navParents.length)return;
+ const old=document.getElementById('return-study');if(old)old.remove();
+ const button=document.createElement('button');button.id='return-study';button.className='secondary return-study';button.type='button';
+ button.textContent='↩ 원래 학습으로 돌아가기';button.onclick=returnToStudy;main.prepend(button);
+}
+function initializeNavigation(){
+ const state=history.state?.[NAV_KEY];
+ if(state?.route){navParents=Array.isArray(state.parents)?state.parents:[];restoreRoute(state.route);}
+ else {let saved;try{saved=JSON.parse(storage.getItem(STUDY_KEY)||'null')}catch(e){}if(saved)restoreRoute({...saved,mode:'cards',wrongOnly:false,lookupOnly:false});}
+ navReady=true;rememberRoute();
+ addEventListener('popstate',e=>{
+  navReturning=false;stopSpeech();const state=e.state?.[NAV_KEY];
+  if(state?.route){navParents=Array.isArray(state.parents)?state.parents:[];restoreRoute(state.route);render();}
+ });
+ addEventListener('pagehide',rememberRoute);
+}
+
+function render(){const eb=document.getElementById('edit-current-card-btn');if(eb)eb.style.display=mode==='cards'?'block':'none';updateButtons();if(mode==='search')renderSearch();else if(mode==='add')renderAdd();else renderCards();renderReturnControl();rememberRoute()}
 function updateButtons(){
+  document.getElementById('searchBtn').classList.toggle('active',mode==='search');
   document.getElementById('shuffleBtn').classList.toggle('active',shuffled);
   document.getElementById('hideBtn').classList.toggle('active',hideMeaning);
   document.getElementById('hideMnemonicBtn').classList.toggle('active',hideMnemonic);
@@ -677,24 +750,24 @@ function updateButtons(){
 }
 function nextCard(){stopSpeech();const a=activeCards();if(!a.length)return;index=(index+1)%a.length;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;englishRevealed=false;mode='cards';render()}
 function prevCard(){stopSpeech();const a=activeCards();if(!a.length)return;index=(index-1+a.length)%a.length;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;englishRevealed=false;mode='cards';render()}
-function toggleWrong(){const c=current();if(!c)return;if(wrongSet.has(c.word))wrongSet.delete(c.word);else wrongSet.add(c.word);saveState();render()}
+function toggleWrong(){const c=current();if(!c)return;if(wrongSet.has(c.word))wrongSet.delete(c.word);else wrongSet.add(c.word);index=Math.max(0,Math.min(index,Math.max(0,activeCards().length-1)));saveState();render()}
 function jumpToWord(word){
-  wrongOnly=false;mode='cards';const a=activeCards();const i=a.findIndex(c=>c.word===word);index=i>=0?i:0;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;render();
+ stopSpeech();wrongOnly=false;lookupOnly=navParents.length>0;mode='cards';const a=activeCards();const i=a.findIndex(c=>c.word===word);index=i>=0?i:0;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;englishRevealed=false;render();
 }
-document.getElementById('searchBtn').onclick=()=>{mode=mode==='search'?'cards':'search';render()};
-document.getElementById('addBtn').onclick=()=>{mode=mode==='add'?'cards':'add';render()};
+document.getElementById('searchBtn').onclick=()=>togglePanel('search');
+document.getElementById('addBtn').onclick=()=>togglePanel('add');
 document.getElementById('shuffleBtn').onclick=()=>{
   shuffled=!shuffled;if(shuffled)storage.setItem('travelShuffleSeed',String(Math.random()*1000));index=0;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;saveState();mode='cards';render()
 };
 document.getElementById('hideBtn').onclick=()=>{hideMeaning=!hideMeaning;revealed=!hideMeaning;saveState();mode='cards';render()};
 document.getElementById('hideMnemonicBtn').onclick=()=>{hideMnemonic=!hideMnemonic;mnemonicRevealed=!hideMnemonic;saveState();mode='cards';render()};
 document.getElementById('bookBtn').onclick=()=>{bookMode=!bookMode;saveState();mode='cards';render()};
-document.getElementById('wrongBtn').onclick=()=>{wrongOnly=!wrongOnly;index=0;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;mode='cards';render()};
+document.getElementById('wrongBtn').onclick=toggleReview;
 document.getElementById('prevBtn').onclick=prevCard;
 document.getElementById('nextBtn').onclick=nextCard;
 
 document.addEventListener('keydown',e=>{if(mode==='cards'&&e.key==='ArrowRight')nextCard();if(mode==='cards'&&e.key==='ArrowLeft')prevCard()});
-render();
+initializeNavigation();render();
 </script>
 
 

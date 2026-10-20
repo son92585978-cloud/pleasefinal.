@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v14-explicit-subjects';
+const CACHE = 'travel-work-331-v15-restore-study-position';
 const ASSETS = [
   './index.html',
   './404.html',
