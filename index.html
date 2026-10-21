@@ -182,6 +182,9 @@ textarea.input{min-height:85px;resize:vertical}
 .return-study{display:block;width:100%;margin:0 0 12px;padding:12px;cursor:pointer}
 .sentence-panel{background:var(--card,#fff8ef);color:#382c23;padding:20px;border-radius:24px}.sentence-panel h2{margin:0 0 12px}.sentence-panel p{font-size:16px;line-height:1.6}.sentence-panel form{display:flex;gap:8px}.sentence-panel input{min-width:0;flex:1;padding:12px;font-size:16px;border:1px solid #cbbdaf;border-radius:10px}.sentence-panel button{cursor:pointer}.sentence-pager{display:flex;justify-content:space-between;gap:8px;margin:18px 0}.sentence-pager button,.sentence-panel form button{padding:10px;border-radius:10px;border:1px solid #d9c4ad;background:#f3e3d1;color:#382c23;font-size:14px}.sentence-pager button:disabled{opacity:.4}.sentence-number{font-size:14px;color:#806951;margin:20px 0 8px}.sentence-word{font:inherit;font-weight:inherit;color:inherit;background:transparent;border:0;border-bottom:1px dotted #b87a44;border-radius:0;padding:2px 1px;cursor:pointer;display:inline;line-height:inherit}.sentence-word:active{background:#ffe1bd}.writing-english{overflow-wrap:anywhere}.sentence-panel .writing-card{margin-bottom:24px}#sentenceBtn{font-size:22px}
 
+/* V16.1: the main viewport owns scrolling on sentence and glossary screens. */
+.main{min-height:0}.top{flex-shrink:0}.main.detail-scroll{overflow-y:auto;overflow-x:hidden;touch-action:pan-y;-webkit-overflow-scrolling:touch;overscroll-behavior-y:contain}.main.detail-scroll>.card{height:auto;min-height:100%}.sentence-panel{max-width:900px;margin:0 auto}
+
 </style>
 
 
@@ -425,7 +428,7 @@ function cardContent(c, compact=false){
     </div>
 
     </div><div class="study-right"><div class="sec">
-      <div class="lab">💬 뜻 보고 말해보기 <span class="writing-version">V16</span></div><div class="writing-help">한글의 주어를 보고 문장을 시작해보세요. 괄호는 앞에서 말한 대상을 알려줍니다. 나눈 해석과 영어는 각각 열고 닫을 수 있어요.</div>
+      <div class="lab">💬 뜻 보고 말해보기 <span class="writing-version">V16.1</span></div><div class="writing-help">한글의 주어를 보고 문장을 시작해보세요. 괄호는 앞에서 말한 대상을 알려줍니다. 나눈 해석과 영어는 각각 열고 닫을 수 있어요.</div>
       ${questionGuide()}
       ${dialogueHtml}
     </div>
@@ -758,7 +761,7 @@ function initializeNavigation(){
  addEventListener('pagehide',rememberRoute);
 }
 
-function render(){const eb=document.getElementById('edit-current-card-btn');if(eb)eb.style.display=mode==='cards'?'block':'none';updateButtons();if(mode==='search')renderSearch();else if(mode==='add')renderAdd();else if(mode==='sentences')renderSentences();else if(mode==='glossary')renderGlossary();else renderCards();restoreFolds();renderReturnControl();rememberRoute()}
+function render(){document.getElementById('main').classList.toggle('detail-scroll',['sentences','glossary'].includes(mode));const eb=document.getElementById('edit-current-card-btn');if(eb)eb.style.display=mode==='cards'?'block':'none';updateButtons();if(mode==='search')renderSearch();else if(mode==='add')renderAdd();else if(mode==='sentences')renderSentences();else if(mode==='glossary')renderGlossary();else renderCards();restoreFolds();renderReturnControl();rememberRoute()}
 function updateButtons(){
   document.getElementById('searchBtn').classList.toggle('active',mode==='search');
   document.getElementById('shuffleBtn').classList.toggle('active',shuffled);

@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v16-example-vocabulary';
+const CACHE = 'travel-work-331-v16-1-touch-scroll';
 const ASSETS = [
   './index.html',
   './404.html',
