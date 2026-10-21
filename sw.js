@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v17-whole-example-notebook';
+const CACHE = 'travel-work-331-v18-random-example-order';
 const ASSETS = [
   './index.html',
   './404.html',
