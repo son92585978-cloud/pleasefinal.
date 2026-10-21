@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v15-restore-study-position';
+const CACHE = 'travel-work-331-v16-example-vocabulary';
 const ASSETS = [
   './index.html',
   './404.html',
