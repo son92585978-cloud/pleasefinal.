@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v16-1-touch-scroll';
+const CACHE = 'travel-work-331-v17-whole-example-notebook';
 const ASSETS = [
   './index.html',
   './404.html',
