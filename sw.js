@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v19-word-review-pronunciation-memory';
+const CACHE = 'travel-work-331-v20-example-word-expressions';
 const ASSETS = [
   './index.html',
   './404.html',
