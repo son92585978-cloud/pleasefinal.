@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v22-sound-linked-mnemonics';
+const CACHE = 'travel-work-331-v23-phonetic-story-revision';
 const ASSETS = [
   './index.html',
   './404.html',
