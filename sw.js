@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v21-unified-word-mnemonic-editor';
+const CACHE = 'travel-work-331-v22-sound-linked-mnemonics';
 const ASSETS = [
   './index.html',
   './404.html',
