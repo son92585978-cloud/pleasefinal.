@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v20-example-word-expressions';
+const CACHE = 'travel-work-331-v21-unified-word-mnemonic-editor';
 const ASSETS = [
   './index.html',
   './404.html',
