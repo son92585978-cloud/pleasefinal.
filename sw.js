@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v23-phonetic-story-revision';
+const CACHE = 'travel-work-331-v27-lemma-word-cards';
 const ASSETS = [
   './index.html',
   './404.html',
