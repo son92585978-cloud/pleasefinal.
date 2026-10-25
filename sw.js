@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v27-lemma-word-cards';
+const CACHE = 'travel-work-331-v28-complete-basic-inflections';
 const ASSETS = [
   './index.html',
   './404.html',
