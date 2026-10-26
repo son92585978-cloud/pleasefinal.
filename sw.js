@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v30-context-explanations';
+const CACHE = 'travel-work-331-v32-single-example-help';
 const ASSETS = [
   './index.html',
   './404.html',

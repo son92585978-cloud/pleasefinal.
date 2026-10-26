@@ -1,0 +1,125 @@
+{
+  "A: What would you like to order?\nB: I will have the chicken, please.": {
+    "reasons": [
+      {
+        "label": "what",
+        "text": "아직 정해지지 않은 것은 주문할 음식입니다. 무엇을 주문하고 싶은지 알아야 하므로 what으로 물으며, 답에는 The chicken처럼 고른 음식이 나와요."
+      },
+      {
+        "label": "would like / I will have",
+        "text": "직원은 would like로 희망을 공손하게 묻고 손님은 I will have로 메뉴를 이걸로 하겠다고 선택합니다. 여기서 will have는 주문을 정하는 자연스러운 말이에요."
+      }
+    ],
+    "comparisons": [
+      {
+        "left": "What would you like to order?",
+        "leftKo": "무엇을 주문하시겠어요?",
+        "right": "How would you like to order?",
+        "rightKo": "어떤 방법으로 주문하시겠어요?",
+        "why": "what은 주문할 음식, how는 앱·전화·대면 같은 주문 방법을 묻습니다."
+      }
+    ],
+    "cautions": [
+      "음식만 말하면 I would like the chicken. 행동까지 말하면 I would like to order the chicken.이에요. I would like order …처럼 to를 빼지 마세요."
+    ]
+  },
+  "A: How do I get to the old town?\nB: Take bus number five from this stop.": {
+    "reasons": [
+      {
+        "label": "how / get to",
+        "text": "구시가지라는 목적지는 알고 있지만 도착하는 경로·교통수단을 모릅니다. 그래서 how로 방법을 묻고 get to로 목적지에 닿는 데 초점을 둡니다."
+      },
+      {
+        "label": "Take bus number five",
+        "text": "답은 버스 5번을 이용하라는 실제 방법입니다. take는 여기서 물건을 가져가다가 아니라 교통수단을 타다·이용하다예요."
+      }
+    ],
+    "comparisons": [
+      {
+        "left": "How do I get to the station?",
+        "leftKo": "역까지 어떻게 가나요?",
+        "right": "Where is the station?",
+        "rightKo": "역은 어디에 있나요?",
+        "why": "how는 목적지에 도착하는 경로·수단, where는 목적지 위치에 초점이 있습니다. go to도 가능하지만 get to는 도착에 초점을 둬요."
+      }
+    ],
+    "cautions": [
+      "get to the station처럼 목적지 앞에 to를 쓰지만 get home에는 보통 to를 넣지 않아요.",
+      "get to the station은 도착할 곳을 to로 연결해요. 다만 get home에는 보통 to를 붙이지 않습니다. get to home으로 모든 목적지를 똑같이 만들지 마세요."
+    ]
+  },
+  "A: Can we pay for everything together?\nB: Yes, I will put it all on one bill.": {
+    "reasons": [
+      {
+        "label": "can / pay for everything together",
+        "text": "각자 따로 내지 않고 전부 함께 계산해도 되는지 묻는 허용·결제 방식 질문입니다. can은 능력 시험이 아니라 매장에서 이 방식이 가능한지 확인하는 말이에요."
+      },
+      {
+        "label": "I will put it all on one bill",
+        "text": "직원은 Yes로 가능하다고 한 뒤 한 계산서로 합쳐 드리겠다는 실행 의사를 will로 말합니다. put … on one bill 전체가 금액을 한 계산서에 모은다는 뜻이에요."
+      }
+    ],
+    "comparisons": [
+      {
+        "left": "Yes, you can pay together.",
+        "leftKo": "네, 함께 계산하실 수 있어요.",
+        "right": "I will put everything on one bill.",
+        "rightKo": "제가 전부 한 계산서에 합쳐 드릴게요.",
+        "why": "can은 결제 가능 여부, will은 직원이 실행할 처리 행동입니다. 답의 목적이 달라 조동사도 달라져요."
+      }
+    ],
+    "cautions": [
+      "I will pay the bill.이라고 하면 직원 본인이 돈을 내겠다는 다른 뜻이 됩니다. 계산서를 합쳐 준다는 답에는 put it all on one bill이 맞아요."
+    ]
+  },
+  "A: Which platform does the airport train leave from?\nB: Platform four. Take the stairs on your right.": {
+    "reasons": [
+      {
+        "label": "which platform",
+        "text": "공항열차가 출발할 승강장 번호를 모르므로 여러 승강장 중 어느 것인지 which platform으로 묻습니다. 답에서는 실제 출발 승강장 번호를 알려 줍니다."
+      },
+      {
+        "label": "leave from",
+        "text": "열차가 떠나는 출발 지점을 from으로 연결합니다. 목적지인 공항은 airport train에 이미 들어 있고, 지금 묻는 정보는 출발 승강장이에요."
+      }
+    ],
+    "comparisons": [
+      {
+        "left": "Which platform does the train leave from?",
+        "leftKo": "어느 승강장에서 출발하나요?",
+        "right": "Where does the train leave from?",
+        "rightKo": "기차는 어디에서 출발하나요?",
+        "why": "which platform은 여러 승강장 중 번호를 골라 달라는 말입니다. where는 출발 장소를 더 넓게 물을 수 있어요."
+      }
+    ],
+    "cautions": [
+      "What/Which platform does the train leaves from? → What/Which platform does the train leave from?\ndoes 뒤에는 leave 원형을 씁니다.",
+      "does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?"
+    ]
+  },
+  "A: Which platform does the airport train leave from?\nB: Platform nine.": {
+    "reasons": [
+      {
+        "label": "which platform",
+        "text": "공항열차가 출발할 승강장 번호를 모르므로 여러 승강장 중 어느 것인지 which platform으로 묻습니다. 답에서는 실제 출발 승강장 번호를 알려 줍니다."
+      },
+      {
+        "label": "leave from",
+        "text": "열차가 떠나는 출발 지점을 from으로 연결합니다. 목적지인 공항은 airport train에 이미 들어 있고, 지금 묻는 정보는 출발 승강장이에요."
+      }
+    ],
+    "comparisons": [
+      {
+        "left": "Which platform does the train leave from?",
+        "leftKo": "어느 승강장에서 출발하나요?",
+        "right": "Where does the train leave from?",
+        "rightKo": "기차는 어디에서 출발하나요?",
+        "why": "which platform은 여러 승강장 중 번호를 골라 달라는 말입니다. where는 출발 장소를 더 넓게 물을 수 있어요."
+      }
+    ],
+    "cautions": [
+      "What/Which platform does the train leaves from? → What/Which platform does the train leave from?\ndoes 뒤에는 leave 원형을 씁니다.",
+      "does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?"
+    ]
+  }
+}
