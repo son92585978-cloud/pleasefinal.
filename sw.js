@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v29-american-ipa';
+const CACHE = 'travel-work-331-v30-context-explanations';
 const ASSETS = [
   './index.html',
   './404.html',

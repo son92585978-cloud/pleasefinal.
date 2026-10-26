@@ -1,13 +1,22 @@
-여행영단어 V29 — 2026-10-25 한국시간
+여행영단어 V30 — 2026-10-26 한국시간
 
-기본 318개 + 예시 연결 793개 = 1,111개 단어·표현에 미국식 IPA를 추가했습니다.
-활용형·과거형·과거분사·복수형에도 IPA를 표시합니다.
-read의 원형/과거형 및 품사에 따른 발음 차이를 구분했습니다.
-기존 한글 발음, 개인 연상 수정, 오답노트, 학습 위치는 유지합니다.
-표현 IPA는 단어별 기본 발음을 이어 적은 표기입니다. 실제 연음·강세는 듣기로 확인하세요.
-개인 추가 단어는 아는 단어의 IPA를 자동 연결하며, 모르는 새 단어는 IPA 입력칸에 직접 넣을 수 있습니다.
+업데이트 내용
+- 1,289개 문장의 왜 이 표현을 사용했을까요? 설명을 전면 재작성했습니다.
+- 656개 대화의 질문/답 연결 설명을 모두 작성했습니다.
+- 동사 선택·유사 표현, which/what/where/how, do/does/did, 조동사, 시제, 전치사·관용 표현을 실제 문장에 맞춰 설명합니다.
+- can/could 질문에 will로 행동을 약속하거나 would like로 새 희망·선택을 묻는 차이를 구분합니다.
+- 기존에 설명이 없던 286개 문장도 설명을 추가했습니다.
+- read 등 IPA, 활용형, 개인 연상 수정, 오답노트, 학습 위치 기능은 유지합니다.
 
-GitHub 저장소의 index.html, 404.html, sw.js를 교체하세요. 기존 음성 파일은 그대로 두세요.
-업데이트 후 상단 V29 표시를 확인하세요. 배포는 이 ZIP에 포함되지 않습니다.
+적용 방법
+GitHub 저장소의 index.html, 404.html, sw.js를 교체하세요.
+기존 음성·아이콘 파일은 삭제하지 마세요. 개인 학습 데이터를 지우지 마세요.
+업데이트 후 상단 V30 표시를 확인하세요.
 
-발음 데이터 출처와 라이선스는 HTML 주석 및 PRONUNCIATION_LICENSE.txt에 포함되어 있습니다.
+검토용 EXPLANATION_SAMPLES.txt도 함께 담았습니다.
+
+설명 작성 참고
+https://dictionary.cambridge.org/us/grammar/british-grammar/requests
+https://dictionary.cambridge.org/grammar/british-grammar/would
+https://dictionary.cambridge.org/grammar/british-grammar/suggest
+https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/requests-offers-invitations
