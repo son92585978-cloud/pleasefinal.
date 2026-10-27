@@ -8,3 +8,5 @@ V35 유지 조건을 해제하고 현재 앱을 개선한 버전입니다.
 설치: ZIP 압축을 푼 뒤 index.html, 404.html, sw.js를 기존 배포 폴더에서 교체하세요.
 기존 audio 폴더, audio-engine.js, 아이콘, manifest 파일은 삭제하지 마세요.
 앱에서 새 버전 적용 버튼이 나오면 누르세요. 개인 데이터 보존을 위해 브라우저 사이트 데이터를 지우지 마세요.
+
+V42: Detailed phrase/chunk explanations added to existing 1,289 sentences; original examples retained.
