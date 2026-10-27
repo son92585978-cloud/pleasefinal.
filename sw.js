@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v37-full-sentence-reasons';
+const CACHE = 'travel-work-331-v38-v35-preserved';
 const ASSETS = [
   './index.html',
   './404.html',
