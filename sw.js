@@ -1,4 +1,4 @@
-const CACHE = 'travel-work-331-v39-contextual-verb-structure';
+const CACHE = 'travel-work-331-v41-lesson-navigation-context';
 const ASSETS = [
   './index.html',
   './404.html',
