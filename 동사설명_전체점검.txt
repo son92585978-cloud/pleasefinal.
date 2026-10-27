@@ -1,0 +1,3870 @@
+V43 문장별 동사 설명 점검 · 2026-10-27 KST
+기준: 사용자가 첨부한 travel_english_V42_DETAILED_CHUNKS.zip
+분류는 동사 설명 누락을 찾기 위한 점검 기록입니다. 모든 문장의 번역·문법이 절대 무오류라는 보증은 아닙니다.
+
+1. Hi, I would like to check in.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / check in = 입실·탑승 수속하다
+
+2. Of course. May I see your passport?
+[일반동사·동사구] See you there = 거기서 만나요
+
+3. Can we check in early if the room is ready?
+[일반동사·동사구] check in = 입실·탑승 수속하다
+
+4. Yes, early check-in is possible after eleven.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+5. Can I check out at noon?
+[일반동사·동사구] check out = 체크아웃·퇴실 수속하다
+
+6. Yes, noon is fine.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+7. We need to check out before our morning tour.
+[일반동사·동사구] need = 필요하다 / check out = 체크아웃·퇴실 수속하다
+
+8. You can leave the key at the front desk.
+[일반동사·동사구] leave + 물건 + 장소 = 두다·맡겨 놓다
+
+9. When does boarding start?
+[일반동사·동사구] start = 시작하다
+
+10. In twenty minutes, at gate twelve.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+11. Has boarding for flight 218 started yet?
+[일반동사·동사구] start = 시작하다
+
+12. Yes, passengers in group three are boarding now.
+[일반동사·동사구] board = 탑승하다
+
+13. These cups are fragile. Could you wrap them carefully?
+[일반동사·동사구] wrap = 싸다·감싸다
+
+14. Of course. I will wrap each one separately.
+[일반동사·동사구] wrap = 싸다·감싸다
+
+15. This bottle is fragile, so I want to carry it on.
+[일반동사·동사구] want = 원하다 / carry it on = 기내에 직접 가지고 타다
+
+16. That is fine if it meets the security rules.
+[일반동사·동사구] meet the rules = 규정을 충족하다
+
+17. One-way or round trip?
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+18. One-way, please. I am flying back.
+[일반동사·동사구] fly = 비행기로 이동하다
+
+19. I only need a one-way ticket to the airport.
+[일반동사·동사구] need = 필요하다
+
+20. That will be twelve dollars.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+21. How much is a round trip to the island?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+22. It is thirty dollars per person.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+23. Is a round trip cheaper than buying two single tickets?
+[일반동사·동사구] buy = 사다
+
+24. Yes, you save about five dollars.
+[일반동사·동사구] save + 돈 = 돈을 절약하다
+
+25. Do you travel alone often?
+[일반동사·동사구] travel = 여행하다
+
+26. No, I usually travel with my wife.
+[일반동사·동사구] travel = 여행하다
+
+27. Do you travel with just a carry-on?
+[일반동사·동사구] travel = 여행하다
+
+28. Usually, unless I am away for more than a week.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+29. How was your trip to Kyoto?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+30. It was great. The food was delicious.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+31. Are you taking a day trip to the island?
+[일반동사·동사구] take a day trip = 당일치기 여행을 하다·다녀오다
+
+32. Yes, we will be back before dinner.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+33. Does the city tour include lunch?
+[일반동사·동사구] include = 포함하다
+
+34. No, but we stop at a market.
+[일반동사·동사구] stop = 멈추다·잠깐 들르다
+
+35. What time does the walking tour leave?
+[일반동사·동사구] leave = 떠나다·출발하다
+
+36. It starts from the main square at ten.
+[일반동사·동사구] start = 시작하다
+
+37. What time is your flight?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+38. At ten, so I need to leave soon.
+[일반동사·동사구] need = 필요하다 / leave = 떠나다·출발하다
+
+39. My flight was moved to a later time.
+[일반동사·동사구] move = 옮기다·이동하다
+
+40. You can check the new gate on the app.
+[일반동사·동사구] check = 확인하다
+
+41. Is there a delay?
+[일반동사·동사구] delay = 지연시키다
+
+42. Yes, your flight is delayed by thirty minutes.
+[일반동사·동사구] delay = 지연시키다
+
+43. The delay is getting longer. Do you know why?
+[일반동사·동사구] delay = 지연시키다 / get + 상태 형용사 = 점점 ~해지다 / know = 알다
+
+44. The plane is waiting for better weather.
+[일반동사·동사구] wait = 기다리다
+
+45. What is your final destination?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+46. Paris. I am changing planes in London.
+[일반동사·동사구] change planes = 비행기를 갈아타다
+
+47. Please check that Bangkok is the destination on this tag.
+[일반동사·동사구] check = 확인하다 / tag = 태그·수하물표를 붙이다
+
+48. Yes, your bag is tagged through to Bangkok.
+[일반동사·동사구] tag = 태그·수하물표를 붙이다
+
+49. Have you packed your suitcase?
+[일반동사·동사구] pack = 짐을 챙겨 넣다·포장하다
+
+50. Almost. I just need to pack my charger.
+[일반동사·동사구] need = 필요하다 / pack = 짐을 챙겨 넣다·포장하다
+
+51. I need to pack a light jacket for the mountains.
+[일반동사·동사구] need = 필요하다 / pack = 짐을 챙겨 넣다·포장하다
+
+52. Good idea. It gets cold after sunset.
+[일반동사·동사구] get + 상태 형용사 = 점점 ~해지다
+
+53. Shall we go out now?
+[일반동사·동사구] go = 가다
+
+54. Give me ten minutes to unpack first.
+[일반동사·동사구] give = 주다 / unpack = 짐을 풀다
+
+55. I will unpack after we come back from dinner.
+[일반동사·동사구] unpack = 짐을 풀다 / come / come back = 오다·돌아오다
+
+56. Okay, let us leave the bags by the bed for now.
+[일반동사·동사구] let = ~하게 하다·허락하다 / leave + 물건 + 장소 = 두다·맡겨 놓다
+
+57. Could I have an extra towel?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+58. Certainly. I will bring one to your room.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+59. Is there an extra blanket in the room?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+60. Yes, there is one in the closet.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+61. How can I contact the hotel after midnight?
+[일반동사·동사구] contact = 연락하다
+
+62. Call this number. The front desk is open all night.
+[일반동사·동사구] call + 번호·상대 = 전화하다
+
+63. Please contact me if the tour time changes.
+[일반동사·동사구] contact = 연락하다 / change = 바꾸다·변경되다
+
+64. Sure. What number should we use?
+[일반동사·동사구] use = 사용하다·이용하다
+
+65. Do I need to put on a life jacket?
+[일반동사·동사구] need = 필요하다 / put on = 입다·착용하기 시작하다
+
+66. Yes, please wear one before getting on the boat.
+[일반동사·동사구] wear = 착용하다 / get on / get off = 교통편에 타다·내리다
+
+67. It is cold outside. Put on your jacket.
+[일반동사·동사구] put on = 입다·착용하기 시작하다
+
+68. Good idea. I will get it.
+[일반동사·동사구] get it = 가져오다·꺼내 주다
+
+69. I lost my room key.
+[일반동사·동사구] lose = 잃어버리다
+
+70. May I have your name and room number?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+71. What should I do if I lose my passport abroad?
+[일반동사·동사구] do = 하다 / lose = 잃어버리다
+
+72. Contact your embassy as soon as possible.
+[일반동사·동사구] contact = 연락하다
+
+73. Is this seat taken?
+[일반동사·동사구] be taken = 자리가 이미 사용 중이다
+
+74. No, you can sit here.
+[일반동사·동사구] sit = 앉다·앉아 있다
+
+75. Is there a seat near the front of the bus?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+76. Yes, seat six is still available.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+77. Could I have an aisle seat?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+78. Yes, there is one in row twenty.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+79. Please keep your bag out of the aisle.
+[일반동사·동사구] keep + 물건 + 상태 = 계속 그 상태로 유지하다
+
+80. Sorry, I will put it under my seat.
+[일반동사·동사구] put + 물건 + 위치 = 놓다·넣다
+
+81. Would you like more coffee?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+82. No, I am good. Thank you.
+[일반동사·동사구] thank = 감사하다
+
+83. Do you need a bag for that?
+[일반동사·동사구] need = 필요하다
+
+84. No, I am good. I can carry it.
+[일반동사·동사구] carry = 들고 나르다
+
+85. How do I call a flight attendant?
+[일반동사·동사구] call + 도움을 줄 대상 = 부르다·오도록 요청하다
+
+86. Press the button above your seat.
+[일반동사·동사구] press = 누르다
+
+87. A flight attendant said we should remain seated.
+[일반동사·동사구] say = 말하다·표시되어 있다 / remain = 계속 ~한 상태로 있다
+
+88. There must be some turbulence ahead.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+89. When do we take off?
+[일반동사·동사구] take off = 이륙하다
+
+90. In about fifteen minutes.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+91. Do I need to take off my shoes here?
+[일반동사·동사구] need = 필요하다 / take … off = 벗다·떼어 내다
+
+92. Yes, please leave them by the door.
+[일반동사·동사구] leave + 물건 + 장소 = 두다·맡겨 놓다
+
+93. Would you mind switching seats with me?
+[일반동사·동사구] mind = 꺼리다·불편하게 여기다 / switch = 바꾸다·전환하다
+
+94. Sure. Which seat is yours?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+95. Can we switch to a later train?
+[일반동사·동사구] switch = 바꾸다·전환하다
+
+96. Yes, but there is a small change fee.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+97. Do you need a hand with that suitcase?
+[일반동사·동사구] need = 필요하다
+
+98. Yes, please. It is quite heavy.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+99. You look like you need a hand with those bags.
+[일반동사·동사구] look + 형용사 / look like … = ~해 보이다 / need = 필요하다
+
+100. Thanks. Could you hold this one for a second?
+[일반동사·동사구] hold this one = 잠깐 들고 있어 주다
+
+101. Could you give me a hand with my bag?
+[일반동사·동사구] give me a hand = 도와주다
+
+102. Of course. Where would you like it?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+103. Could you give me a hand finding this address?
+[일반동사·동사구] give me a hand = 도와주다 / find = 찾다·발견하다
+
+104. Sure, let me check the map.
+[일반동사·동사구] let = ~하게 하다·허락하다 / check = 확인하다
+
+105. Can you store my bags until this evening?
+[일반동사·동사구] store = 보관하다
+
+106. Yes. Please collect them before ten.
+[일반동사·동사구] collect = 찾아가다·수령하다
+
+107. Is there a grocery store nearby?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+108. Yes, next to the bank.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+109. What is the weight limit for this bag?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+110. Twenty-three kilos.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+111. Is there a time limit for the luggage lockers?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+112. Yes, you can use them for up to twenty-four hours.
+[일반동사·동사구] use = 사용하다·이용하다
+
+113. Is there an extra charge for breakfast?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+114. Yes, it is fifteen dollars per person.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+115. Is there an extra charge for a sea-view room?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+116. Yes, it is twenty dollars more per night.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+117. Do you have change for a twenty-dollar bill?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+118. Yes. Would two tens be okay?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+119. Could I change my seat?
+[일반동사·동사구] change = 바꾸다·변경되다
+
+120. Let me see what is available.
+[일반동사·동사구] let = ~하게 하다·허락하다 / see if/what … = ~인지 알아보다·살펴보다
+
+121. Where do I check in for domestic flights?
+[일반동사·동사구] check in = 입실·탑승 수속하다
+
+122. At the counters on the first floor.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+123. Do domestic flights leave from this terminal?
+[일반동사·동사구] leave = 떠나다·출발하다
+
+124. Yes, gates one through twenty are for domestic flights.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+125. Is this the international terminal?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+126. No, you need terminal two.
+[일반동사·동사구] need = 필요하다
+
+127. How early should I arrive for an international flight?
+[일반동사·동사구] arrive = 도착하다
+
+128. About three hours before departure.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+129. Where can I collect my baggage?
+[일반동사·동사구] collect = 찾아가다·수령하다
+
+130. At carousel five, downstairs.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+131. My baggage did not arrive on the carousel.
+[일반동사·동사구] arrive = 도착하다
+
+132. Please report it at the service counter.
+[일반동사·동사구] report = 신고하다·알리다
+
+133. May I see your passport?
+[일반동사·동사구] See you there = 거기서 만나요
+
+134. Yes, here you are.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+135. I left my passport in the hotel safe.
+[일반동사·동사구] leave + 물건 + 장소 = 두다·맡겨 놓다
+
+136. We have time to go back before the flight.
+[일반동사·동사구] have + 시간·공간 = 쓸 시간·공간이 있다 / go = 가다
+
+137. What time will we arrive in Osaka?
+[일반동사·동사구] arrive = 도착하다
+
+138. At about six this evening.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+139. We should arrive at the hotel before midnight.
+[일반동사·동사구] arrive = 도착하다
+
+140. I will message them with our arrival time.
+[일반동사·동사구] message = 메시지를 보내다
+
+141. When does the next train depart?
+[일반동사·동사구] depart = 출발하다
+
+142. At seven ten, from platform three.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+143. Does this ferry depart from pier four?
+[일반동사·동사구] depart = 출발하다
+
+144. Yes, boarding begins ten minutes before departure.
+[일반동사·동사구] begin = 시작하다
+
+145. Is photography permitted inside?
+[일반동사·동사구] permit = 허용하다
+
+146. Yes, but please do not use flash.
+[일반동사·동사구] use = 사용하다·이용하다
+
+147. Are small backpacks permitted inside the museum?
+[일반동사·동사구] permit = 허용하다
+
+148. Yes, but large bags must be checked.
+[일반동사·동사구] be checked = 짐을 맡기다·보관 처리되다
+
+149. Is smoking prohibited on the balcony too?
+[일반동사·동사구] prohibit = 금지하다
+
+150. Yes, the whole hotel is smoke-free.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+151. Outside food is prohibited in this theater.
+[일반동사·동사구] prohibit = 금지하다
+
+152. Okay, we will finish our drinks first.
+[일반동사·동사구] finish = 끝내다
+
+153. Where can I throw this away?
+[일반동사·동사구] throw = 버리다
+
+154. There is a bin beside the door.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+155. Do not throw away that train ticket yet.
+[일반동사·동사구] throw = 버리다
+
+156. Why? Do I need it to exit the station?
+[일반동사·동사구] need = 필요하다 / exit = 나가다
+
+157. Do you mind if I sit here?
+[일반동사·동사구] mind = 꺼리다·불편하게 여기다 / sit = 앉다·앉아 있다
+
+158. Not at all. Go ahead.
+[일반동사·동사구] Go ahead = 그렇게 하세요·괜찮습니다
+
+159. Do you mind if I open the window?
+[일반동사·동사구] mind = 꺼리다·불편하게 여기다 / open + 물건 = 열다
+
+160. After you.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+161. Thank you. That is very kind.
+[일반동사·동사구] thank = 감사하다
+
+162. After you. The elevator is almost full.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+163. Thanks. I will hold the door for you.
+[일반동사·동사구] hold the door = 문을 열린 채 잡아 주다
+
+164. Shall we meet in the lobby at nine?
+[일반동사·동사구] meet = 만나다
+
+165. Sounds good. See you there.
+[일반동사·동사구] sound = 들리다·듣기에 ~하다 / See you there = 거기서 만나요
+
+166. Let us take the early train and have lunch there.
+[일반동사·동사구] let = ~하게 하다·허락하다 / take + 교통수단 = 타고 이동하다 / have + 음식·식사 = 먹다·마시다·주문해서 받다
+
+167. Sounds good. I will book the tickets.
+[일반동사·동사구] sound = 들리다·듣기에 ~하다 / book = 예약하다
+
+168. I can help you carry that upstairs.
+[일반동사·동사구] help = 돕다 / carry = 들고 나르다
+
+169. Thank you. I really appreciate it.
+[일반동사·동사구] thank = 감사하다 / appreciate = 고맙게 여기다
+
+170. I appreciate you calling a taxi for us.
+[일반동사·동사구] appreciate = 고맙게 여기다 / call + 도움을 줄 대상 = 부르다·오도록 요청하다
+
+171. No problem. It should be here in five minutes.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+172. What would you like to order?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / order = 주문하다
+
+173. I will have the chicken, please.
+[일반동사·동사구] have + 음식·식사 = 먹다·마시다·주문해서 받다
+
+174. I will have the pasta and a sparkling water.
+[일반동사·동사구] have + 음식·식사 = 먹다·마시다·주문해서 받다
+
+175. Great. Would you like anything else?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+176. I have a problem with my room key.
+[일반동사·동사구] have + 문제·알레르기 = 문제·알레르기가 있다
+
+177. Let me check it for you.
+[일반동사·동사구] let = ~하게 하다·허락하다 / check = 확인하다
+
+178. I have a problem with the shower in my room.
+[일반동사·동사구] have + 문제·알레르기 = 문제·알레르기가 있다
+
+179. I will send someone up to check it.
+[일반동사·동사구] send = 보내다 / check = 확인하다
+
+180. Does this coach go to the airport?
+[일반동사·동사구] go = 가다
+
+181. Yes, and it leaves in five minutes.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+182. Is there a direct coach from here to the city center?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+183. Yes, it leaves every thirty minutes.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+184. How do I turn on the air conditioner?
+[일반동사·동사구] turn on = 켜다
+
+185. Press the green button on the remote.
+[일반동사·동사구] press = 누르다
+
+186. Could you turn on the reading light, please?
+[일반동사·동사구] turn on = 켜다
+
+187. Sure, the switch is right above you.
+[일반동사·동사구] switch = 바꾸다·전환하다
+
+188. Could you turn up the volume a little?
+[일반동사·동사구] turn up the volume = 음량을 높이다
+
+189. Sure. Is that better?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+190. My friend did not turn up for the tour.
+[일반동사·동사구] turn up = 나타나다
+
+191. We can wait five more minutes before we leave.
+[일반동사·동사구] wait = 기다리다 / leave = 떠나다·출발하다
+
+192. Where do we go through immigration?
+[일반동사·동사구] go through immigration = 입국 심사를 거치다
+
+193. Follow this hallway to the passport control area.
+[일반동사·동사구] follow = 따라가다
+
+194. The line at immigration is very long today.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+195. Yes, several flights arrived at the same time.
+[일반동사·동사구] arrive = 도착하다
+
+196. Where is customs?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+197. Just past the baggage claim area.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+198. Do I need to open my suitcase at customs?
+[일반동사·동사구] need = 필요하다 / open + 물건 = 열다
+
+199. Only if an officer asks you to.
+[일반동사·동사구] ask + 사람 / ask for … = 묻다·요청하다
+
+200. Where is the duty-free shop?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+201. There is one near gate ten.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+202. Can I buy duty-free perfume after security?
+[일반동사·동사구] buy = 사다
+
+203. Yes, the shop is near gate twenty.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+204. Make sure to bring your ticket tomorrow.
+[일반동사·동사구] make sure to … = 반드시 확인해서 ~하다 / bring = 가져오다·지참하다
+
+205. Okay. I will put it in my bag now.
+[일반동사·동사구] put + 물건 + 위치 = 놓다·넣다
+
+206. Make sure to keep your boarding pass until you land.
+[일반동사·동사구] make sure to … = 반드시 확인해서 ~하다 / keep + 보관할 대상 = 계속 가지고 있다·보관하다 / land = 착륙하다
+
+207. Okay, I will keep it in my passport holder.
+[일반동사·동사구] keep + 보관할 대상 = 계속 가지고 있다·보관하다
+
+208. What is your first name?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+209. Sungwoo. My family name is Son.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+210. What should I write for my first name?
+[일반동사·동사구] write = 쓰다·적다
+
+211. Write the given name exactly as it appears on your passport.
+[일반동사·동사구] write = 쓰다·적다 / give = 주다 / appear = 나오다·표시되어 있다
+
+212. What is your last name?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+213. Son. S-O-N.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+214. Is this box for my last name?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+215. Yes, enter your family name there.
+[일반동사·동사구] enter + 입력할 정보 = 입력하다·기입하다
+
+216. Do you have anything to declare?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다 / declare = 세관에 신고하다
+
+217. Yes, I have some food. Where should I list it?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다 / list = 목록에 적다
+
+218. Do I have to declare this bottle of wine?
+[일반동사·동사구] have to + 동사원형 = ~해야 한다 / declare = 세관에 신고하다
+
+219. It depends on the amount you are bringing in.
+[일반동사·동사구] depend = ~에 달려 있다 / bring in = 나라 안으로 반입하다
+
+220. What is your occupation?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+221. I am a dental technician.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+222. What should I put for occupation on this form?
+[일반동사·동사구] put + 적을 내용 = 기입하다
+
+223. Write your current job title.
+[일반동사·동사구] write = 쓰다·적다
+
+224. What is your nationality?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+225. I am South Korean.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+226. The form asks for my nationality, not my country of residence.
+[일반동사·동사구] ask for + 정보 = 정보 제출을 요구하다
+
+227. Right, enter the country of your citizenship.
+[일반동사·동사구] enter + 입력할 정보 = 입력하다·기입하다
+
+228. What is the purpose of your visit?
+[일반동사·동사구] visit = 방문하다
+
+229. I am here on vacation.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+230. Tourism. I am here for one week.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+231. Should I bring my passport on the tour?
+[일반동사·동사구] bring = 가져오다·지참하다
+
+232. Yes, please bring it with you.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+233. Should I bring a jacket on the boat tour?
+[일반동사·동사구] bring = 가져오다·지참하다
+
+234. Yes, it can get windy on the water.
+[일반동사·동사구] get + 상태 형용사 = 점점 ~해지다
+
+235. How long will you stay?
+[일반동사·동사구] stay = 머무르다
+
+236. Five nights. I leave on Monday.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+237. How long are you going to stay in Rome?
+[일반동사·동사구] stay = 머무르다
+
+238. Four nights, then we are taking a train to Florence.
+[일반동사·동사구] take + 교통수단 = 타고 이동하다
+
+239. What do you plan to do tomorrow?
+[일반동사·동사구] plan = 계획하다 / do = 하다
+
+240. I plan to visit the old town.
+[일반동사·동사구] plan = 계획하다 / visit = 방문하다
+
+241. We plan to visit the museum first thing tomorrow.
+[일반동사·동사구] plan = 계획하다 / visit = 방문하다
+
+242. Then you should book the first time slot.
+[일반동사·동사구] book = 예약하다
+
+243. Could you email me the itinerary?
+[일반동사·동사구] email = 이메일을 보내다
+
+244. Of course. It includes all the meeting times.
+[일반동사·동사구] include = 포함하다
+
+245. I changed our itinerary because of the rain.
+[일반동사·동사구] change = 바꾸다·변경되다
+
+246. That makes sense. We can do the outdoor tour tomorrow.
+[일반동사·동사구] make sense = 이치에 맞다·이해가 되다 / do = 하다
+
+247. Are you here for business?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+248. No, I am here for sightseeing.
+[일반동사·동사구] sightsee = 관광하다
+
+249. We spent the whole afternoon sightseeing in the old town.
+[일반동사·동사구] spend = 시간·돈을 쓰다 / sightsee = 관광하다
+
+250. Did you visit the cathedral too?
+[일반동사·동사구] visit = 방문하다
+
+251. Could you repeat the room number, please?
+[일반동사·동사구] repeat = 다시 말하다
+
+252. Certainly. It is eight twelve.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+253. Could you repeat the gate number, please?
+[일반동사·동사구] repeat = 다시 말하다
+
+254. Gate twenty-six.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+255. Could you write down the address?
+[일반동사·동사구] write = 쓰다·적다
+
+256. Sure. I will write it on this card.
+[일반동사·동사구] write = 쓰다·적다
+
+257. Could you write down the hotel address for the driver?
+[일반동사·동사구] write = 쓰다·적다
+
+258. Sure, I will write it on this card.
+[일반동사·동사구] write = 쓰다·적다
+
+259. Could you spell out your last name?
+[일반동사·동사구] spell = 철자를 말하다·쓰다
+
+260. Yes. S-O-N.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+261. Could you spell out the street name for me?
+[일반동사·동사구] spell = 철자를 말하다·쓰다
+
+262. Sure. It is B-R-O-O-K Street.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+263. Where is the nearest subway station?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+264. It is two blocks from here.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+265. Where is the nearest place to buy a SIM card?
+[일반동사·동사구] buy = 사다
+
+266. There is a phone shop in the station.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+267. Could I reserve a table for two at seven?
+[일반동사·동사구] reserve = 예약해 확보하다
+
+268. Certainly. May I have your name?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+269. I would like to reserve a table by the window.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / reserve = 예약해 확보하다
+
+270. Certainly. What time would you like to come?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / come / come back = 오다·돌아오다
+
+271. Where is the ticket booth?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+272. Beside the main entrance.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+273. Is the ticket booth still open?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+274. Yes, it closes at six.
+[일반동사·동사구] close = 닫다·영업을 마치다
+
+275. How much is the admission fee?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+276. Ten dollars for adults. Children enter free.
+[일반동사·동사구] enter = 입장하다·들어가다
+
+277. Does the admission fee include the audio guide?
+[일반동사·동사구] include = 포함하다
+
+278. No, the audio guide is five dollars extra.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+279. I am looking for a small souvenir.
+[일반동사·동사구] look for = 찾고 있다
+
+280. These magnets are easy to carry home.
+[일반동사·동사구] carry = 들고 나르다
+
+281. I want to buy a small souvenir for my parents.
+[일반동사·동사구] want = 원하다 / buy = 사다
+
+282. These local tea sets are very popular.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+283. Where can I get some information about local buses?
+[일반동사·동사구] get + 받는 대상 = 받다·구하다
+
+284. Try the visitor center across the street.
+[일반동사·동사구] try + 음식·방법·선택 = 한번 먹어 보다·사용해 보다
+
+285. Try the tourist desk beside the exit.
+[일반동사·동사구] try + 음식·방법·선택 = 한번 먹어 보다·사용해 보다 / exit = 나가다
+
+286. Can I sign up for the walking tour here?
+[일반동사·동사구] sign = 신청하다
+
+287. Yes. Please write your name on this list.
+[일반동사·동사구] write = 쓰다·적다
+
+288. Can I sign up for tomorrow's cooking class?
+[일반동사·동사구] sign = 신청하다
+
+289. Yes, there are still three places left.
+[일반동사·동사구] left = 남아 있는
+
+290. What are your business hours on Sunday?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+291. We open at ten and close at six.
+[일반동사·동사구] open = 열다·영업을 시작하다 / close = 닫다·영업을 마치다
+
+292. What are your business hours on Sundays?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+293. We are open from ten to four.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+294. Is there a discount for students?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+295. Yes. Please show your student ID.
+[일반동사·동사구] show = 보여 주다
+
+296. Yes, show your student ID at the counter.
+[일반동사·동사구] show = 보여 주다
+
+297. Are drinks allowed inside?
+[일반동사·동사구] allow = 허용하다
+
+298. Only water in a closed bottle.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+299. Are drinks allowed on the train?
+[일반동사·동사구] allow = 허용하다
+
+300. Yes, as long as you keep the area clean.
+[일반동사·동사구] keep + 물건 + 상태 = 계속 그 상태로 유지하다
+
+301. Is there a place to charge my phone?
+[일반동사·동사구] charge my phone = 휴대폰을 충전하다
+
+302. Yes, there are outlets by the window.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+303. Is there a quiet place to sit near the gate?
+[일반동사·동사구] sit = 앉다·앉아 있다
+
+304. Yes, there is a lounge upstairs.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+305. Can we join a tour this afternoon?
+[일반동사·동사구] join = 참가하다·합류하다
+
+306. Yes, there are two places left on the three o’clock tour.
+[일반동사·동사구] left = 남아 있는
+
+307. Can we join a tour without booking online?
+[일반동사·동사구] join = 참가하다·합류하다 / book = 예약하다
+
+308. Yes, if there are seats left when you arrive.
+[일반동사·동사구] left = 남아 있는 / arrive = 도착하다
+
+309. Is there an ATM near here?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+310. Yes, inside the convenience store.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+311. Is there an ATM that accepts foreign cards?
+[일반동사·동사구] accept = 받아 주다
+
+312. Yes, there is one next to the bank entrance.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+313. Can I withdraw cash with this card?
+[일반동사·동사구] withdraw = 인출하다
+
+314. Yes. Insert it and choose your language.
+[일반동사·동사구] insert = 집어넣다·삽입하다 / choose = 고르다
+
+315. I need to withdraw some cash before we leave town.
+[일반동사·동사구] need = 필요하다 / withdraw = 인출하다 / leave = 떠나다·출발하다
+
+316. There is an ATM across from the station.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+317. I would like to confirm my reservation for tonight.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / confirm = 확인해 확정하다
+
+318. Certainly. What name is it under?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+319. Could you confirm my pickup time for tomorrow?
+[일반동사·동사구] confirm = 확인해 확정하다
+
+320. Yes, the driver will be here at seven thirty.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+321. Is this the entrance to the museum?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+322. Yes. Please have your ticket ready.
+[일반동사·동사구] have + 물건 + ready = 준비된 상태로 두다
+
+323. I cannot find the museum entrance.
+[일반동사·동사구] find = 찾다·발견하다
+
+324. It is around the corner on the left.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+325. What time is the last bus?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+326. At eleven thirty tonight.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+327. How long does the show last?
+[일반동사·동사구] last = 지속되다
+
+328. About an hour.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+329. Can we take a break here?
+[일반동사·동사구] take a break = 잠깐 쉬다
+
+330. Sure. Let us sit down for a few minutes.
+[일반동사·동사구] let = ~하게 하다·허락하다 / sit = 앉다·앉아 있다
+
+331. Let us take a break before we climb the hill.
+[일반동사·동사구] let = ~하게 하다·허락하다 / take a break = 잠깐 쉬다 / climb = 오르다
+
+332. Good idea. There is a cafe over there.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+333. How many people are in your party?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+334. Four, including two children.
+[일반동사·동사구] include = 포함하다
+
+335. There are five of us.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+336. Where is the dinosaur exhibit?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+337. On the second floor, next to the stairs.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+338. Which floor has the photography exhibit?
+[일반동사·동사구] Which floor has …? = 어느 층에 ~가 있다
+
+339. The exhibit is on the second floor.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+340. Could you take a picture of us?
+[일반동사·동사구] take a picture = 사진을 찍다
+
+341. Of course. Stand a little closer together.
+[일반동사·동사구] stand = 서다
+
+342. Could you take a picture of us in front of the temple?
+[일반동사·동사구] take a picture = 사진을 찍다
+
+343. Is this ticket refundable?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+344. Yes, if you cancel before Friday.
+[일반동사·동사구] cancel = 취소하다
+
+345. Is this ticket refundable if my plans change?
+[일반동사·동사구] change = 바꾸다·변경되다
+
+346. Yes, until twenty-four hours before departure.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+347. Do you provide towels at the pool?
+[일반동사·동사구] provide = 제공하다
+
+348. Yes. You can get one at the entrance.
+[일반동사·동사구] get + 받는 대상 = 받다·구하다
+
+349. Does the hotel provide airport transportation?
+[일반동사·동사구] provide = 제공하다
+
+350. Yes, we have a shuttle every hour.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+351. Which tourist attraction is closest to the hotel?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+352. The palace. It is a ten-minute walk.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+353. What is the most popular tourist attraction nearby?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+354. The old castle is only ten minutes away.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+355. Is the market crowded on weekends?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+356. Yes. It is quieter early in the morning.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+357. Is the market always this crowded on weekends?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+358. Yes, mornings are usually a little quieter.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+359. We are here to celebrate our anniversary.
+[일반동사·동사구] celebrate = 축하하다·기념하다
+
+360. Congratulations! Would you like a table by the window?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+361. Congratulations. I can arrange a small dessert for you.
+[일반동사·동사구] arrange = 마련하다·준비를 잡다
+
+362. What are you in the mood for?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+363. I am in the mood for some noodles.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+364. I am in the mood for something spicy tonight.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+365. Then you should try the curry place nearby.
+[일반동사·동사구] try + 음식·방법·선택 = 한번 먹어 보다·사용해 보다
+
+366. Is the beach within walking distance?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+367. Yes, it is about ten minutes on foot.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+368. Is the night market within walking distance?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+369. Yes, it is about fifteen minutes on foot.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+370. Where is the bakery?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+371. Just down the street, on your left.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+372. There is a bakery just down the street.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+373. Great, let us stop there for breakfast.
+[일반동사·동사구] let = ~하게 하다·허락하다 / stop = 멈추다·잠깐 들르다
+
+374. Do you want to visit the museum today?
+[일반동사·동사구] want = 원하다 / visit = 방문하다
+
+375. Yes, but let us have lunch first.
+[일반동사·동사구] let = ~하게 하다·허락하다 / have + 음식·식사 = 먹다·마시다·주문해서 받다
+
+376. I want to see the city from the river.
+[일반동사·동사구] want = 원하다 / see the city = 도시 경관을 보다
+
+377. Then you should take the evening boat tour.
+[일반동사·동사구] take a tour = 투어에 참여하다
+
+378. Can I get to the airport by public transportation?
+[일반동사·동사구] get to + 목적지 = ~에 도착하다·가다
+
+379. Yes. The subway goes straight there.
+[일반동사·동사구] go = 가다
+
+380. Is public transportation easy to use here?
+[일반동사·동사구] use = 사용하다·이용하다
+
+381. Yes, one travel card works on buses and trains.
+[일반동사·동사구] work = 사용이 통하다·결제에 쓸 수 있다
+
+382. How far is the station?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+383. About five minutes on foot.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+384. Which station is closest to the old town?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+385. Central Station. It is about a ten-minute walk.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+386. Which stop should I get off at?
+[일반동사·동사구] get on / get off = 교통편에 타다·내리다
+
+387. The next stop, Central Market.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+388. Is this the right stop for the museum?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+389. No, get off at the next stop.
+[일반동사·동사구] get on / get off = 교통편에 타다·내리다
+
+390. Can we still catch the nine o’clock train?
+[일반동사·동사구] catch = 시간에 맞춰 타다
+
+391. Yes, if we leave now.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+392. We need to catch the last train back to the city.
+[일반동사·동사구] need = 필요하다 / catch = 시간에 맞춰 타다
+
+393. Then we should leave by ten.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+394. Shall we head to the hotel?
+[일반동사·동사구] head = ~로 향하다
+
+395. Yes. I would like to drop off my bags.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / drop = 내려 주다·맡기다
+
+396. We are heading to the airport after breakfast.
+[일반동사·동사구] head = ~로 향하다
+
+397. I can call a taxi for you at eight.
+[일반동사·동사구] call + 도움을 줄 대상 = 부르다·오도록 요청하다
+
+398. How much does the airport shuttle cost?
+[일반동사·동사구] cost = 비용이 들다
+
+399. Twelve dollars each way.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+400. How much does it cost to rent a bike for the day?
+[일반동사·동사구] cost = 비용이 들다 / rent = 돈을 내고 빌리다
+
+401. It is eighteen dollars including a helmet.
+[일반동사·동사구] include = 포함하다
+
+402. Should I keep this receipt?
+[일반동사·동사구] keep + 보관할 대상 = 계속 가지고 있다·보관하다
+
+403. Yes, you need it to collect your luggage.
+[일반동사·동사구] need = 필요하다 / collect = 찾아가다·수령하다
+
+404. Can I keep this key until tomorrow morning?
+[일반동사·동사구] keep + 보관할 대상 = 계속 가지고 있다·보관하다
+
+405. Yes, just return it when you check out.
+[일반동사·동사구] return + 물건·금액 = 돌려주다·반납하다·반품하다 / check out = 체크아웃·퇴실 수속하다
+
+406. I would like to rent a bicycle for two hours.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / rent = 돈을 내고 빌리다
+
+407. Sure. Please choose one over here.
+[일반동사·동사구] choose = 고르다
+
+408. Where can we rent two bicycles?
+[일반동사·동사구] rent = 돈을 내고 빌리다
+
+409. There is a rental shop beside the park.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+410. What is the nightly rate?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+411. Eighty dollars, including tax.
+[일반동사·동사구] include = 포함하다
+
+412. What is the nightly rate for a double room?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+413. It is one hundred and forty dollars before tax.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+414. How do I get to the old town?
+[일반동사·동사구] get to + 목적지 = ~에 도착하다·가다
+
+415. Take bus number five from this stop.
+[일반동사·동사구] take + 교통수단 = 타고 이동하다
+
+416. What is the easiest way to get to the airport?
+[일반동사·동사구] get to + 목적지 = ~에 도착하다·가다
+
+417. Take the express train from Central Station.
+[일반동사·동사구] take + 교통수단 = 타고 이동하다
+
+418. Does this sandwich come with fries?
+[일반동사·동사구] come with = 함께 제공되다
+
+419. Yes, and a small drink.
+[일반동사·동사구] drink = 마시다
+
+420. Does this room come with breakfast?
+[일반동사·동사구] come with = 함께 제공되다
+
+421. Yes, breakfast for two is included.
+[일반동사·동사구] include = 포함하다
+
+422. May I see your driver’s license?
+[일반동사·동사구] See you there = 거기서 만나요
+
+423. Yes. Here it is, along with my passport.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+424. Do I need an international driver's license to rent a car?
+[일반동사·동사구] need = 필요하다 / rent = 돈을 내고 빌리다
+
+425. Yes, please bring it with your passport.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+426. Does the room price include breakfast?
+[일반동사·동사구] include = 포함하다
+
+427. Yes, for two people.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+428. Does the price include the ferry ticket?
+[일반동사·동사구] include = 포함하다
+
+429. Yes, the ferry and lunch are both included.
+[일반동사·동사구] include = 포함하다
+
+430. Where should I insert my card?
+[일반동사·동사구] insert = 집어넣다·삽입하다
+
+431. In the slot at the bottom.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+432. Insert your ticket into the machine here.
+[일반동사·동사구] insert = 집어넣다·삽입하다
+
+433. Do I get the same ticket back?
+[일반동사·동사구] get … back = 돌려받다
+
+434. Is this table okay?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+435. Yes, it is fine. Thank you.
+[일반동사·동사구] thank = 감사하다
+
+436. What is this fine for?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+437. For parking in a restricted area.
+[일반동사·동사구] park = 주차하다
+
+438. Where do we get on the airport bus?
+[일반동사·동사구] get on / get off = 교통편에 타다·내리다
+
+439. Outside exit three.
+[일반동사·동사구] exit = 나가다
+
+440. Where do I get on the airport bus?
+[일반동사·동사구] get on / get off = 교통편에 타다·내리다
+
+441. At stop number five outside the terminal.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+442. I missed my train. Can I use this ticket on the next one?
+[일반동사·동사구] miss = 놓치다 / use = 사용하다·이용하다
+
+443. Let me check your ticket type.
+[일반동사·동사구] let = ~하게 하다·허락하다 / check = 확인하다
+
+444. I think we are going to miss our connection.
+[일반동사·동사구] think = ~라고 생각하다 / miss = 놓치다
+
+445. Let us ask the airline desk for help.
+[일반동사·동사구] let = ~하게 하다·허락하다 / ask + 사람 / ask for … = 묻다·요청하다
+
+446. Do I need to transfer?
+[일반동사·동사구] need = 필요하다 / transfer = 갈아타다·환승하다
+
+447. Yes. Change to the blue line at Central Station.
+[일반동사·동사구] change to + 새 노선 = 다른 노선으로 갈아타다
+
+448. Do I need to transfer to another line at City Hall?
+[일반동사·동사구] need = 필요하다 / transfer = 갈아타다·환승하다
+
+449. Yes, change to the blue line there.
+[일반동사·동사구] change to + 새 노선 = 다른 노선으로 갈아타다
+
+450. Are we behind schedule?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+451. Yes, about fifteen minutes because of traffic.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+452. The tour bus is running behind schedule.
+[일반동사·동사구] run behind schedule = 예정보다 늦게 운행·진행되다
+
+453. We should arrive about twenty minutes late.
+[일반동사·동사구] arrive = 도착하다
+
+454. Is the tour leaving late?
+[일반동사·동사구] leave = 떠나다·출발하다
+
+455. No, we are right on schedule.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+456. The train left right on schedule.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+457. Good, we should reach the airport on time.
+[일반동사·동사구] reach + 장소 = 도착하다·닿다
+
+458. We arrived ahead of schedule.
+[일반동사·동사구] arrive = 도착하다
+
+459. Great. We have time for coffee.
+[일반동사·동사구] have + 시간·공간 = 쓸 시간·공간이 있다
+
+460. Great, we have time for coffee before check-in.
+[일반동사·동사구] have + 시간·공간 = 쓸 시간·공간이 있다
+
+461. Do you have any rooms available tonight?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+462. Yes, we have one double room left.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다 / left = 남아 있는
+
+463. Are any window seats still available?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+464. Yes, there is one in row eighteen.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+465. Could I request a quiet room?
+[일반동사·동사구] request = 요청하다
+
+466. Certainly. I will check what is available.
+[일반동사·동사구] check = 확인하다
+
+467. I would like to request a room away from the elevator.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / request = 요청하다
+
+468. I will add that request to your booking.
+[일반동사·동사구] add = 더하다·추가하다 / book = 예약하다
+
+469. I would like a window seat, if possible.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+470. Let me see if we have one.
+[일반동사·동사구] let = ~하게 하다·허락하다 / see if/what … = ~인지 알아보다·살펴보다 / have + 실제 대상 = 가지고 있다·갖추고 있다
+
+471. Could we sit outside, if possible?
+[일반동사·동사구] sit = 앉다·앉아 있다
+
+472. Certainly. A patio table will be free in a few minutes.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+473. We have run out of toilet paper.
+[일반동사·동사구] run out of = 다 써서 없어지다
+
+474. Sorry about that. I will send some up now.
+[일반동사·동사구] send = 보내다
+
+475. We ran out of cash at the night market.
+[일반동사·동사구] run out of = 다 써서 없어지다
+
+476. There is an ATM near the entrance.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+477. The air conditioner does not work.
+[일반동사·동사구] work = 작동하다·제 기능을 하다
+
+478. I am sorry. I will send someone to check it.
+[일반동사·동사구] send = 보내다 / check = 확인하다
+
+479. Does this card work on the subway?
+[일반동사·동사구] work = 사용이 통하다·결제에 쓸 수 있다
+
+480. Yes, it works on buses too.
+[일반동사·동사구] work = 사용이 통하다·결제에 쓸 수 있다
+
+481. Where is the front desk?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+482. On the ground floor, beside the entrance.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+483. Could you leave this package at the front desk?
+[일반동사·동사구] leave + 물건 + 장소 = 두다·맡겨 놓다
+
+484. Sure, we will keep it there for you.
+[일반동사·동사구] keep + 보관할 대상 = 계속 가지고 있다·보관하다
+
+485. Do I need to show my ID?
+[일반동사·동사구] need = 필요하다 / show = 보여 주다
+
+486. Yes, a passport is fine.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+487. Do I need to show ID to pick up the tickets?
+[일반동사·동사구] need = 필요하다 / show = 보여 주다 / pick = 데리러 가다·찾아가다
+
+488. Yes, a passport or driver's license is fine.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+489. Is there a smoking area?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+490. Yes, outside at the back of the building.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+491. Is there a smoking area near this gate?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+492. No, the nearest one is outside security.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+493. Can I upgrade to a room with a sea view?
+[일반동사·동사구] upgrade = 상위 등급으로 바꾸다
+
+494. Yes, for an extra thirty dollars per night.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+495. How much would it cost to upgrade to a larger room?
+[일반동사·동사구] cost = 비용이 들다 / upgrade = 상위 등급으로 바꾸다
+
+496. It is thirty dollars more per night.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+497. Is there a printer in the business center?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+498. Yes. You can print your tickets there.
+[일반동사·동사구] print = 인쇄하다
+
+499. Is the business center open all night?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+500. Yes, you can use the computers anytime.
+[일반동사·동사구] use = 사용하다·이용하다
+
+501. Is this bottled water complimentary?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+502. Yes, the two bottles on the desk are free.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+503. Is the bottled water complimentary?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+504. Yes, two bottles are free each day.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+505. Do you serve breakfast before seven?
+[일반동사·동사구] serve = 음식을 제공하다
+
+506. Yes, we start at six thirty.
+[일반동사·동사구] start = 시작하다
+
+507. What time do you serve breakfast?
+[일반동사·동사구] serve = 음식을 제공하다
+
+508. From six thirty until ten.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+509. Could I extend my stay by one night?
+[일반동사·동사구] extend = 연장하다 / stay = 머무르다
+
+510. Let me check if your room is available tomorrow.
+[일반동사·동사구] let = ~하게 하다·허락하다 / check = 확인하다
+
+511. Can I extend my stay by one more night?
+[일반동사·동사구] extend = 연장하다 / stay = 머무르다
+
+512. Yes, your room is available tomorrow.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+513. I cannot find my booking email.
+[일반동사·동사구] find = 찾다·발견하다 / book = 예약하다 / email = 이메일을 보내다
+
+514. Let me look up your reservation by name.
+[일반동사·동사구] let = ~하게 하다·허락하다 / look up = 조회하다
+
+515. Let me check the map before we leave.
+[일반동사·동사구] let = ~하게 하다·허락하다 / check = 확인하다 / leave = 떠나다·출발하다
+
+516. Good idea. I do not want to get lost again.
+[일반동사·동사구] want = 원하다 / get lost = 길을 잃다 / lose = 잃어버리다
+
+517. Do I need to pay a deposit?
+[일반동사·동사구] need = 필요하다 / pay = 지불하다·결제하다
+
+518. Yes, we hold fifty dollars on your card.
+[일반동사·동사구] hold + 금액 + on your card = 카드에 보증금 승인을 걸어 두다
+
+519. How much is the security deposit for the rental car?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+520. We hold two hundred dollars on your card.
+[일반동사·동사구] hold + 금액 + on your card = 카드에 보증금 승인을 걸어 두다
+
+521. Is there a local market nearby?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+522. Yes, it is a five-minute walk from here.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+523. Where can I try some local food?
+[일반동사·동사구] try + 음식·방법·선택 = 한번 먹어 보다·사용해 보다
+
+524. The market across the river is a good place.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+525. Feel free to use the kitchen.
+[일반동사·동사구] feel = 마음 편히 ~하다 / use = 사용하다·이용하다
+
+526. Thank you. Where can I find the cups?
+[일반동사·동사구] thank = 감사하다 / find = 찾다·발견하다
+
+527. Feel free to leave your bags here until your room is ready.
+[일반동사·동사구] feel = 마음 편히 ~하다 / leave + 물건 + 장소 = 두다·맡겨 놓다
+
+528. Thank you. That helps a lot.
+[일반동사·동사구] thank = 감사하다 / help = 돕다
+
+529. I cannot find our hotel on this map.
+[일반동사·동사구] find = 찾다·발견하다
+
+530. Let me show you. It is right here.
+[일반동사·동사구] let = ~하게 하다·허락하다 / show = 보여 주다
+
+531. Let me show you the fastest route on the map.
+[일반동사·동사구] let = ~하게 하다·허락하다 / show = 보여 주다
+
+532. Thanks, I was about to go the wrong way.
+[일반동사·동사구] go = 가다
+
+533. Does this price include tax?
+[일반동사·동사구] include = 포함하다
+
+534. Yes, that is the final price.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+535. Is tax included in this room rate?
+[일반동사·동사구] include = 포함하다
+
+536. No, tax will be added at checkout.
+[일반동사·동사구] add = 더하다·추가하다
+
+537. Are these shoes on sale?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+538. Yes, they are twenty percent off today.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+539. Are these travel adapters on sale?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+540. Do you have a special offer for two nights?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+541. Yes, breakfast is free with that booking.
+[일반동사·동사구] book = 예약하다
+
+542. Do you have a special offer for three nights?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+543. Yes, the third night is half price.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+544. Can I pay in cash?
+[일반동사·동사구] pay = 지불하다·결제하다
+
+545. Yes, but we only accept local currency.
+[일반동사·동사구] accept = 받아 주다
+
+546. I only have cash. Can I still buy a ticket here?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다 / buy = 사다
+
+547. Yes, this machine accepts both cash and cards.
+[일반동사·동사구] accept = 받아 주다
+
+548. Do you accept credit cards?
+[일반동사·동사구] accept = 받아 주다
+
+549. Yes, you can tap your card here.
+[일반동사·동사구] tap = 가볍게 대다·터치하다
+
+550. My credit card was declined. Can I try another one?
+[일반동사·동사구] decline = 승인을 거절하다 / try + 음식·방법·선택 = 한번 먹어 보다·사용해 보다
+
+551. Of course. Please insert the new card.
+[일반동사·동사구] insert = 집어넣다·삽입하다
+
+552. Can I return this without a receipt?
+[일반동사·동사구] return + 물건·금액 = 돌려주다·반납하다·반품하다
+
+553. Our store policy requires a receipt for returns.
+[일반동사·동사구] require = 필수로 요구하다
+
+554. What is your store policy on returns?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+555. Unused items can be returned within fourteen days.
+[일반동사·동사구] return + 물건·금액 = 돌려주다·반납하다·반품하다
+
+556. I would like to return this shirt.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / return + 물건·금액 = 돌려주다·반납하다·반품하다
+
+557. Of course. Do you have the receipt?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+558. I need to return this jacket because it is too small.
+[일반동사·동사구] need = 필요하다 / return + 물건·금액 = 돌려주다·반납하다·반품하다
+
+559. Do you have the receipt?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+560. Where is the customer service desk?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+561. On the first floor, next to the escalator.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+562. On the ground floor beside the escalator.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+563. Can I use this gift card here?
+[일반동사·동사구] use = 사용하다·이용하다
+
+564. Yes. I will check the balance for you.
+[일반동사·동사구] check = 확인하다
+
+565. Can I use this gift card at any branch?
+[일반동사·동사구] use = 사용하다·이용하다
+
+566. Yes, it works at all of our stores.
+[일반동사·동사구] work = 사용이 통하다·결제에 쓸 수 있다
+
+567. Are you taking a taxi to the airport?
+[일반동사·동사구] take + 교통수단 = 타고 이동하다
+
+568. No, I will take the bus.
+[일반동사·동사구] take + 교통수단 = 타고 이동하다
+
+569. A taxi is expensive, so I will take the bus.
+[일반동사·동사구] take + 교통수단 = 타고 이동하다
+
+570. The airport bus leaves from bay three.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+571. Are you looking for anything in particular?
+[일반동사·동사구] look for = 찾고 있다
+
+572. Yes, a light jacket for the evening.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+573. Is there anything in particular you want to see?
+[일반동사·동사구] want = 원하다 / see = 눈으로 보다·확인하다
+
+574. I would really like to visit the old temple.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / visit = 방문하다
+
+575. Can I help you find anything?
+[일반동사·동사구] help = 돕다 / find = 찾다·발견하다
+
+576. Thank you, but I would just like to look around.
+[일반동사·동사구] thank = 감사하다 / would like = 원하다·~로 하고 싶다 / look around = 둘러보다
+
+577. Can we look around before deciding what to buy?
+[일반동사·동사구] look around = 둘러보다 / decide = 결정하다 / buy = 사다
+
+578. Of course. Take your time.
+[일반동사·동사구] take your time = 서두르지 말고 천천히 하다
+
+579. How much is this magnet?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+580. Three bucks, or two for five.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+581. How much is the locker?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+582. Just two bucks for the whole day.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+583. Would you still like the red one?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+584. I changed my mind. I will take the blue one.
+[일반동사·동사구] change my mind = 생각·선택을 바꾸다 / mind = 꺼리다·불편하게 여기다 / take the blue one = 파란 것을 고르다·사다
+
+585. I changed my mind. I would rather take the train.
+[일반동사·동사구] change my mind = 생각·선택을 바꾸다 / mind = 꺼리다·불편하게 여기다 / take + 교통수단 = 타고 이동하다
+
+586. No problem. We can cancel the bus tickets.
+[일반동사·동사구] cancel = 취소하다
+
+587. Could you help me with this ticket machine?
+[일반동사·동사구] help = 돕다
+
+588. Sure. Where are you going?
+[일반동사·동사구] go = 가다
+
+589. Sure, first choose your destination.
+[일반동사·동사구] choose = 고르다
+
+590. Does this jacket suit me?
+[일반동사·동사구] suit = 어울리다
+
+591. Yes, that color looks great on you.
+[일반동사·동사구] look + 형용사 / look like … = ~해 보이다
+
+592. Do I need to wear a suit for dinner?
+[일반동사·동사구] need = 필요하다 / wear = 착용하다
+
+593. No, a shirt and trousers are fine.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+594. Which dish is the most popular?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+595. The grilled fish is our best seller.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+596. Which beach is most popular with local families?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+597. Sunset Beach is usually the busiest.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+598. Are you ready to order?
+[일반동사·동사구] order = 주문하다
+
+599. Yes. Two bowls of noodle soup, please.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+600. Are you ready to board?
+[일반동사·동사구] board = 탑승하다
+
+601. Yes, I have my passport and boarding pass.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+602. Is there a cheap place to eat nearby?
+[일반동사·동사구] eat = 먹다
+
+603. Yes, the noodle shop across the street is inexpensive.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+604. These tickets are cheap. Are they for today?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+605. Yes, the afternoon shows cost less.
+[일반동사·동사구] cost = 비용이 들다
+
+606. Can you recommend an affordable hotel?
+[일반동사·동사구] recommend = 추천하다
+
+607. The hotel beside the station has reasonable rates.
+[일반동사·동사구] has reasonable rates = 합리적인 요금으로 운영한다
+
+608. Do you know an affordable hotel near the station?
+[일반동사·동사구] know = 알다
+
+609. There is a small guesthouse two blocks away.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+610. This is a little expensive. Do you have a cheaper one?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+611. Yes, this smaller one is twenty dollars.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+612. Taxis are expensive here at night.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+613. Then let us take the subway instead.
+[일반동사·동사구] let = ~하게 하다·허락하다 / take + 교통수단 = 타고 이동하다
+
+614. Can I use this coupon today?
+[일반동사·동사구] use = 사용하다·이용하다
+
+615. Yes. Please show it before you pay.
+[일반동사·동사구] show = 보여 주다 / pay = 지불하다·결제하다
+
+616. Can I use this coupon for the airport shuttle?
+[일반동사·동사구] use = 사용하다·이용하다
+
+617. Yes, show it when you buy the ticket.
+[일반동사·동사구] show = 보여 주다 / buy = 사다
+
+618. Is this size in stock?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+619. Yes, we have one left in black.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다 / left = 남아 있는
+
+620. Will this suitcase be in stock again tomorrow?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+621. Yes, a new shipment arrives in the morning.
+[일반동사·동사구] arrive = 도착하다
+
+622. Could you measure my feet?
+[일반동사·동사구] measure = 재다·측정하다
+
+623. Of course. Please stand on this mat.
+[일반동사·동사구] stand = 서다
+
+624. Could you measure this bag to see if it is carry-on size?
+[일반동사·동사구] measure = 재다·측정하다 / see if/what … = ~인지 알아보다·살펴보다
+
+625. Sure, place it on the measuring stand.
+[일반동사·동사구] place + 물건 + 위치 = 정해진 위치에 놓다 / measure = 재다·측정하다 / stand = 서다
+
+626. Are you in line?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+627. Yes, the end of the line is behind me.
+[일반동사·동사구] end = 끝나다
+
+628. Are you in line for the ticket counter?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+629. Would you prefer a window seat or an aisle seat?
+[일반동사·동사구] prefer = 더 선호하다
+
+630. An aisle seat, please.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+631. Would you prefer a room with one bed or two?
+[일반동사·동사구] prefer = 더 선호하다
+
+632. I prefer two beds, please.
+[일반동사·동사구] prefer = 더 선호하다
+
+633. The total comes to twenty-eight dollars.
+[일반동사·동사구] come to + 금액 = 합계가 ~이 되다
+
+634. Can I pay by card?
+[일반동사·동사구] pay = 지불하다·결제하다
+
+635. The total comes to forty-eight dollars with tax.
+[일반동사·동사구] come to + 금액 = 합계가 ~이 되다
+
+636. Great, I will pay by card.
+[일반동사·동사구] pay = 지불하다·결제하다
+
+637. Is the walk difficult?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+638. It is kind of steep, but it is short.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+639. I am kind of tired after the flight.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+640. Let us rest at the hotel before dinner.
+[일반동사·동사구] let = ~하게 하다·허락하다 / rest = 쉬다
+
+641. The chip is not working.
+[일반동사·동사구] work = 작동하다·제 기능을 하다
+
+642. Please try swiping your card instead.
+[일반동사·동사구] try + -ing = 시험 삼아 해 보다 / swipe = 카드를 긁다
+
+643. Do I swipe my card or insert it?
+[일반동사·동사구] swipe = 카드를 긁다 / insert = 집어넣다·삽입하다
+
+644. Swipe it through the reader on the right.
+[일반동사·동사구] swipe = 카드를 긁다
+
+645. Does this camera come with a warranty?
+[일반동사·동사구] come with = 함께 제공되다
+
+646. Yes, it has a one-year warranty.
+[일반동사·동사구] have a warranty = 보증이 딸려 있다
+
+647. Does this adapter come with a warranty?
+[일반동사·동사구] come with = 함께 제공되다
+
+648. Have you decided which tour to take?
+[일반동사·동사구] decide = 결정하다 / take a tour = 투어에 참여하다
+
+649. Yes, the morning boat tour.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+650. We have not decided which island to visit yet.
+[일반동사·동사구] decide = 결정하다 / visit = 방문하다
+
+651. Check the ferry times before you decide.
+[일반동사·동사구] check = 확인하다 / decide = 결정하다
+
+652. Could you give me a minute, please?
+[일반동사·동사구] give = 주다
+
+653. Give me a minute to find our booking number.
+[일반동사·동사구] give = 주다 / find = 찾다·발견하다 / book = 예약하다
+
+654. Sure, take your time.
+[일반동사·동사구] take your time = 서두르지 말고 천천히 하다
+
+655. Would you like milk with your coffee?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+656. Yes, a little, please.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+657. I would like coffee with milk, please.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+658. Sure. Would you like sugar too?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+659. Could I have this without onions?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+660. Of course. I will let the kitchen know.
+[일반동사·동사구] let = ~하게 하다·허락하다 / know = 알다
+
+661. Could I get this sandwich without cheese?
+[일반동사·동사구] get + 받는 대상 = 받다·구하다
+
+662. Of course. We can leave the cheese out.
+[일반동사·동사구] leave … out = 빼다·넣지 않다
+
+663. Would you like another slice of pizza?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+664. No, I want to save room for dessert.
+[일반동사·동사구] want = 원하다 / save room for dessert = 디저트를 먹을 여유를 남기다
+
+665. Save room for dessert. The cheesecake here is famous.
+[일반동사·동사구] save room for dessert = 디저트를 먹을 여유를 남기다
+
+666. Good idea. I will order a smaller main dish.
+[일반동사·동사구] order = 주문하다
+
+667. Can we sit on the patio?
+[일반동사·동사구] sit = 앉다·앉아 있다
+
+668. Yes. There is a table outside in the shade.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+669. Do you have a table on the patio?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+670. Yes, but it may get chilly later.
+[일반동사·동사구] get + 상태 형용사 = 점점 ~해지다
+
+671. What is today’s special?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+672. Grilled fish with rice and vegetables.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+673. What is today's lunch special?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+674. Grilled fish with salad and soup.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+675. Can I leave a tip on my card?
+[일반동사·동사구] leave a tip = 팁을 남기다·내다
+
+676. Yes. You can add it on the next screen.
+[일반동사·동사구] add = 더하다·추가하다
+
+677. Is the tip already included in the bill?
+[일반동사·동사구] include = 포함하다
+
+678. No, gratuity is not included.
+[일반동사·동사구] include = 포함하다
+
+679. Would you like dessert?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+680. No, thank you. I am full.
+[일반동사·동사구] thank = 감사하다
+
+681. The restaurant looks full. Should we wait?
+[일반동사·동사구] look + 형용사 / look like … = ~해 보이다 / wait = 기다리다
+
+682. The host said a table will open in ten minutes.
+[일반동사·동사구] say = 말하다·표시되어 있다 / a table will open = 테이블 자리가 나다
+
+683. Could we have the check, please?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+684. Of course. I will bring it over.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+685. Could you check my reservation?
+[일반동사·동사구] check = 확인하다
+
+686. Of course. May I have your name?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+687. Could I get a refill of coffee?
+[일반동사·동사구] get + 받는 대상 = 받다·구하다
+
+688. Certainly. Regular or decaf?
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+689. Can I get a refill on this iced tea?
+[일반동사·동사구] get + 받는 대상 = 받다·구하다
+
+690. Yes, refills are free.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+691. Are you paying together?
+[일반동사·동사구] pay = 지불하다·결제하다
+
+692. Yes, put everything on one bill, please.
+[일반동사·동사구] put … on one bill = 한 계산서에 넣다·합산하다
+
+693. Can we pay for everything together?
+[일반동사·동사구] pay = 지불하다·결제하다
+
+694. Yes, I will put it all on one bill.
+[일반동사·동사구] put … on one bill = 한 계산서에 넣다·합산하다
+
+695. Could we have separate checks?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+696. Sure. What did each of you order?
+[일반동사·동사구] order = 주문하다
+
+697. Could we have separate checks, please?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+698. Sure, I can split the bill by person.
+[일반동사·동사구] split = 나누다
+
+699. Would you like to dine inside or outside?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / dine = 식사하다
+
+700. Outside, please. The weather is lovely.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+701. Do we need a reservation to dine here tonight?
+[일반동사·동사구] need = 필요하다 / dine = 식사하다
+
+702. It is recommended after seven.
+[일반동사·동사구] recommend = 추천하다
+
+703. Shall we eat out tonight?
+[일반동사·동사구] eat = 먹다
+
+704. Yes. Let us try the seafood restaurant.
+[일반동사·동사구] let = ~하게 하다·허락하다 / try + 음식·방법·선택 = 한번 먹어 보다·사용해 보다
+
+705. We have been eating out every day on this trip.
+[일반동사·동사구] eat = 먹다
+
+706. Tonight, let us buy something simple from the market.
+[일반동사·동사구] let = ~하게 하다·허락하다 / buy = 사다
+
+707. Could I have a to-go box?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+708. Sure. Would you like me to pack this for you?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / pack = 짐을 챙겨 넣다·포장하다
+
+709. Could I have a to-go box for the rest of this pizza?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+710. Of course, I will bring one right away.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+711. Could we have some tap water?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요? / tap = 가볍게 대다·터치하다
+
+712. Of course. I will bring a jug.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+713. Is the tap water safe to drink here?
+[일반동사·동사구] tap = 가볍게 대다·터치하다 / drink = 마시다
+
+714. Yes, it is safe throughout the city.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+715. I am allergic to peanuts. Does this sauce contain any?
+[일반동사·동사구] contain = 들어 있다·함유하다
+
+716. Let me check with the chef before you order.
+[일반동사·동사구] let = ~하게 하다·허락하다 / check with + 상대 = 담당자에게 문의해 확인하다 / order = 주문하다
+
+717. I will check with the kitchen.
+[일반동사·동사구] check with + 상대 = 담당자에게 문의해 확인하다
+
+718. We did not order this cake.
+[일반동사·동사구] order = 주문하다
+
+719. It is on the house. Happy anniversary!
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+720. The dessert is on the house because you had to wait.
+[일반동사·동사구] have to + 동사원형 = ~해야 한다 / wait = 기다리다
+
+721. Thank you, that is very kind.
+[일반동사·동사구] thank = 감사하다
+
+722. Can we split the bill in half?
+[일반동사·동사구] split = 나누다
+
+723. Yes. You can each pay with a different card.
+[일반동사·동사구] pay = 지불하다·결제하다
+
+724. Can we split this pizza between the three of us?
+[일반동사·동사구] split = 나누다
+
+725. Sure, I will bring extra plates.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+726. Can I place an order for pickup?
+[일반동사·동사구] place an order = 주문을 넣다
+
+727. Yes. What would you like?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+728. I would like to place an order for room service.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / place an order = 주문을 넣다
+
+729. Certainly. What would you like to have?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / have + 음식·식사 = 먹다·마시다·주문해서 받다
+
+730. Do you deliver to this hotel?
+[일반동사·동사구] deliver = 배달하다
+
+731. Yes. Please give us the hotel name and address.
+[일반동사·동사구] give = 주다
+
+732. Can you deliver these flowers to my hotel this afternoon?
+[일반동사·동사구] deliver = 배달하다
+
+733. Yes, please write the room number here.
+[일반동사·동사구] write = 쓰다·적다
+
+734. Is this table taken?
+[일반동사·동사구] be taken = 자리가 이미 사용 중이다
+
+735. Yes, but the table by the door is free.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+736. Yes, my friend is sitting here.
+[일반동사·동사구] sit = 앉다·앉아 있다
+
+737. I need to cancel my dinner reservation.
+[일반동사·동사구] need = 필요하다 / cancel = 취소하다
+
+738. I need to cancel tomorrow's tour because I am sick.
+[일반동사·동사구] need = 필요하다 / cancel = 취소하다
+
+739. I can cancel it and check the refund policy for you.
+[일반동사·동사구] cancel = 취소하다 / check = 확인하다
+
+740. Can we share one pizza?
+[일반동사·동사구] share = 함께 나눠 쓰다·먹다
+
+741. Of course. I will bring you two plates.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+742. Do you want to share a taxi to the airport?
+[일반동사·동사구] want = 원하다 / share = 함께 나눠 쓰다·먹다
+
+743. Sure, that will be cheaper for both of us.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+744. What time does happy hour start?
+[일반동사·동사구] start = 시작하다
+
+745. At five, and it ends at seven.
+[일반동사·동사구] end = 끝나다
+
+746. From five to seven, all cocktails are half price.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+747. Do you validate parking?
+[일반동사·동사구] validate = 주차 할인·면제 처리를 해 주다 / park = 주차하다
+
+748. Yes, please show me your parking ticket.
+[일반동사·동사구] show = 보여 주다
+
+749. Where can I validate parking before I leave?
+[일반동사·동사구] validate = 주차 할인·면제 처리를 해 주다 / park = 주차하다 / leave = 떠나다·출발하다
+
+750. Bring your ticket to the front desk.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+751. Could we see the menu, please?
+[일반동사·동사구] see + 제시받을 대상 = 보여 달라고 요청하다
+
+752. Of course. Here are two menus.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+753. Could we see the menu before we sit down?
+[일반동사·동사구] see + 제시받을 대상 = 보여 달라고 요청하다 / sit = 앉다·앉아 있다
+
+754. Of course, here is one for each of you.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+755. What flavors do you have?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+756. Chocolate, vanilla, and strawberry.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+757. What flavor of ice cream is this?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+758. It is mango with a little coconut.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+759. Could you check on our order?
+[일반동사·동사구] check on our order = 주문 진행 상태를 알아보다
+
+760. Certainly. I will ask the kitchen now.
+[일반동사·동사구] ask + 사람 / ask for … = 묻다·요청하다
+
+761. Could you check on our order? It has been thirty minutes.
+[일반동사·동사구] check on our order = 주문 진행 상태를 알아보다
+
+762. I will ask the kitchen right away.
+[일반동사·동사구] ask + 사람 / ask for … = 묻다·요청하다
+
+763. What would you like for dinner?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+764. I am craving Korean food.
+[일반동사·동사구] crave = 몹시 먹고 싶다·당기다
+
+765. I am craving noodles after that long flight.
+[일반동사·동사구] crave = 몹시 먹고 싶다·당기다
+
+766. There is a good noodle shop near the hotel.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+767. Can we reserve seats for the show?
+[일반동사·동사구] reserve = 예약해 확보하다
+
+768. No, seating is first come, first served.
+[일반동사·동사구] first come, first served = 선착순으로 이용하다
+
+769. Do we need to book seats for the rooftop?
+[일반동사·동사구] need = 필요하다 / book = 예약하다
+
+770. No, it is first come, first served.
+[일반동사·동사구] first come, first served = 선착순으로 이용하다
+
+771. What name is the reservation under?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+772. It is under Son.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+773. The reservation is under Kim.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+774. I found it. A table for two at seven.
+[일반동사·동사구] find = 찾다·발견하다
+
+775. Anything else?
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+776. No, that will be all. Thank you.
+[일반동사·동사구] thank = 감사하다
+
+777. Anything else for you today?
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+778. We have a table by the window.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+779. Perfect. We would like that one.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+780. A table at six thirty would be perfect.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+781. Great, I will reserve it for you.
+[일반동사·동사구] reserve = 예약해 확보하다
+
+782. How long is your layover?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+783. Three hours. Then I fly to Rome.
+[일반동사·동사구] fly = 비행기로 이동하다
+
+784. We have a five-hour layover in Singapore.
+[일반동사·동사구] have a layover = 경유 대기 일정이 있다
+
+785. That is enough time to have a meal and rest.
+[일반동사·동사구] have + 음식·식사 = 먹다·마시다·주문해서 받다 / rest = 쉬다
+
+786. Where can I exchange dollars for euros?
+[일반동사·동사구] exchange = 교환하다
+
+787. At the exchange counter beside the bank.
+[일반동사·동사구] exchange = 교환하다
+
+788. Can I exchange this for a larger size?
+[일반동사·동사구] exchange = 교환하다
+
+789. Yes. Do you have the receipt?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+790. Could I have a receipt, please?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+791. Of course. Here you are.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+792. Could I get a receipt for this taxi ride?
+[일반동사·동사구] get + 받는 대상 = 받다·구하다
+
+793. Sure, I can print one for you.
+[일반동사·동사구] print = 인쇄하다
+
+794. Is there a bakery nearby?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+795. Yes, just around the corner.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+796. Is there a pharmacy nearby?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+797. Yes, one is open twenty-four hours across the square.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+798. What do you recommend for someone who does not like spicy food?
+[일반동사·동사구] recommend = 추천하다 / like = 좋아하다
+
+799. The grilled chicken is mild and very popular.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+800. Can you recommend a quiet place for breakfast?
+[일반동사·동사구] recommend = 추천하다
+
+801. Try the café beside the park.
+[일반동사·동사구] try + 음식·방법·선택 = 한번 먹어 보다·사용해 보다
+
+802. Is there a charge for using the pool?
+[일반동사·동사구] use = 사용하다·이용하다
+
+803. No, it is free for hotel guests.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+804. Can I charge my phone here?
+[일반동사·동사구] charge my phone = 휴대폰을 충전하다
+
+805. Yes, there is an outlet under the table.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+806. Excuse me, where is the restroom?
+[일반동사·동사구] excuse = 실례를 양해하다
+
+807. At the end of the hallway, on the right.
+[일반동사·동사구] end = 끝나다
+
+808. Is there a restroom inside the station?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+809. Yes, it is past the ticket gates on the right.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+810. Is this the queue for tickets?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+811. Yes. It starts over there.
+[일반동사·동사구] the line starts = 줄이 시작되다
+
+812. Is this the queue for passport control?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+813. Yes, the line starts back there.
+[일반동사·동사구] the line starts = 줄이 시작되다
+
+814. Do you have a plug adapter I can borrow?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다 / borrow = 빌리다
+
+815. Yes. Please return it when you check out.
+[일반동사·동사구] return + 물건·금액 = 돌려주다·반납하다·반품하다 / check out = 체크아웃·퇴실 수속하다
+
+816. Do you sell an adapter for this plug?
+[일반동사·동사구] sell = 팔다
+
+817. Yes, this universal adapter should work.
+[일반동사·동사구] work = 작동하다·제 기능을 하다
+
+818. May I see your boarding pass?
+[일반동사·동사구] See you there = 거기서 만나요
+
+819. Yes, it is on my phone.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+820. I cannot find my boarding pass on the app.
+[일반동사·동사구] find = 찾다·발견하다
+
+821. We can print one for you at the counter.
+[일반동사·동사구] print = 인쇄하다
+
+822. Do you have any food allergies?
+[일반동사·동사구] have + 문제·알레르기 = 문제·알레르기가 있다
+
+823. Yes, I have a peanut allergy.
+[일반동사·동사구] have + 문제·알레르기 = 문제·알레르기가 있다
+
+824. I have a shellfish allergy. Is this soup safe for me?
+[일반동사·동사구] have + 문제·알레르기 = 문제·알레르기가 있다
+
+825. Let me ask the chef about the ingredients.
+[일반동사·동사구] let = ~하게 하다·허락하다 / ask + 사람 / ask for … = 묻다·요청하다
+
+826. Is there an outlet near this seat?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+827. Yes, underneath the table.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+828. Yes, there is one under the table.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+829. Where can we cross the road?
+[일반동사·동사구] cross = 건너다
+
+830. Use the crosswalk by the traffic lights.
+[일반동사·동사구] use = 사용하다·이용하다
+
+831. Is there a crosswalk near the hotel entrance?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+832. Yes, walk fifty meters to the left.
+[일반동사·동사구] walk = 걷다
+
+833. What shall we do this afternoon?
+[일반동사·동사구] do = 하다
+
+834. Let us explore the old town on foot.
+[일반동사·동사구] let = ~하게 하다·허락하다 / explore = 둘러보다·탐방하다
+
+835. We have the afternoon free to explore the neighborhood.
+[일반동사·동사구] have + 시간·공간 = 쓸 시간·공간이 있다 / explore = 둘러보다·탐방하다
+
+836. Let us start at the market and walk toward the river.
+[일반동사·동사구] let = ~하게 하다·허락하다 / start = 시작하다 / walk = 걷다
+
+837. What do you suggest we do on a rainy day?
+[일반동사·동사구] suggest = 제안하다 / do = 하다
+
+838. You could visit the art museum.
+[일반동사·동사구] visit = 방문하다
+
+839. What do you suggest for a rainy afternoon?
+[일반동사·동사구] suggest = 제안하다
+
+840. The art museum is a good choice.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+841. Are we going in the right direction?
+[일반동사·동사구] go = 가다
+
+842. No, the station is the other way.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+843. Which direction should I walk for the station?
+[일반동사·동사구] walk = 걷다
+
+844. Head east for two blocks.
+[일반동사·동사구] head = ~로 향하다
+
+845. Could you give me directions to the beach?
+[일반동사·동사구] give = 주다
+
+846. Go straight for two blocks, then turn left.
+[일반동사·동사구] go = 가다 / turn left/right = 왼쪽·오른쪽으로 돌다
+
+847. Could you give me directions to the ferry terminal?
+[일반동사·동사구] give = 주다
+
+848. Go straight and turn right at the second light.
+[일반동사·동사구] go = 가다 / turn left/right = 왼쪽·오른쪽으로 돌다
+
+849. I have a prescription from this clinic.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+850. May I see it, please?
+[일반동사·동사구] see + 제시받을 대상 = 보여 달라고 요청하다
+
+851. Can this pharmacy fill a foreign prescription?
+[일반동사·동사구] fill = 처방대로 약을 조제해 주다
+
+852. It depends on the medicine, so please show it to the pharmacist.
+[일반동사·동사구] depend = ~에 달려 있다 / show = 보여 주다
+
+853. How much is the bus fare?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+854. Two dollars per person.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+855. What is the bus fare to the airport?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+856. It is eight dollars if you pay by card.
+[일반동사·동사구] pay = 지불하다·결제하다
+
+857. Has our gate changed?
+[일반동사·동사구] change = 바꾸다·변경되다
+
+858. Yes. Your flight now leaves from gate eighteen.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+859. Has the gate for our flight changed?
+[일반동사·동사구] change = 바꾸다·변경되다
+
+860. Yes, it moved from gate twelve to gate eighteen.
+[일반동사·동사구] move = 옮기다·이동하다
+
+861. Where can I use this breakfast voucher?
+[일반동사·동사구] use = 사용하다·이용하다
+
+862. At the restaurant on the second floor.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+863. Can I use this meal voucher at any restaurant in the terminal?
+[일반동사·동사구] use = 사용하다·이용하다
+
+864. Only at the restaurants listed on the back.
+[일반동사·동사구] list = 목록에 적다
+
+865. Could I see the ferry schedule?
+[일반동사·동사구] see + 제시받을 대상 = 보여 달라고 요청하다
+
+866. Yes. The next ferry leaves at two.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+867. Has the ferry schedule changed for winter?
+[일반동사·동사구] change = 바꾸다·변경되다
+
+868. Yes, there are fewer departures after October.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+869. Does the hotel have a laundry service?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+870. Yes. Put your clothes in the bag in your closet.
+[일반동사·동사구] put + 물건 + 위치 = 놓다·넣다
+
+871. Is there a self-service laundry near the hotel?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+872. Yes, one is open late two blocks away.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+873. Is there luggage storage at the station?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+874. Yes, beside the ticket office.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+875. How much does luggage storage cost for six hours?
+[일반동사·동사구] cost = 비용이 들다
+
+876. It is five dollars per bag.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+877. Which currency do you accept?
+[일반동사·동사구] accept = 받아 주다
+
+878. We only accept euros.
+[일반동사·동사구] accept = 받아 주다
+
+879. What currency do they use on the island?
+[일반동사·동사구] use = 사용하다·이용하다
+
+880. They use the euro.
+[일반동사·동사구] use = 사용하다·이용하다
+
+881. Is this dish very spicy?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+882. A little. We can make it less spicy.
+[일반동사·동사구] make it + 형용사 = 그것을 ~하게 만들다
+
+883. Is this curry very spicy?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+884. It is medium spicy, but we can make it milder.
+[일반동사·동사구] make it + 형용사 = 그것을 ~하게 만들다
+
+885. Do you have any vegetarian dishes?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+886. Yes, the vegetable curry contains no meat or fish.
+[일반동사·동사구] contain = 들어 있다·함유하다
+
+887. Do you have a vegetarian breakfast option?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+888. Yes, we have eggs, fruit, and vegetable sandwiches.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+889. Could you verify my booking details?
+[일반동사·동사구] verify = 대조해 확인하다 / book = 예약하다
+
+890. Certainly. May I have your booking number?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요? / book = 예약하다
+
+891. Could you verify the departure time for me?
+[일반동사·동사구] verify = 대조해 확인하다
+
+892. Yes, the train leaves at 8:45.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+893. Do these shoes fit?
+[일반동사·동사구] fit = 크기·공간에 맞다
+
+894. They are a little tight. Can I try a larger size?
+[일반동사·동사구] try + 음식·방법·선택 = 한번 먹어 보다·사용해 보다
+
+895. Does this suitcase fit in the overhead bin?
+[일반동사·동사구] fit = 크기·공간에 맞다
+
+896. Yes, it should fit without a problem.
+[일반동사·동사구] fit = 크기·공간에 맞다
+
+897. The lock on my door is broken.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+898. I am sorry. We will arrange another room for you.
+[일반동사·동사구] arrange = 마련하다·준비를 잡다
+
+899. The air conditioner in my room is broken.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+900. I am sorry. We will send someone to fix it.
+[일반동사·동사구] send = 보내다 / fix = 고치다·수리하다
+
+901. Where is the elevator?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+902. Just past the front desk, on your left.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+903. Is there an elevator to the observation deck?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+904. Yes, it is at the end of the hall.
+[일반동사·동사구] end = 끝나다
+
+905. Could you help me lift this bag?
+[일반동사·동사구] help = 돕다 / lift = 들어 올리다
+
+906. Sure. Let us put it on the rack.
+[일반동사·동사구] let = ~하게 하다·허락하다 / put + 물건 + 위치 = 놓다·넣다
+
+907. Is there a lift in this building?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+908. Yes, just behind the stairs.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+909. When will you restock this size?
+[일반동사·동사구] restock = 재입고하다
+
+910. We expect more on Friday.
+[일반동사·동사구] expect = 들어올 것으로 예상하다
+
+911. When will you restock these travel bottles?
+[일반동사·동사구] restock = 재입고하다
+
+912. We expect more tomorrow morning.
+[일반동사·동사구] expect = 들어올 것으로 예상하다
+
+913. Where is the changing room?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+914. At the back of the shop.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+915. It is behind the mirrors on the left.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+916. Can I put my suitcase on the luggage rack?
+[일반동사·동사구] put + 물건 + 위치 = 놓다·넣다
+
+917. Yes, if it fits securely.
+[일반동사·동사구] fit = 크기·공간에 맞다
+
+918. Is there space on the luggage rack for this suitcase?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+919. Yes, put it on the lower shelf.
+[일반동사·동사구] put + 물건 + 위치 = 놓다·넣다
+
+920. Is this room occupied?
+[일반동사·동사구] occupy = 차지하다·사용하다
+
+921. Yes, please use the room next door.
+[일반동사·동사구] use = 사용하다·이용하다
+
+922. Is this restroom occupied?
+[일반동사·동사구] occupy = 차지하다·사용하다
+
+923. Yes, someone is inside.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+924. Do you sell phone chargers?
+[일반동사·동사구] sell = 팔다
+
+925. Yes. What type of phone do you have?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+926. I forgot my phone charger. Do you sell one here?
+[일반동사·동사구] forget = 잊다·챙기지 못하다 / sell = 팔다
+
+927. Yes, we have several types near the register.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+928. Do we need to hurry?
+[일반동사·동사구] need = 필요하다 / hurry = 서두르다
+
+929. Yes, the bus leaves in five minutes.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+930. We need to hurry or we will miss boarding.
+[일반동사·동사구] need = 필요하다 / hurry = 서두르다 / miss = 놓치다
+
+931. The gate is just around the corner.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+932. Is the restroom vacant now?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+933. Yes, you can go in.
+[일반동사·동사구] go = 가다
+
+934. Is there a vacant room for tonight?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+935. Do you have a reservation?
+[일반동사·동사구] have a reservation = 예약한 내역이 있다
+
+936. Yes, for two people under Son.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+937. I have a reservation for two nights under Lee.
+[일반동사·동사구] have a reservation = 예약한 내역이 있다
+
+938. Yes, I found your booking.
+[일반동사·동사구] find = 찾다·발견하다 / book = 예약하다
+
+939. Where is baggage claim?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+940. Downstairs. Follow the signs for arrivals.
+[일반동사·동사구] follow = 따라가다
+
+941. Which baggage claim is for flight 402?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+942. Carousel seven on the lower level.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+943. Do you have a seating preference?
+[일반동사·동사구] have a seating preference = 선호하는 좌석 조건이 있다
+
+944. A table outside, if possible.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+945. A window seat would be great.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+946. Please take all your belongings with you.
+[일반동사·동사구] take + 물건 + 이동 정보 = 챙겨 가져가다
+
+947. Thank you. I nearly forgot my phone.
+[일반동사·동사구] thank = 감사하다 / forget = 잊다·챙기지 못하다
+
+948. Please check that you have all your belongings before leaving.
+[일반동사·동사구] check = 확인하다 / have + 실제 대상 = 가지고 있다·갖추고 있다 / leave = 떠나다·출발하다
+
+949. Thanks. I almost forgot my umbrella.
+[일반동사·동사구] forget = 잊다·챙기지 못하다
+
+950. Is the first refill free?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+951. Yes, for coffee and tea.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+952. Could you refill my water bottle?
+[일반동사·동사구] refill = 다시 채우다
+
+953. Sure, the fountain is right here.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+954. Is one portion enough for two people?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+955. It is quite large, so you could share it.
+[일반동사·동사구] share = 함께 나눠 쓰다·먹다
+
+956. Is this portion large enough to share?
+[일반동사·동사구] share = 함께 나눠 쓰다·먹다
+
+957. Yes, two people can easily share it.
+[일반동사·동사구] share = 함께 나눠 쓰다·먹다
+
+958. Which platform does the airport train leave from?
+[일반동사·동사구] leave = 떠나다·출발하다
+
+959. Platform four. Take the stairs on your right.
+[일반동사·동사구] take + 경로 = 그 길·계단을 이용하다
+
+960. Platform nine.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+961. Which way should I walk?
+[일반동사·동사구] walk = 걷다
+
+962. Head toward the river, then turn left.
+[일반동사·동사구] head = ~로 향하다 / turn left/right = 왼쪽·오른쪽으로 돌다
+
+963. Walk toward the river and turn left at the bridge.
+[일반동사·동사구] walk = 걷다 / turn left/right = 왼쪽·오른쪽으로 돌다
+
+964. Got it. Thank you.
+[일반동사·동사구] Got it = 알겠습니다·이해했습니다 / thank = 감사하다
+
+965. Is breakfast included?
+[일반동사·동사구] include = 포함하다
+
+966. Yes, it is served from seven to ten.
+[일반동사·동사구] serve = 음식을 제공하다
+
+967. Is breakfast included in the room price?
+[일반동사·동사구] include = 포함하다
+
+968. Yes, breakfast and Wi-Fi are included.
+[일반동사·동사구] include = 포함하다
+
+969. I think we are on the wrong bus.
+[일반동사·동사구] think = ~라고 생각하다
+
+970. Let us ask the driver at the next stop.
+[일반동사·동사구] let = ~하게 하다·허락하다 / ask + 사람 / ask for … = 묻다·요청하다
+
+971. I think we are on the wrong platform.
+[일반동사·동사구] think = ~라고 생각하다
+
+972. Yes, our train leaves from platform four.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+973. How much do I owe you for the taxi?
+[일반동사·동사구] owe = 갚거나 낼 돈이 있다
+
+974. Ten dollars. We are splitting it equally.
+[일반동사·동사구] split = 나누다
+
+975. How much do I owe you for the tickets?
+[일반동사·동사구] owe = 갚거나 낼 돈이 있다
+
+976. Twenty dollars is fine.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+977. Are you allergic to any foods?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+978. Yes, shellfish. Could you check with the kitchen?
+[일반동사·동사구] check with + 상대 = 담당자에게 문의해 확인하다
+
+979. I am allergic to nuts. Can you recommend something safe?
+[일반동사·동사구] recommend = 추천하다
+
+980. Yes, I will show you the nut-free dishes.
+[일반동사·동사구] show = 보여 주다
+
+981. Should I insert my card?
+[일반동사·동사구] insert = 집어넣다·삽입하다
+
+982. You can just tap it here.
+[일반동사·동사구] tap = 가볍게 대다·터치하다
+
+983. Just tap your card on the reader.
+[일반동사·동사구] tap = 가볍게 대다·터치하다
+
+984. Okay, I see the contactless symbol.
+[일반동사·동사구] see = 눈으로 보다·확인하다
+
+985. Could you drop me off at the hotel entrance?
+[일반동사·동사구] drop = 내려 주다·맡기다
+
+986. Sure. It is just around the corner.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+987. Can the taxi drop us off at the museum entrance?
+[일반동사·동사구] drop = 내려 주다·맡기다
+
+988. Yes, there is a drop-off zone there.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+989. Where will you pick us up tomorrow?
+[일반동사·동사구] pick = 데리러 가다·찾아가다
+
+990. Outside the hotel at eight thirty.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+991. What time will the shuttle pick us up?
+[일반동사·동사구] pick = 데리러 가다·찾아가다
+
+992. At six forty-five in front of the hotel.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+993. Do you have a spare room key?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+994. Yes. I can make another one for you.
+[일반동사·동사구] make another one = 하나 더 만들다
+
+995. Do you have a spare umbrella I could borrow?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다 / borrow = 빌리다
+
+996. Yes, we keep a few at the front desk.
+[일반동사·동사구] keep + 보관할 대상 = 계속 가지고 있다·보관하다
+
+997. When should we go to avoid the crowds?
+[일반동사·동사구] go = 가다 / avoid = 피하다
+
+998. Before nine in the morning.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+999. Take the side street to avoid the traffic.
+[일반동사·동사구] take + 경로 = 그 길·계단을 이용하다 / avoid = 피하다
+
+1000. Good idea. The main road looks packed.
+[일반동사·동사구] look + 형용사 / look like … = ~해 보이다
+
+1001. There is some damage to my suitcase.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1002. Please bring it to the baggage service desk.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+1003. I noticed damage on my suitcase after the flight.
+[일반동사·동사구] notice = 알아차리다
+
+1004. Please report it before leaving the baggage area.
+[일반동사·동사구] report = 신고하다·알리다 / leave = 떠나다·출발하다
+
+1005. Do we have enough time for lunch?
+[일반동사·동사구] have + 시간·공간 = 쓸 시간·공간이 있다
+
+1006. Yes, boarding does not start for another hour.
+[일반동사·동사구] start = 시작하다
+
+1007. Do we have enough time to visit the market before our train?
+[일반동사·동사구] have + 시간·공간 = 쓸 시간·공간이 있다 / visit = 방문하다
+
+1008. Yes, we have almost two hours.
+[일반동사·동사구] have + 시간·공간 = 쓸 시간·공간이 있다
+
+1009. Could I get a refund for this canceled tour?
+[일반동사·동사구] get + 받는 대상 = 받다·구하다 / cancel = 취소하다
+
+1010. Yes. We will return the payment to your card.
+[일반동사·동사구] return + 물건·금액 = 돌려주다·반납하다·반품하다
+
+1011. Can I get a refund if the tour is canceled?
+[일반동사·동사구] get + 받는 대상 = 받다·구하다 / cancel = 취소하다
+
+1012. Yes, you will receive a full refund.
+[일반동사·동사구] receive = 받다
+
+1013. What is this donation box for?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1014. It is for the museum’s restoration fund.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1015. The city uses this tax to fund public transportation.
+[일반동사·동사구] use = 사용하다·이용하다 / fund = 자금을 대다
+
+1016. That explains why the buses are so affordable.
+[일반동사·동사구] explain = 설명하다·이유가 되다
+
+1017. Can I buy the bag on display?
+[일반동사·동사구] buy = 사다
+
+1018. Yes. Let me get it down for you.
+[일반동사·동사구] let = ~하게 하다·허락하다 / get it = 가져오다·꺼내 주다
+
+1019. The screen will display your gate number after check-in.
+[일반동사·동사구] display = 표시하다·전시하다
+
+1020. Great, I will check it again later.
+[일반동사·동사구] check = 확인하다
+
+1021. What is the main attraction in this town?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1022. The old castle by the river.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1023. Is the castle the main attraction in this town?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1024. Yes, most visitors go there first.
+[일반동사·동사구] go = 가다
+
+1025. Why does this beach attract so many visitors?
+[일반동사·동사구] attract = 끌어들이다
+
+1026. The water is clear, and it is easy to reach.
+[일반동사·동사구] reach + 장소 = 도착하다·닿다
+
+1027. What attracts so many visitors to this island?
+[일반동사·동사구] attract = 끌어들이다
+
+1028. The beaches and hiking trails are the main reasons.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1029. There is a big crowd at the entrance.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1030. Let us come back after lunch.
+[일반동사·동사구] let = ~하게 하다·허락하다 / come / come back = 오다·돌아오다
+
+1031. A large crowd is gathering near the stage.
+[일반동사·동사구] gather = 모이다
+
+1032. The festival parade must be starting soon.
+[일반동사·동사구] start = 시작하다
+
+1033. Is there anything breakable in this bag?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1034. Yes, two glass bottles.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1035. Are there any breakable items in your suitcase?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1036. Yes, there are two glass bottles inside.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1037. I have some fragile items in this suitcase.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+1038. We can add a fragile tag for you.
+[일반동사·동사구] add = 더하다·추가하다 / tag = 태그·수하물표를 붙이다
+
+1039. Please pack fragile items in the center of the suitcase.
+[일반동사·동사구] pack = 짐을 챙겨 넣다·포장하다
+
+1040. I will wrap them in clothes first.
+[일반동사·동사구] wrap = 싸다·감싸다
+
+1041. Could you put a fragile sticker on this box?
+[일반동사·동사구] put + 물건 + 위치 = 놓다·넣다
+
+1042. Of course. Please place it on the counter.
+[일반동사·동사구] place + 물건 + 위치 = 정해진 위치에 놓다
+
+1043. Sure, I will mark it on two sides.
+[일반동사·동사구] mark = 표시하다
+
+1044. Where is boarding gate twenty?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1045. Past the café, on the right.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1046. Where is the boarding gate for flight 615?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1047. Gate C14, about five minutes from here.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1048. What is the boarding time?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1049. Nine twenty. Please be at the gate before then.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1050. What is the boarding time on my ticket?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1051. Boarding starts at 6:20.
+[일반동사·동사구] start = 시작하다
+
+1052. Is our flight now boarding?
+[일반동사·동사구] board = 탑승하다
+
+1053. Yes. Please have your boarding pass ready.
+[일반동사·동사구] have + 물건 + ready = 준비된 상태로 두다
+
+1054. The screen says, “Now boarding.” Should we line up?
+[일반동사·동사구] say = 말하다·표시되어 있다 / board = 탑승하다 / line = 줄을 서다
+
+1055. Yes, our group has just been called.
+[일반동사·동사구] be called = 호명되다
+
+1056. Could you hold my luggage until three?
+[일반동사·동사구] hold my luggage = 짐을 잠시 맡아 두다
+
+1057. Certainly. Here is your claim ticket.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1058. Could you hold my luggage after I check out?
+[일반동사·동사구] hold my luggage = 짐을 잠시 맡아 두다 / check out = 체크아웃·퇴실 수속하다
+
+1059. Of course, you can pick it up this evening.
+[일반동사·동사구] pick = 데리러 가다·찾아가다
+
+1060. Can you store my luggage after I check out?
+[일반동사·동사구] store = 보관하다 / check out = 체크아웃·퇴실 수속하다
+
+1061. Yes. What time will you collect it?
+[일반동사·동사구] collect = 찾아가다·수령하다
+
+1062. Can you store my luggage until my train leaves?
+[일반동사·동사구] store = 보관하다 / leave = 떠나다·출발하다
+
+1063. Yes, we can keep it until nine tonight.
+[일반동사·동사구] keep + 보관할 대상 = 계속 가지고 있다·보관하다
+
+1064. A one-way ticket to the airport, please.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1065. Certainly. That is twelve dollars.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1066. I need a one-way ticket to Central Station.
+[일반동사·동사구] need = 필요하다
+
+1067. That is six dollars.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1068. I would like a round-trip ticket to Oxford.
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+1069. When would you like to return?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / return = 돌아오다·돌아가다
+
+1070. Can I buy a round-trip ticket for tomorrow?
+[일반동사·동사구] buy = 사다
+
+1071. Yes, you can choose the return time later.
+[일반동사·동사구] choose = 고르다
+
+1072. Can we drive down this road?
+[일반동사·동사구] drive = 차를 운전하다
+
+1073. No, it is a one-way street in the other direction.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1074. You cannot turn left here because it is a one-way street.
+[일반동사·동사구] turn left/right = 왼쪽·오른쪽으로 돌다
+
+1075. Okay, I will go around the block.
+[일반동사·동사구] go = 가다
+
+1076. Is the convenience store still open?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1077. Yes, it is open twenty-four hours.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1078. Is there a convenience store open late nearby?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1079. Yes, there is one beside the hotel.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1080. Is the café far from here?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1081. No, it is just around the corner.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1082. The subway entrance is just around the corner.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1083. Great, so we do not need a taxi.
+[일반동사·동사구] need = 필요하다
+
+1084. Where can I catch the bus back?
+[일반동사·동사구] catch = 시간에 맞춰 타다
+
+1085. At the stop across the street.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1086. The bus stop is across the street from the hotel.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1087. I see it next to the bank.
+[일반동사·동사구] see = 눈으로 보다·확인하다
+
+1088. Why was my withdrawal declined?
+[일반동사·동사구] decline = 승인을 거절하다
+
+1089. Your card may have a daily limit. Please check with your bank.
+[일반동사·동사구] have a daily limit = 하루 이용 한도가 설정되어 있다 / check with + 상대 = 담당자에게 문의해 확인하다
+
+1090. This ATM shows my last withdrawal on the screen.
+[일반동사·동사구] show = 보여 주다
+
+1091. Check that the amount is correct.
+[일반동사·동사구] check = 확인하다
+
+1092. Which option should I choose for a cash withdrawal?
+[일반동사·동사구] choose = 고르다
+
+1093. Choose “Withdraw cash,” then enter the amount.
+[일반동사·동사구] choose = 고르다 / withdraw = 인출하다 / enter + 입력할 정보 = 입력하다·기입하다
+
+1094. I need to make a cash withdrawal before the market closes.
+[일반동사·동사구] need = 필요하다 / make a withdrawal = 인출 거래를 하다 / close = 닫다·영업을 마치다
+
+1095. There is an ATM inside the station.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1096. Is there a withdrawal fee?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1097. Yes, this ATM charges three dollars per transaction.
+[일반동사·동사구] charge + 요금·금액 = 요금을 부과하다
+
+1098. Does this ATM charge a withdrawal fee?
+[일반동사·동사구] charge + 요금·금액 = 요금을 부과하다
+
+1099. Yes, it charges three dollars per transaction.
+[일반동사·동사구] charge + 요금·금액 = 요금을 부과하다
+
+1100. What is the withdrawal limit on this machine?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1101. Three hundred dollars per transaction.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1102. What is the daily withdrawal limit?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1103. You can withdraw up to five hundred dollars a day.
+[일반동사·동사구] withdraw = 인출하다
+
+1104. Did you sleep well last night?
+[일반동사·동사구] sleep = 자다
+
+1105. Not really. The room was noisy.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1106. We arrived late last night.
+[일반동사·동사구] arrive = 도착하다
+
+1107. That explains why you look tired.
+[일반동사·동사구] explain = 설명하다·이유가 되다 / look + 형용사 / look like … = ~해 보이다
+
+1108. When did you arrive in Japan?
+[일반동사·동사구] arrive = 도착하다
+
+1109. Last week. I have been staying in Kyoto.
+[일반동사·동사구] stay = 머무르다
+
+1110. I was in Tokyo last week.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1111. Really? How was the weather?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1112. When did you book the hotel?
+[일반동사·동사구] book = 예약하다
+
+1113. Last month, through the hotel website.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1114. This museum reopened last month.
+[일반동사·동사구] reopen = 다시 문을 열다
+
+1115. Then the new exhibition must be recent.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1116. Have you been here before?
+[완료형] have been: 이전 방문 경험
+
+1117. Yes, I visited last year.
+[일반동사·동사구] visit = 방문하다
+
+1118. We visited this town last year too.
+[일반동사·동사구] visit = 방문하다
+
+1119. Has it changed much since then?
+[일반동사·동사구] change = 바꾸다·변경되다
+
+1120. What time is the last train to the airport?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1121. At eleven fifteen tonight.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1122. It leaves at 11:42.
+[일반동사·동사구] leave = 떠나다·출발하다
+
+1123. Is today your last day here?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1124. Yes. I fly home tomorrow morning.
+[일반동사·동사구] fly = 비행기로 이동하다
+
+1125. It is our last day, so let us visit the market again.
+[일반동사·동사구] let = ~하게 하다·허락하다 / visit = 방문하다
+
+1126. Good idea. We still need souvenirs.
+[일반동사·동사구] need = 필요하다
+
+1127. Is this the final price?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1128. Yes, it includes all taxes and fees.
+[일반동사·동사구] include = 포함하다
+
+1129. Is this the final stop on the line?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1130. Yes, everyone needs to get off here.
+[일반동사·동사구] need = 필요하다 / get on / get off = 교통편에 타다·내리다
+
+1131. Do you have the latest bus timetable?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+1132. Yes. This one was updated yesterday.
+[일반동사·동사구] update = 최신 정보로 고치다
+
+1133. Where can I find the latest train schedule?
+[일반동사·동사구] find = 찾다·발견하다
+
+1134. The station app has the most recent times.
+[일반동사·동사구] has the most recent times = 최신 시간 정보가 실려 있다
+
+1135. I am interested in the boat tour. How long does it last?
+[일반동사·동사구] last = 지속되다
+
+1136. About ninety minutes.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1137. How long does it last?
+[일반동사·동사구] last = 지속되다
+
+1138. The boat tour takes about ninety minutes.
+[일반동사·동사구] take + 시간 = 시간이 걸리다
+
+1139. Can we take a break before the next museum?
+[일반동사·동사구] take a break = 잠깐 쉬다
+
+1140. Of course. There is a café over there.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1141. Let us take a break after this museum.
+[일반동사·동사구] let = ~하게 하다·허락하다 / take a break = 잠깐 쉬다
+
+1142. Sure, there is a cafe in the courtyard.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1143. Did your rental car break down?
+[일반동사·동사구] break down = 차량이 고장 나다
+
+1144. Yes. I am waiting for roadside assistance.
+[일반동사·동사구] wait = 기다리다
+
+1145. What happens if the rental car breaks down?
+[일반동사·동사구] happen = 일어나다·발생하다 / break down = 차량이 고장 나다
+
+1146. Call this number and roadside assistance will come.
+[일반동사·동사구] call + 번호·상대 = 전화하다 / come / come back = 오다·돌아오다
+
+1147. Could you break a fifty-dollar bill?
+[일반동사·동사구] break a bill = 큰 지폐를 잔돈으로 바꾸다
+
+1148. Yes. Would you like some smaller notes?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+1149. Could you break a fifty-dollar bill for me?
+[일반동사·동사구] break a bill = 큰 지폐를 잔돈으로 바꾸다
+
+1150. Sure. Do you want tens and fives?
+[일반동사·동사구] want = 원하다
+
+1151. When does the exhibition close?
+[일반동사·동사구] close = 닫다·영업을 마치다
+
+1152. At six. Last admission is at five thirty.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1153. When does the photography exhibition close?
+[일반동사·동사구] close = 닫다·영업을 마치다
+
+1154. It runs until the end of the month.
+[일반동사·동사구] run until … = 행사가 ~까지 진행되다 / end = 끝나다
+
+1155. Is the museum open on Mondays?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1156. No, it is closed every Monday.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1157. Is the museum free on Fridays?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1158. Yes, admission is free after five.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1159. Is there an art gallery near here?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1160. Yes, beside the public library.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1161. This gallery has a lot of local art.
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+1162. Yes, most of the artists live in this city.
+[일반동사·동사구] live = 살다·거주하다
+
+1163. Does this ticket include the special exhibit?
+[일반동사·동사구] include = 포함하다
+
+1164. No, that requires a separate ticket.
+[일반동사·동사구] require = 필수로 요구하다
+
+1165. Do I need a separate ticket for the special exhibit?
+[일반동사·동사구] need = 필요하다
+
+1166. Yes, it costs five dollars extra.
+[일반동사·동사구] cost = 비용이 들다
+
+1167. Where is the art exhibition being held?
+[일반동사·동사구] be held = 행사가 열리다
+
+1168. In the hall on the third floor.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1169. There is an art exhibition at the old warehouse this weekend.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1170. Let us go on Saturday afternoon.
+[일반동사·동사구] let = ~하게 하다·허락하다 / go = 가다
+
+1171. Do you need anything else?
+[일반동사·동사구] need = 필요하다
+
+1172. No, thank you. That is everything.
+[일반동사·동사구] thank = 감사하다
+
+1173. Is there anything else I should bring for the tour?
+[일반동사·동사구] bring = 가져오다·지참하다
+
+1174. Just water and comfortable shoes.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1175. Could I have something hot to drink?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요? / drink = 마시다
+
+1176. Of course. Would you like tea or coffee?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다
+
+1177. I need something warm to wear tonight.
+[일반동사·동사구] need = 필요하다 / wear = 착용하다
+
+1178. There is a clothing shop near the station.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1179. Can I leave my bags here until the afternoon?
+[일반동사·동사구] leave + 물건 + 장소 = 두다·맡겨 놓다
+
+1180. Yes. Please keep this claim ticket.
+[일반동사·동사구] keep + 보관할 대상 = 계속 가지고 있다·보관하다
+
+1181. What time should we leave for the airport?
+[일반동사·동사구] leave = 떠나다·출발하다
+
+1182. At six, to avoid the traffic.
+[일반동사·동사구] avoid = 피하다
+
+1183. How many pieces of luggage do you have?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+1184. Two suitcases and a backpack.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1185. Can I leave my luggage here for a few hours?
+[일반동사·동사구] leave + 물건 + 장소 = 두다·맡겨 놓다
+
+1186. Yes, we can store it behind the desk.
+[일반동사·동사구] store = 보관하다
+
+1187. Could I have a blanket, please?
+[일반동사·동사구] Could/May I have …? = ~을 주시겠어요?
+
+1188. Of course. I will bring one to your seat.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+1189. Could I get another blanket? It is cold in here.
+[일반동사·동사구] get + 받는 대상 = 받다·구하다
+
+1190. Do I need to print my ticket?
+[일반동사·동사구] need = 필요하다 / print = 인쇄하다
+
+1191. No, you can show it on your phone.
+[일반동사·동사구] show = 보여 주다
+
+1192. Do I need to print my train ticket?
+[일반동사·동사구] need = 필요하다 / print = 인쇄하다
+
+1193. No, you can show the QR code on your phone.
+[일반동사·동사구] show = 보여 주다
+
+1194. Should I book the tour in advance?
+[일반동사·동사구] book = 예약하다
+
+1195. Yes, it often sells out.
+[일반동사·동사구] sell out = 매진되다
+
+1196. Around six should be safe.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1197. Where should I wait for the shuttle?
+[일반동사·동사구] wait = 기다리다
+
+1198. Outside the main entrance.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1199. Wait by the main entrance.
+[일반동사·동사구] wait = 기다리다
+
+1200. What time does the restaurant open?
+[일반동사·동사구] open = 열다·영업을 시작하다
+
+1201. At eleven thirty.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1202. What time does the museum open tomorrow?
+[일반동사·동사구] open = 열다·영업을 시작하다
+
+1203. It opens at nine thirty.
+[일반동사·동사구] open = 열다·영업을 시작하다
+
+1204. Do you offer airport pickup?
+[일반동사·동사구] offer = 서비스로 제공하다
+
+1205. Yes. Please send us your flight details.
+[일반동사·동사구] send = 보내다
+
+1206. Does the hotel offer free airport pickup?
+[일반동사·동사구] offer = 서비스로 제공하다
+
+1207. Yes, but you need to book it in advance.
+[일반동사·동사구] need = 필요하다 / book = 예약하다
+
+1208. Is baggage storage free for hotel guests?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1209. Yes, until the end of your checkout day.
+[일반동사·동사구] end = 끝나다
+
+1210. Is baggage storage available after checkout?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1211. Yes, guests can use it for free until midnight.
+[일반동사·동사구] use = 사용하다·이용하다
+
+1212. Is there a pharmacy open nearby?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1213. Yes, the one across the street is open until ten.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1214. Is there a pharmacy open this late?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1215. Yes, there is a twenty-four-hour pharmacy near the hospital.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1216. Did you reach the hotel by phone?
+[일반동사·동사구] reach + 사람·기관 + by phone = 전화가 연결되다·연락이 닿다
+
+1217. No. I called twice, but to no avail.
+[일반동사·동사구] call + 번호·상대 = 전화하다
+
+1218. We tried to find another room, but to no avail.
+[일반동사·동사구] try to + 동사원형 = ~하려고 시도하다 / find = 찾다·발견하다
+
+1219. Then we may need to stay in a different hotel.
+[일반동사·동사구] need = 필요하다 / stay = 머무르다
+
+1220. Will we be able to check in early?
+[일반동사·동사구] check in = 입실·탑승 수속하다
+
+1221. It depends on whether your room is ready.
+[일반동사·동사구] depend = ~에 달려 있다
+
+1222. Will you be able to store our bags until evening?
+[일반동사·동사구] store = 보관하다
+
+1223. Yes, we have plenty of space.
+[일반동사·동사구] have + 시간·공간 = 쓸 시간·공간이 있다
+
+1224. This pillow is too soft. Do you have a firm one?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+1225. Yes. I will bring one to your room.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+1226. Do you have a firmer pillow?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+1227. Yes, I can bring a firm pillow to your room.
+[일반동사·동사구] bring = 가져오다·지참하다
+
+1228. Could you draw the route on this map?
+[일반동사·동사구] draw = 그리다
+
+1229. Sure. Start here and follow this street.
+[일반동사·동사구] start = 시작하다 / follow = 따라가다
+
+1230. Could you draw a circle around the station on this map?
+[일반동사·동사구] draw = 그리다
+
+1231. Sure, it is right here.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1232. Do you have this bag in stock?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+1233. Yes, in black and brown.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1234. Do you have more of these adapters in stock?
+[일반동사·동사구] have + 실제 대상 = 가지고 있다·갖추고 있다
+
+1235. Yes, there are several in the back.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1236. Sure. Please take the lid off.
+[일반동사·동사구] take … off = 벗다·떼어 내다
+
+1237. Can I refill this bottle here?
+[일반동사·동사구] refill = 다시 채우다
+
+1238. Yes, the water station is beside the restroom.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1239. Where are the international departures?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1240. On the third floor.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1241. Is this the line for international departures?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1242. Yes, domestic departures are on the other side.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1243. How far is the national park?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1244. About an hour by bus.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1245. Is this train covered by the national rail pass?
+[일반동사·동사구] cover = 이용 범위에 포함하다
+
+1246. Yes, this route is included.
+[일반동사·동사구] include = 포함하다
+
+1247. Does the museum permit photography?
+[일반동사·동사구] permit = 허용하다
+
+1248. Yes, except in the special exhibition rooms.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1249. Does this park permit bicycles on the walking path?
+[일반동사·동사구] permit = 허용하다
+
+1250. No, bikes must stay on the road.
+[일반동사·동사구] stay on the road = 도로 안에 계속 머물러 이용하다
+
+1251. Do the rules prohibit swimming here?
+[일반동사·동사구] prohibit = 금지하다 / swim = 수영하다
+
+1252. Yes. Please use the beach farther down the coast.
+[일반동사·동사구] use = 사용하다·이용하다
+
+1253. Do local rules prohibit drinking alcohol on the beach?
+[일반동사·동사구] prohibit = 금지하다 / drink = 마시다
+
+1254. Yes, alcohol is not allowed after sunset.
+[일반동사·동사구] allow = 허용하다
+
+1255. Can we afford another night at this hotel?
+[일반동사·동사구] afford = 비용을 감당하다
+
+1256. Yes, if we choose the standard room.
+[일반동사·동사구] choose = 고르다
+
+1257. We cannot afford a taxi every day.
+[일반동사·동사구] afford = 비용을 감당하다
+
+1258. Let us buy a weekly transit pass instead.
+[일반동사·동사구] let = ~하게 하다·허락하다 / buy = 사다
+
+1259. Do you prefer to walk or take a taxi?
+[일반동사·동사구] prefer = 더 선호하다 / walk = 걷다 / take + 교통수단 = 타고 이동하다
+
+1260. I prefer to walk. It is not far.
+[일반동사·동사구] prefer = 더 선호하다 / walk = 걷다
+
+1261. What attracts visitors to this village?
+[일반동사·동사구] attract = 끌어들이다
+
+1262. Its traditional houses and local food.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1263. Can four people occupy this room?
+[일반동사·동사구] occupy = 차지하다·사용하다
+
+1264. No, the maximum is three guests.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1265. These bags occupy too much space in the aisle.
+[일반동사·동사구] occupy = 차지하다·사용하다
+
+1266. I will move them to the luggage rack.
+[일반동사·동사구] move = 옮기다·이동하다
+
+1267. Does this gallery exhibit local artists’ work?
+[일반동사·동사구] exhibit = 전시하다
+
+1268. Yes, all these paintings are by local artists.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1269. Did the doctor prescribe any medicine?
+[일반동사·동사구] prescribe = 처방하다
+
+1270. Yes. I need to take this prescription to a pharmacy.
+[일반동사·동사구] need = 필요하다 / take + 물건 + 이동 정보 = 챙겨 가져가다
+
+1271. Can a doctor here prescribe medicine for this allergy?
+[일반동사·동사구] prescribe = 처방하다
+
+1272. Yes, the clinic is open until eight.
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1273. Where can I claim my lost bag?
+[일반동사·동사구] claim = 자기 물건을 찾아 수령하다 / lose = 잃어버리다
+
+1274. At the lost property desk near the exit.
+[일반동사·동사구] lose = 잃어버리다 / exit = 나가다
+
+1275. Where do I claim my checked baggage?
+[일반동사·동사구] claim = 자기 물건을 찾아 수령하다
+
+1276. Go downstairs to carousel six.
+[일반동사·동사구] go = 가다
+
+1277. What does the entrance fee help fund?
+[일반동사·동사구] help = 돕다 / fund = 자금을 대다
+
+1278. It helps fund repairs to the castle.
+[일반동사·동사구] help = 돕다 / fund = 자금을 대다
+
+1279. When should I return the rental car?
+[일반동사·동사구] return + 물건·금액 = 돌려주다·반납하다·반품하다
+
+1280. By ten tomorrow morning.
+[명사·전치사구 답변] 원문에 없는 동사를 억지로 추가하지 않음
+
+1281. Why do you need my passport?
+[일반동사·동사구] need = 필요하다
+
+1282. We need to verify your identity before check-in.
+[일반동사·동사구] need = 필요하다 / verify = 대조해 확인하다
+
+1283. Where would you like to return?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / return = 돌아오다·돌아가다
+
+1284. Where would you like to go?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / go = 가다
+
+1285. When would you like to go?
+[일반동사·동사구] would like = 원하다·~로 하고 싶다 / go = 가다
+
+1286. Where is the restroom?
+[be동사] 정체·성질·위치·존재·가격 등 문장 역할 해설
+
+1287. Where do I pay?
+[일반동사·동사구] pay = 지불하다·결제하다
+
+1288. Could I leave my baggage here?
+[일반동사·동사구] leave + 물건 + 장소 = 두다·맡겨 놓다
+
+1289. You can leave it at the front desk.
+[일반동사·동사구] leave + 물건 + 장소 = 두다·맡겨 놓다
