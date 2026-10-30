@@ -1,6 +1,7 @@
-const CACHE = 'travel-english-v44-detailed-20261030';
+const CACHE = 'travel-english-v43-rebuilt-20261031';
 const ASSETS = [
   './index.html',
+  './explanations-v43-rebuilt.js',
   './404.html',
   './audio-engine.js',
   './audio/index.json',
