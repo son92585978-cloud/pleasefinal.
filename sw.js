@@ -1,4 +1,4 @@
-const CACHE = 'travel-english-v43-verb-context-20261027';
+const CACHE = 'travel-english-v44-detailed-20261030';
 const ASSETS = [
   './index.html',
   './404.html',
