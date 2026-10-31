@@ -256,7 +256,21 @@ textarea.input{min-height:85px;resize:vertical}
 .ipa-block{margin:0 0 18px;padding:11px 13px;border:1px solid #e6d8ca;border-radius:12px;background:#fffaf3}.ipa-label{font-size:12px;color:#80634d;font-weight:700}.ipa-text,.form-ipa,.inflection-ipa{font-family:"DejaVu Sans","Noto Sans",Arial,sans-serif;font-weight:500;letter-spacing:.02em;overflow-wrap:anywhere;white-space:normal}.ipa-text{font-size:21px;line-height:1.65;color:#493728}.ipa-note,.ipa-guide{font-size:12px;line-height:1.6;color:#796451}.ipa-note{margin:5px 0}.ipa-guide summary{cursor:pointer}.ipa-guide p{margin:5px 0}.form-ipa{font-size:15px;margin:5px 0}.inflection-ipa{display:block;font-size:13px;color:#795c49;margin-top:3px}
 .writing-note p{line-height:1.8}.writing-example{white-space:pre-line;overflow-wrap:anywhere}.writing-compare b,.writing-example b{display:block;margin-bottom:5px}
 .writing-dialogue-extra{margin:18px 0;padding:15px;border:1px solid #e2cdbb;border-radius:14px;background:#fff8ef;font-size:15px;line-height:1.85}.writing-dialogue-extra summary{cursor:pointer;font-weight:800;color:#795138}.writing-dialogue-extra li{white-space:pre-line;margin:12px 0}.real-comparison{background:#fffdf9;border-left:3px solid #cf9d75;margin:14px 0;padding:12px;overflow-wrap:anywhere}.real-comparison p{margin:6px 0}.real-comparison p[lang=en]{font-weight:800}.comparison-ko{font-size:13px;color:#806a5b}.extra-label{font-weight:800;margin:18px 0 10px}.writing-note p,.writing-compare{white-space:pre-line;line-height:1.85}
-.explain-nav{display:flex;flex-wrap:wrap;gap:6px;padding:8px 0;position:static}.explain-nav button{font:inherit;font-size:12px;padding:9px 11px;border:1px solid #d9bfa9;border-radius:9px;background:#fffaf4;color:#513d30;min-height:40px}.explain-nav button[aria-pressed=true]{background:#75462d;color:#fff}.explain-nav button:focus-visible{outline:3px solid #d97b3c;outline-offset:2px}.explain-status{font-size:12px;line-height:1.6;color:#745e4e}.writing-note p{overflow-wrap:anywhere}.writing-notes [hidden]{display:none!important}</style>
+.explain-nav{display:flex;flex-wrap:wrap;gap:6px;padding:8px 0;position:static}.explain-nav button{font:inherit;font-size:12px;padding:9px 11px;border:1px solid #d9bfa9;border-radius:9px;background:#fffaf4;color:#513d30;min-height:40px}.explain-nav button[aria-pressed=true]{background:#75462d;color:#fff}.explain-nav button:focus-visible{outline:3px solid #d97b3c;outline-offset:2px}.explain-status{font-size:12px;line-height:1.6;color:#745e4e}.writing-note p{overflow-wrap:anywhere}.writing-notes [hidden]{display:none!important}
+/* Word explanations are opened from the sentence's slash-separated tokens. */
+.reason-overview{margin-top:12px}.reason-natural{font-weight:700}.reason-tokens{line-height:2.2;overflow-wrap:anywhere}
+.reason-token{font:inherit;font-weight:700;color:#8c4b2c;background:#fff0e2;border:1px solid #dbc4af;border-radius:7px;padding:5px 7px;min-height:42px;cursor:pointer;max-width:100%;overflow-wrap:anywhere;vertical-align:middle}
+.reason-token:hover,.reason-token:focus-visible,.reason-token[aria-expanded=true]{background:#ffd9bf;border-color:#aa5a32;outline:2px solid #be7047;outline-offset:1px}.reason-slash{color:#91775f}.reason-literal{font-size:14px;color:#705c4c;line-height:1.9}.reason-instruction{font-size:13px;color:#80634e;line-height:1.7}
+#word-reason-dialog{box-sizing:border-box;width:min(94vw,740px);max-height:90dvh;margin:auto;padding:0;border:1px solid #c9b09b;border-radius:18px;background:#fff9f1;color:#382c23;box-shadow:0 16px 60px #0008;overflow:hidden;font-family:inherit}
+#word-reason-dialog::backdrop{background:rgba(0,0,0,.62)}
+#word-reason-dialog[open]{display:flex;flex-direction:column}.reason-header{flex:none}.reason-body{flex:1;min-height:0}
+.reason-header{display:flex;align-items:center;gap:10px;padding:15px 18px;border-bottom:1px solid #dfcbbb;background:#fff1e3}.reason-header h2{font-size:20px;line-height:1.45;margin:0;flex:1;overflow-wrap:anywhere}.reason-close{flex:none;width:44px;height:44px;border:1px solid #c9b09b;border-radius:50%;background:#fffaf5;color:#57351f;font-size:28px;cursor:pointer}
+.reason-body{box-sizing:border-box;max-height:calc(90dvh - 110px);overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:12px 20px 24px;line-height:1.9;overflow-wrap:anywhere;touch-action:pan-y}
+.reason-body p{white-space:pre-line;margin:12px 0}.reason-body h3{font-size:18px;margin:25px 0 10px;color:#854a2c}.reason-body h4{font-size:16px;margin:18px 0 8px}.reason-ipa{color:#896c53;font-size:14px}.reason-context{border-left:3px solid #d1ab88;padding:4px 12px;background:#fff2e7}.reason-context small{font-weight:700;color:#8c684d}.reason-role{font-size:14px}
+.reason-compare-row{border:1px solid #dfcbbb;border-radius:10px;background:#fffdf9;padding:10px 12px;margin:9px 0}.reason-compare-row strong{display:block}.reason-validity{font-size:13px;font-weight:600;color:#85512f}.reason-compare-row p{font-size:15px;margin:5px 0}.reason-error{border-left:3px solid #d9a37b;padding:3px 12px;margin:14px 0;background:#fff0e3}.reason-travel{border:1px solid #e1cbb9;border-radius:12px;padding:10px 13px;margin:15px 0;background:#fffdfa}.reason-travel-en{margin-top:8px}.reason-travel .sentence-word{font:inherit}.reason-bottom-close{width:100%;padding:12px;border:1px solid #be9776;border-radius:10px;font:inherit;background:#f1dfcc;color:#573b27;cursor:pointer}.reason-body button{touch-action:manipulation}
+@media(max-width:420px){.reason-header{padding:12px}.reason-header h2{font-size:18px}.reason-body{padding:10px 15px 22px;font-size:15px}.reason-body h3{font-size:17px}}
+
+</style>
 
 
 <meta name="theme-color" content="#15100d">
@@ -476,16 +490,46 @@ function filterExplanation(button,category){
  root.querySelector('.explain-status').textContent=count?button.textContent+' · '+count+'개 표시':'이 분류에 별도 설명이 없습니다. 전체 설명을 눌러 확인하세요.';
 }
 
+let reasonLookup,reasonTrigger=null;
+function reasonLesson(raw){
+ if(!reasonLookup)reasonLookup=new Map(Object.entries(DEEP_EXPLANATIONS).map(([key,value])=>[writingKey(key),value]));
+ return reasonLookup.get(writingKey(raw));
+}
 function detailedExplanation(raw){
- const d=DEEP_EXPLANATIONS[writingKey(raw)];if(!d)return '<p>이 사용자 추가 문장의 상세 설명은 아직 없습니다.</p>';
- const heading=t=>`<h3 style="font-size:16px;margin-top:22px">${esc(t)}</h3>`;
- const table=rows=>`<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:14px">${rows.map(r=>`<tr>${r.map(v=>`<td style="border:1px solid #dbc7b5;padding:8px;vertical-align:top;overflow-wrap:anywhere">${esc(v)}</td>`).join('')}</tr>`).join('')}</table></div>`;
- return heading('① 문장 전체 분석')+`<div class="writing-note"><p lang="en">${linkedSentence(d.source)}</p><p><b>단어 순서</b><br>${d.words.map(w=>esc(w.word)).join(' / ')}</p><p><b>나눈 해석</b><br>${esc(d.literal)}</p><p><b>자연스러운 해석</b><br>${esc(d.natural)}</p>${d.structure.map(t=>`<p>${esc(t)}</p>`).join('')}</div>`+
- heading('② 모든 단어의 사용 이유')+d.words.map((w,i)=>`<div class="writing-note deep-word" data-token-index="${w.index}"><strong>${i+1}. ${esc(w.word)} ${esc(w.ipa||'')}</strong><p><b>이 문장의 뜻</b> · ${esc(w.meaning)}</p><p><b>품사·역할</b> · ${esc(w.role)}</p><p><b>왜 이 말을 썼나요?</b><br>${esc(w.why)}</p><p><b>다른 표현과의 차이</b><br>${esc(w.compare)}</p><p><b>주의할 점</b><br>${esc(w.caution)}</p></div>`).join('')+
- heading('③ 헷갈리는 표현 비교')+d.comparisons.map(c=>`<div class="writing-note"><strong>${esc(c.title)}</strong>${c.rows?table([['표현','가능·자연스러움','초점·상황','다른 예문','해석'],...c.rows]):`<p>${esc(c.text)}</p>`}</div>`).join('')+
- heading('④ 덩어리 표현·문법')+d.grammar.map(g=>`<div class="writing-note"><strong>${esc(g.label)}</strong><p>${esc(g.text)}</p></div>`).join('')+
- heading('⑤ 자주 하는 실수')+d.mistakes.map(m=>`<div class="writing-note"><strong>${esc(m.kind)}</strong><p>${m.kind==='문법 오류'?'❌':'△'} <span lang="en">${esc(m.wrong)}</span></p><p>✓ <span lang="en">${esc(m.right)}</span></p><p>${esc(m.why)}</p></div>`).join('')+
- heading('⑥ 실제 여행 대화')+d.conversations.map((conversation,i)=>`<div class="writing-note"><strong>여행 대화 ${i+1}</strong>${conversation.map((p,j)=>`<p><b>${String.fromCharCode(65+j)}:</b> ${esc(p.ko)}</p><div class="writing-fold"><button class="writing-toggle deep-practice-toggle" type="button" aria-expanded="false" onclick="event.stopPropagation();toggleWriting(this)"><span>영어</span><span class="writing-action">보기</span></button><div hidden><p lang="en">${linkedSentence(p.en)}</p><button class="speak-btn" data-speech="${esc(p.en)}" onclick="event.stopPropagation();speakText(this.dataset.speech,'sentence')">🔊 듣기</button></div></div>`).join('')}</div>`).join('');
+ const d=reasonLesson(raw);if(!d)return '<p>이 사용자 추가 문장의 설명은 아직 없습니다.</p>';
+ const tokens=d.words.map((w,i)=>`<button type="button" class="reason-token" data-sentence="${esc(d.source)}" data-word="${i}" aria-haspopup="dialog" onclick="event.stopPropagation();openWordReason(this.dataset.sentence,Number(this.dataset.word),this)">${esc(w.word)}</button>`).join('<span class="reason-slash" aria-hidden="true"> / </span>');
+ const end=d.source.match(/[.!?]+\s*$/)?.[0]||'';
+ return `<div class="writing-note reason-overview"><strong>문장 전체 분석</strong><p class="reason-natural">${esc(d.natural)}</p><p class="reason-tokens" lang="en">${tokens}${esc(end)}</p><p class="reason-literal">${esc(d.literal)}</p><p class="reason-instruction">단어를 누르면 사용 이유·비교 표현·주의점과 다른 여행 대화가 열립니다.</p></div>`;
+}
+function ensureReasonDialog(){
+ let dialog=document.getElementById('word-reason-dialog');if(dialog)return dialog;
+ dialog=document.createElement('dialog');dialog.id='word-reason-dialog';dialog.setAttribute('aria-labelledby','word-reason-title');
+ dialog.innerHTML='<header class="reason-header"><h2 id="word-reason-title"></h2><button type="button" class="reason-close" aria-label="단어 설명 닫기" onclick="closeWordReason()">×</button></header><div class="reason-body" id="word-reason-body"></div>';
+ dialog.addEventListener('click',e=>{e.stopPropagation();if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeWordReason();}});
+ // Existing English word links still open the original vocabulary screen.
+ dialog.addEventListener('click',e=>{if(e.target.closest('.sentence-word'))closeWordReason(false);},true);
+ dialog.addEventListener('close',()=>{document.querySelectorAll('.reason-token[aria-expanded=true]').forEach(b=>b.setAttribute('aria-expanded','false'));if(reasonTrigger?.isConnected)reasonTrigger.focus({preventScroll:true});});
+ document.body.appendChild(dialog);return dialog;
+}
+function closeWordReason(restore=true){const d=document.getElementById('word-reason-dialog');if(!restore)reasonTrigger=null;if(d?.open)d.close();}
+function reasonComparison(tables,fallback){
+ if(!tables.length)return `<p>${esc(fallback)}</p>`;
+ return tables.map(t=>`<section class="reason-comparison"><h4>${esc(t.title)}</h4>${t.rows.map(r=>`<div class="reason-compare-row"><strong lang="en">${esc(r[0])}</strong><span class="reason-validity">${esc(r[1])}</span><p>${esc(r.slice(2).join('\n'))}</p></div>`).join('')}</section>`).join('');
+}
+function reasonTravel(conversations){
+ return conversations.map((conversation,i)=>`<section class="reason-travel"><h4>여행 대화 ${i+1}</h4>${conversation.map((p,j)=>`<p class="reason-travel-ko"><b>${String.fromCharCode(65+j)}:</b> ${esc(p.ko)}</p><div class="writing-fold"><button type="button" class="writing-toggle reason-travel-toggle" aria-expanded="false" onclick="event.stopPropagation();toggleWriting(this)"><span>영어</span><span class="writing-action">보기</span></button><div class="reason-travel-en" hidden><p lang="en">${linkedSentence(p.en)}</p><button type="button" class="speak-btn" data-speech="${esc(p.en)}" onclick="event.stopPropagation();speakText(this.dataset.speech,'sentence')">🔊 듣기</button></div></div>`).join('')}</section>`).join('');
+}
+function openWordReason(raw,index,trigger){
+ const d=reasonLesson(raw),w=d?.words[index];if(!w)return;
+ const dialog=ensureReasonDialog();reasonTrigger=trigger||null;
+ if(trigger)trigger.setAttribute('aria-expanded','true');
+ document.getElementById('word-reason-title').textContent=w.word+' — '+w.meaning;
+ const tables=REASON_TABLES[w.tables]||[],rules=REASON_RULES[w.rules]||[],conversations=(w.travel||[]).map(i=>REASON_CONVERSATIONS[i]);
+ const errors=w.errors||[];
+ const grammar=rules.filter(g=>g[1]!==w.caution&&g[1]!==w.role);
+ document.getElementById('word-reason-body').innerHTML=`<p class="reason-ipa">${esc(w.ipa||'')}</p><div class="reason-context"><small>지금 보고 있는 문장</small><p lang="en">${esc(d.source)}</p><p>${esc(d.natural)}</p></div><p class="reason-role"><b>품사·역할</b><br>${esc(w.role)}</p><section><h3>이 문장에서 왜 썼나요?</h3><p>${esc(w.why)}</p></section><section><h3>헷갈리는 표현과 비교</h3>${reasonComparison(tables,w.compare)}</section>${grammar.length?`<section><h3>덩어리·문법으로 이해하기</h3>${grammar.map(g=>`<h4>${esc(g[0])}</h4><p>${esc(g[1])}</p>`).join('')}</section>`:''}<section><h3>주의할 점</h3><p>${esc(w.caution)}</p>${errors.map(m=>`<div class="reason-error"><small>${esc(m.kind)}</small><p>${m.kind==='문법 오류'?'❌':'△'} <span lang="en">${esc(m.wrong)}</span></p><p>✓ <span lang="en">${esc(m.right)}</span></p><p>${esc(m.why)}</p></div>`).join('')}</section><section><h3>실제 여행 대화 — 다른 상황</h3><p class="reason-instruction">원래 예문의 질문·답변을 반복하지 않는 관련 대화입니다. 영어는 각각 눌러서 확인하세요.</p>${reasonTravel(conversations)}</section><button type="button" class="reason-bottom-close" onclick="closeWordReason()">설명 닫기</button>`;
+ if(!dialog.open)dialog.showModal();
+ dialog.querySelector('.reason-body').scrollTop=0;
 }
 
 function writingNote([title,body,comparison]){return `<div class="writing-note" data-explain-category="${explanationCategory(title)}"><strong>${esc(title)}</strong><p>${esc(body)}</p>${comparison?`<p class="writing-compare"><b>바꿔 말할 때의 차이 · 주의점</b>${esc(comparison)}</p>`:''}</div>`;}
