@@ -1,4 +1,4 @@
-const CACHE = 'travel-english-word-popup-20261031';
+const CACHE = 'travel-english-v47-inline-20261031';
 const ASSETS = [
   './index.html',
   './explanations-v43-rebuilt.js',
