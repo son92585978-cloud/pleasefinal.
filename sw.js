@@ -1,4 +1,4 @@
-const CACHE = 'travel-english-v43-inline-position-20261031-r1';
+const CACHE = 'travel-english-v43-inline-depth-20261031-r2';
 const ASSETS = [
   './index.html',
   './inline-word-data.js',
