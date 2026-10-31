@@ -1,7 +1,7 @@
-const CACHE = 'travel-english-v47-inline-20261031';
+const CACHE = 'travel-english-v43-inline-position-20261031-r1';
 const ASSETS = [
   './index.html',
-  './explanations-v43-rebuilt.js',
+  './inline-word-data.js',
   './404.html',
   './audio-engine.js',
   './audio/index.json',
@@ -40,7 +40,7 @@ self.addEventListener('fetch', event => {
         const copy=res.clone();
         caches.open(CACHE).then(cache=>cache.put('./index.html',copy));
         return res;
-      }).catch(()=>caches.match('./index.html'))
+      }).catch(()=>caches.open(CACHE).then(cache=>cache.match('./index.html')))
     );
     return;
   }
@@ -49,6 +49,6 @@ self.addEventListener('fetch', event => {
       const copy=res.clone();
       caches.open(CACHE).then(cache=>cache.put(req,copy));
       return res;
-    }).catch(()=>caches.match(req))
+    }).catch(()=>caches.open(CACHE).then(cache=>cache.match(req)))
   );
 });
