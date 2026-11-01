@@ -1,7 +1,7 @@
-const CACHE = 'travel-english-v43-inline-depth-20261031-r2';
+const CACHE = 'travel-english-v43-memory-review-20261102-r4';
 const ASSETS = [
   './index.html',
-  './inline-word-data.js',
+  './inline-word-data.js','./word-order-data.js',
   './404.html',
   './audio-engine.js',
   './audio/index.json',
