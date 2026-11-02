@@ -309,7 +309,13 @@ textarea.input{min-height:85px;resize:vertical}
   <div class="main" id="main"></div>
 </div>
 <script src="./audio-engine.js"></script>
-<script src="./inline-word-data.js"></script>
+<script src="inline-word-data.js"></script>
+<script src="inline-word-data-2.js"></script>
+<script src="inline-word-data-3.js"></script>
+<script src="inline-word-data-4.js"></script>
+<script src="inline-word-data-5.js"></script>
+<script src="inline-word-data-6.js"></script>
+<script src="inline-word-data-7.js"></script>
 <script src="./word-order-data.js"></script>
 <script>
 const DIALOGUE_NOTES={};
@@ -520,8 +526,8 @@ function selectInlineWord(button){
  const index=Number(button.dataset.wordIndex),word=record.tokens[index];
  root.querySelectorAll('.inline-word').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
  root.querySelector('.inline-help').hidden=true;
- const section=(title,body)=>body?`<section><strong>${esc(title)}</strong><p>${esc(body)}</p></section>`:'';
- root.querySelector('.inline-word-result').innerHTML=`<div class="writing-note inline-selected" data-selected-index="${index}"><div class="inline-heading"><strong>${esc(word.word)} · ${esc(word.meaning)}</strong><button type="button" class="inline-close" data-selected-index="${index}" onclick="event.stopPropagation();closeInlineWord(this)">설명 닫기</button></div><p>${word.ipa?esc('/'+word.ipa+'/')+' · ':''}${esc(word.pron||'')}<br>${esc(word.role)}</p><p class="explain-status">한글 발음은 실제 영어 소리의 근사 표기입니다.</p>${section('이 문장 속 위치와 뜻',word.context)}${section('왜 이 표현인가요?',word.why)}${section('비슷한 표현과 바꿔 쓰면',word.compare)}${section('자주 하는 실수 → 바른 표현',word.error)}${word.examples.length?`<section><strong>여행에서 써보기</strong>${word.examples.map(inlineExample).join('')}</section>`:''}</div>`;
+ const section=(title,body)=>body?`<section><strong>${esc(title)}</strong><p style="white-space:pre-line">${esc(body)}</p></section>`:'';
+ root.querySelector('.inline-word-result').innerHTML=`<div class="writing-note inline-selected" data-selected-index="${index}"><div class="inline-heading"><strong>${esc(word.word)} · ${esc(word.meaning)}</strong><button type="button" class="inline-close" data-selected-index="${index}" onclick="event.stopPropagation();closeInlineWord(this)">설명 닫기</button></div><p>${word.ipa?esc('/'+word.ipa+'/')+' · ':''}${esc(word.pron||'')}<br>${esc(word.role)}</p><p class="explain-status">한글 발음은 실제 영어 소리의 근사 표기입니다.</p>${section('이 문장에서의 뜻',word.context)}${section('왜 이 표현을 썼나요?',word.why)}${section('왜 이 자리에 있나요?',word.position)}${section('함께 쓰는 구조',word.usage)}${section('바꿔 쓰면 무엇이 달라지나요?',word.compare)}${section('단어 형태',word.form)}${section('자주 하는 실수 → 바른 표현',word.error)}${word.examples.length?`<section><strong>여행에서 써보기</strong>${word.examples.map(inlineExample).join('')}</section>`:''}</div>`;
  // Replace the selected explanation in place; don't navigate or scroll the card.
 }
 function captureInlinePanels(){
