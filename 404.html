@@ -942,7 +942,7 @@ function renderGlossary(){renderCards();}
 function openLinkedWordReview(){openTemporary(()=>{mode='cards';wrongOnly=true;lookupOnly=false;index=0;revealed=true;mnemonicRevealed=true;englishRevealed=false;});}
 // V15: keep the study session separate from temporary search/review screens.
 const NAV_KEY='travelNavigationV15', STUDY_KEY='travelStudyBookmarkV15';
-let navParents=[], lookupOnly=false, navReady=false, navReturning=false;
+let navParents=[], lookupOnly=false, navReady=false, navReturning=false, pendingRouteScroll=null, restoringNavigation=false;
 function cardIdentity(c){return c?JSON.stringify([c.word,c.day??null,c.num??null]):null;}
 function captureRoute(){captureFolds();return {sentenceState:JSON.parse(JSON.stringify(sentenceState)),glossaryWord,glossarySurface,mode,wrongOnly,lookupOnly,index,query,shuffled,seed:storage.getItem('travelShuffleSeed')||'0.314159',key:cardIdentity(current()),revealed,mnemonicRevealed,englishRevealed,scroll:document.getElementById('main')?.scrollTop||0};}
 function restoreRoute(r){r=migrateWordRoute(r);
@@ -953,10 +953,10 @@ function restoreRoute(r){r=migrateWordRoute(r);
  if(mode==='glossary'){lookupOnly=true;wrongOnly=false;}const a=activeCards();if(cardIdentity(a[index])!==r?.key&&r?.key){const found=a.findIndex(c=>cardIdentity(c)===r.key);if(found>=0)index=found;}
  index=Math.max(0,Math.min(index,Math.max(0,a.length-1)));
  revealed=r?.revealed??!hideMeaning;mnemonicRevealed=r?.mnemonicRevealed??!hideMnemonic;englishRevealed=r?.englishRevealed??false;
- requestAnimationFrame(()=>{const main=document.getElementById('main');if(main)main.scrollTop=r?.scroll||0;});
+ pendingRouteScroll=Number(r?.scroll)||0;
 }
 function rememberRoute(){
- if(!navReady)return;
+ if(!navReady||restoringNavigation)return;
  const route=captureRoute();
  if(mode==='cards'){
   if(wrongOnly)storage.setItem('travelWrongBookmarkV15',JSON.stringify(route));
@@ -998,7 +998,7 @@ function renderReturnControl(){
  const old=document.getElementById('return-study');if(old)old.remove();
  const button=document.createElement('button');button.id='return-study';button.className='secondary return-study';button.type='button';
  const linkedReview=wrongOnly&&navParents.at(-1)?.mode==='glossary';
- button.textContent=linkedReview?'↩ 보던 단어로 돌아가기':mode==='glossary'?'↩ 보던 예문으로 돌아가기':mode==='sentences'?'↩ 이전 화면으로 돌아가기':'↩ 원래 학습으로 돌아가기';button.onclick=(linkedReview||['sentences','glossary'].includes(mode))?returnToPrevious:returnToStudy;main.prepend(button);
+ button.textContent=linkedReview?'↩ 보던 단어로 돌아가기':mode==='glossary'?'↩ 이전 화면으로 돌아가기':mode==='sentences'?'↩ 이전 화면으로 돌아가기':'↩ 원래 학습으로 돌아가기';button.onclick=(linkedReview||['sentences','glossary'].includes(mode))?returnToPrevious:returnToStudy;main.prepend(button);
 }
 function initializeNavigation(){
  const state=history.state?.[NAV_KEY];
@@ -1007,12 +1007,12 @@ function initializeNavigation(){
  navReady=true;rememberRoute();
  addEventListener('popstate',e=>{
   navReturning=false;stopSpeech();const state=e.state?.[NAV_KEY];
-  if(state?.route){navParents=Array.isArray(state.parents)?state.parents:[];restoreRoute(state.route);render();}
+  if(state?.route){restoringNavigation=true;navParents=Array.isArray(state.parents)?state.parents:[];restoreRoute(state.route);render();}
  });
  addEventListener('pagehide',rememberRoute);
 }
 
-function render(){document.getElementById('main').classList.toggle('detail-scroll',['sentences','glossary'].includes(mode));const eb=document.getElementById('edit-current-card-btn');if(eb)eb.style.display=['cards','glossary'].includes(mode)?'block':'none';updateButtons();if(mode==='search')renderSearch();else if(mode==='add')renderAdd();else if(mode==='sentences')renderSentences();else if(mode==='glossary')renderGlossary();else renderCards();restoreFolds();renderReturnControl();rememberRoute()}
+function render(){document.getElementById('main').classList.toggle('detail-scroll',['sentences','glossary'].includes(mode));const eb=document.getElementById('edit-current-card-btn');if(eb)eb.style.display=['cards','glossary'].includes(mode)?'block':'none';updateButtons();if(mode==='search')renderSearch();else if(mode==='add')renderAdd();else if(mode==='sentences')renderSentences();else if(mode==='glossary')renderGlossary();else renderCards();restoreFolds();renderReturnControl();if(pendingRouteScroll!==null){const savedScroll=pendingRouteScroll;pendingRouteScroll=null;requestAnimationFrame(()=>{const main=document.getElementById('main');if(main)main.scrollTop=savedScroll;restoringNavigation=false;rememberRoute();});}else if(!restoringNavigation)rememberRoute()}
 function updateButtons(){
   document.getElementById('searchBtn').classList.toggle('active',mode==='search');
   document.getElementById('shuffleBtn').classList.toggle('active',mode==='sentences'||shuffled);
