@@ -1,4 +1,4 @@
-const CACHE = 'travel-english-v48-1-navigation-fix-20261102b';
+const CACHE = 'travel-v48-1-navfix-20261102c';
 const ASSETS = [
   './index.html',
   './phrase-data.js','./phrase-data-2.js','./word-order-data.js',
