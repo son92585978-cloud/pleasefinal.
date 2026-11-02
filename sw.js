@@ -1,4 +1,4 @@
-const CACHE = 'travel-english-v48-phrases-20261102-r2';
+const CACHE = 'travel-english-v48-1-navigation-fix-20261102b';
 const ASSETS = [
   './index.html',
   './phrase-data.js','./phrase-data-2.js','./word-order-data.js',
@@ -18,7 +18,7 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys =>
-      Promise.all(keys.filter(key => key.startsWith('travel-work-331-') && key !== CACHE).map(key => caches.delete(key)))
+      Promise.all(keys.filter(key => key.startsWith('travel-') && key !== CACHE).map(key => caches.delete(key)))
     )
   );
   self.clients.claim();
