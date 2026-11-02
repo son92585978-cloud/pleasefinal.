@@ -1020,7 +1020,7 @@ function renderReturnControl(){
  const old=document.getElementById('return-study');if(old)old.remove();
  const button=document.createElement('button');button.id='return-study';button.className='secondary return-study';button.type='button';
  const linkedReview=wrongOnly&&navParents.at(-1)?.mode==='glossary';
- button.textContent=linkedReview?'↩ 보던 단어로 돌아가기':mode==='glossary'?'↩ 이전 화면으로 돌아가기':mode==='sentences'?'↩ 이전 화면으로 돌아가기':'↩ 원래 학습으로 돌아가기';button.onclick=(linkedReview||['sentences','glossary'].includes(mode))?returnToPrevious:returnToStudy;main.prepend(button);
+ button.textContent=linkedReview?'↩ 보던 단어로 돌아가기':mode==='glossary'?'↩ 이전 화면으로 돌아가기':mode==='sentences'?'↩ 이전 화면으로 돌아가기':'↩ 원래 학습으로 돌아가기';button.onclick=returnToPrevious;main.prepend(button);
 }
 function initializeNavigation(){
  const state=history.state?.[NAV_KEY];
@@ -1048,7 +1048,13 @@ function nextCard(){if(document.getElementById('mnemonic-editor')?.open)return;i
 function prevCard(){if(document.getElementById('mnemonic-editor')?.open)return;if(mode==='sentences'){sentencePage(-1);return;}if(mode==='glossary'){stepGlossary(-1);return;}stopSpeech();const a=activeCards();if(!a.length)return;index=(index-1+a.length)%a.length;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;englishRevealed=false;mode='cards';render()}
 function toggleWrong(){const c=current();if(!c)return;if(wrongSet.has(c.word))wrongSet.delete(c.word);else wrongSet.add(c.word);index=Math.max(0,Math.min(index,Math.max(0,activeCards().length-1)));saveState();render()}
 function jumpToWord(word){word=normalizeWord(word);
- stopSpeech();wrongOnly=false;lookupOnly=navParents.length>0;mode='cards';const a=activeCards();const i=a.findIndex(c=>c.word===word);index=i>=0?i:0;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;englishRevealed=false;render();
+ // Keep the exact search/lesson screen before opening a word card.
+ if(!allCards().some(c=>c.word===word))return;
+ openTemporary(()=>{
+  mode='cards';wrongOnly=false;lookupOnly=true;
+  const a=activeCards();const i=a.findIndex(c=>c.word===word);
+  index=i>=0?i:0;revealed=!hideMeaning;mnemonicRevealed=!hideMnemonic;englishRevealed=false;
+ });
 }
 document.getElementById('searchBtn').onclick=()=>togglePanel('search');
 document.getElementById('addBtn').onclick=()=>togglePanel('add');
