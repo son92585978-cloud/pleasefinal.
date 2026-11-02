@@ -1,4 +1,4 @@
-const CACHE = 'travel-english-v48-phrases-20261102-r1';
+const CACHE = 'travel-english-v48-phrases-20261102-r2';
 const ASSETS = [
   './index.html',
   './phrase-data.js','./phrase-data-2.js','./word-order-data.js',
