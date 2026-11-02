@@ -62,7 +62,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>여행영단어 · V43 기본형</title>
+<title>여행영단어 · V48 표현 묶음</title>
 <style>
 :root{
   --bg:#120b07;--panel:#21130c;--card:#fffaf6;--text:#2a221e;--muted:#8c7467;
@@ -275,6 +275,7 @@ textarea.input{min-height:85px;resize:vertical}
 .word-order-sequence{padding-top:12px}.word-order-sequence ol{padding-left:24px;margin-bottom:0}
 .word-order-sequence li{padding:5px 0;line-height:1.5}.word-order-sequence li span{display:block}.word-order-sequence li span+span{font-size:13px;color:#52647a}
 .word-order-compact{margin:12px 0 4px;background:#fff}
+.inline-phrase{white-space:normal;overflow-wrap:anywhere;max-width:100%;min-height:44px;text-align:left}.phrase-section{margin-top:16px;padding-top:12px;border-top:1px solid var(--line,#d7dce5)}.phrase-meaning{font-weight:700}.phrase-word-detail{margin:14px 0}.inline-example .inline-example{margin-left:0}.inline-example .writing-notes{padding:8px}.inline-heading{flex-wrap:wrap}
 </style>
 
 
@@ -290,7 +291,7 @@ textarea.input{min-height:85px;resize:vertical}
 <body>
 <div class="app">
   <div class="top">
-    <div class="brand">여행영단어 · V43 기본형 <button type="button" id="check-update-btn" class="version-update">업데이트 확인</button></div>
+    <div class="brand">여행영단어 · V48 표현 묶음 <button type="button" id="check-update-btn" class="version-update">업데이트 확인</button></div>
     <button class="iconbtn" id="sentenceBtn" title="예문 목록">💬</button><button class="iconbtn" id="searchBtn" title="검색">🔍</button>
     <button class="iconbtn" id="shuffleBtn" title="무작위">🔀</button>
     <button class="iconbtn" id="hideBtn" title="뜻 가리기">🙈뜻</button>
@@ -309,13 +310,14 @@ textarea.input{min-height:85px;resize:vertical}
   <div class="main" id="main"></div>
 </div>
 <script src="./audio-engine.js"></script>
-<script src="inline-word-data.js"></script>
-<script src="inline-word-data-2.js"></script>
-<script src="inline-word-data-3.js"></script>
-<script src="inline-word-data-4.js"></script>
-<script src="inline-word-data-5.js"></script>
-<script src="inline-word-data-6.js"></script>
-<script src="inline-word-data-7.js"></script>
+<script src="phrase-data.js"></script>
+<script src="phrase-data-2.js"></script>
+
+
+
+
+
+
 <script src="./word-order-data.js"></script>
 <script>
 const DIALOGUE_NOTES={};
@@ -468,7 +470,7 @@ function stopSpeech(){
 
 const QUESTION_GUIDE=[["which · 정해진 범위 중 어느 것","Which seat is yours? → The one by the window.","어느 좌석이 당신의 좌석인가요? → 창가 옆 좌석이요.","좌석들 중 하나를 고르므로 which예요. yours는 your seat, one은 seat를 반복하지 않으려고 쓴 말이에요."],["what · 무엇인지 정보를 물을 때","What is your occupation? → I’m a dental technician.","당신의 직업은 무엇인가요? → 저는 치과기공사예요.","직업 정보를 물어서 what, 단수 직업명 technician 앞에는 a를 써요. which는 선택 범위를 정해서 고르는 느낌이 더 강해요."],["where · 장소","Where is the restroom? → It’s next to the elevator.","화장실은 어디인가요? → 그것(화장실)은 엘리베이터 옆이에요.","위치를 물어서 where, it은 그 화장실, next to는 바로 옆이라는 위치를 알려줘요."],["when · 시점","When should I return it? → By ten tomorrow morning.","제가 그것을 언제 돌려드려야 하나요? → 내일 오전 10시까지요.","언제인지 물어서 when이에요. by ten은 늦어도 10시까지라는 마감, at ten은 바로 10시예요."],["what time · 몇 시","What time does boarding start? → At six twenty.","탑승은 몇 시에 시작하나요? → 6시 20분에요.","시각을 물어서 what time, 특정 시각 앞에는 at을 써요. when으로 물으면 날짜처럼 더 넓은 시점도 답할 수 있어요."],["who · 누구","Who booked the room? → My wife did.","누가 객실을 예약했나요? → 제 아내가 했어요.","예약한 사람이 누구인지 물어서 who예요. who 자체가 주어라 보통 Who did book…?이라고 하지 않아요. 답의 did는 booked the room을 대신해 반복을 줄여요."],["whose · 누구의 것","Whose bag is this? → It’s mine.","이 가방은 누구의 것인가요? → 그것(이 가방)은 제 것이에요.","주인을 물어서 whose예요. who는 사람 자체, whose는 누구의 것인지 물어요. mine은 my bag을 대신하고, my 뒤에는 bag 같은 명사가 필요해요."],["why · 이유·목적","Why do you need my passport? → To verify your identity.","당신은 왜 제 여권이 필요한가요? → 당신의 신원을 확인하려고요.","이유를 물어서 why, 확인하려는 목적을 답해서 to verify예요. Because we need to verify your identity.처럼 이유 문장으로도 답할 수 있어요."],["how · 방법","How do I get to the station? → Take bus number five.","제가 역에 어떻게 가나요? → 5번 버스를 타세요.","가는 방법을 물어서 how, get to는 목적지에 도착하는 데 초점이 있어요. take는 교통수단을 이용한다는 뜻이에요."],["how much / how many · 금액 / 개수","How much is it? → Ten dollars. / How many tickets? → Two.","그것은 얼마예요? → 10달러요. / 표는 몇 장인가요? → 두 장이요.","금액은 much, 셀 수 있는 표의 수는 many로 물어요. how many 뒤의 tickets는 복수형이에요."],["how long · 얼마나 오래","How long does the tour last? → About two hours.","그 투어는 얼마나 오래 진행되나요? → 약 두 시간이요.","지속 시간을 물어서 how long, about은 대략이에요. when은 그 일이 언제인지라는 시점이라 질문의 초점이 달라요."],["how far · 얼마나 멀리","How far is the station? → About ten minutes on foot.","역은 얼마나 먼가요? → 걸어서 약 10분이에요.","거리를 물어도 회화에서는 이동 시간으로 거리감을 답해요. on foot이 걸어서라는 기준을 알려줘요."],["how often · 얼마나 자주","How often does the shuttle run? → Every twenty minutes.","셔틀은 얼마나 자주 다니나요? → 20분마다요.","운행 빈도를 물어서 how often이에요. every twenty minutes는 20분마다, in twenty minutes는 지금부터 20분 후라 달라요."]]
 ;
-function questionGuide(){return `<details class="writing-notes question-guide" onclick="event.stopPropagation()"><summary>의문사·답변 빠른 비교 · which부터 how often까지</summary><p class="writing-help">아래는 비교용 추가 예문입니다. 현재 단어의 대화 설명은 각 문장과 대화 아래에서 확인하세요.</p>${QUESTION_GUIDE.map(([title,en,ko,why])=>`<div class="writing-note"><strong>${esc(title)}</strong><p class="question-guide-en">${esc(en)}</p><p>${esc(ko)}</p><p>${esc(why)}</p>${wordOrderExplanation(en,true)}</div>`).join('')}</details>`;}
+function questionGuide(){return `<details class="writing-notes question-guide" onclick="event.stopPropagation()"><summary>의문사·답변 빠른 비교 · which부터 how often까지</summary><p class="writing-help">아래는 비교용 추가 예문입니다. 현재 단어의 대화 설명은 각 문장과 대화 아래에서 확인하세요.</p>${QUESTION_GUIDE.map(([title,en,ko,why])=>`<div class="writing-note"><strong>${esc(title)}</strong><p class="question-guide-en">${esc(en)}</p><p>${esc(ko)}</p><p>${esc(why)}</p>${wordOrderExplanation(en,true)}${phraseRecord(en)?`<details class="writing-notes"><summary>💡 왜 이 표현을 사용했을까요?</summary>${inlineExplanationPanel(en)}</details>`:''}</div>`).join('')}</details>`;}
 
 let writingLookup;
 function writingKey(text){return String(text||'').replace(/^[AB]:\s*/,'').replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim();}
@@ -477,16 +479,16 @@ function toggleWriting(button){const panel=button.nextElementSibling,opened=butt
 function writingRow(raw,translation,notesOverride){
  const notes=notesOverride===undefined?(writingLesson(raw)?.notes||[]):notesOverride;
  if(!String(raw).trim())return '';
- const lesson=writingLesson(raw),speaker=String(raw).match(/^[AB]:\s*/)?.[0]?.trim()||'';
- const meaning=String(translation||lesson?.ko||'').replace(/^[AB]:\s*/,'').trim();
- const en=lesson?lesson.chunks.map(p=>p[0]).join(' / '):String(raw).replace(/^[AB]:\s*/,'');
- const ko=lesson?lesson.chunks.map(p=>p[1]).join(' / '):'';
+ const phrase=phraseRecord(raw),lesson=writingLesson(raw),speaker=String(raw).match(/^[AB]:\s*/)?.[0]?.trim()||'';
+ const meaning=String(translation||phrase?.translation||lesson?.ko||'').replace(/^[AB]:\s*/,'').trim();
+ const en=phrase?phrase.phrases.map((p,i)=>phrase.sentence.slice(p.offset,phrase.phrases[i+1]?.offset??phrase.sentence.length).trim()).join(' / '):lesson?lesson.chunks.map(p=>p[0]).join(' / '):String(raw).replace(/^[AB]:\s*/,'');
+ const ko=phrase?phrase.phrases.map(p=>p.meaning||p.text).join(' / '):lesson?lesson.chunks.map(p=>p[1]).join(' / '):'';
  return `<article class="writing-card" data-sentence="${esc(writingKey(raw))}" onclick="event.stopPropagation()">
  <div class="writing-meaning"><span class="writing-speaker">${esc(speaker)}</span>${esc(meaning||'기본 해석이 없는 문장입니다.')}</div>
  <div class="writing-fold"><button type="button" class="writing-toggle" aria-expanded="false" onclick="event.stopPropagation();toggleWriting(this)"><span>① 나눈 해석</span><span class="writing-action">보기</span></button><div class="writing-hint" hidden>${ko?esc(ko):'추가·수정한 문장의 나눈 해석은 아직 없습니다.'}</div></div>
  <div class="writing-fold"><button type="button" class="writing-toggle" aria-expanded="false" onclick="event.stopPropagation();toggleWriting(this)"><span>② 영어</span><span class="writing-action">보기</span></button><div class="writing-answer" hidden><p class="writing-english">${linkedSentence(en)}</p><button class="speak-btn" type="button" data-speech="${esc(raw)}" onclick="event.stopPropagation();speakText(this.dataset.speech,'sentence')">🔊 이 문장 듣기</button></div></div>
  ${wordOrderExplanation(raw)}
- ${lesson?`<details class="writing-notes inline-notes"><summary>💡 왜 이 표현을 사용했을까요?</summary>${inlineExplanationPanel(raw)}</details>`:''}</article>`;
+ ${phrase?`<details class="writing-notes inline-notes"><summary>💡 왜 이 표현을 사용했을까요?</summary>${inlineExplanationPanel(raw)}</details>`:''}</article>`;
 }
 
 /* Only the explanation panel uses this handler. linkedSentence stays unchanged. */
@@ -498,56 +500,67 @@ function wordOrderExplanation(raw,compact=false){
  return `<details class="word-order-panel${compact?' word-order-compact':''}" onclick="event.stopPropagation()"><summary>${compact?'왜 이런 어순인가요?':'③ 왜 이런 어순인가요?'}</summary>${sequence}${record.sections.map(section=>`<section class="word-order-section"><p lang="en" class="word-order-sentence">${esc(section.text)}</p>${!chunks.length?`<p class="word-order-flow" lang="en">${section.parts.map(esc).join(' → ')}</p>`:''}<ul>${section.why.map(note=>`<li>${esc(note)}</li>`).join('')}</ul></section>`).join('')}</details>`;
 }
 
+/* V48: the explanation panel selects meaning groups, not individual words. */
+function phraseRecord(raw){return window.V48_PHRASE_DATA?.[writingKey(raw)];}
 function inlineExplanationPanel(raw){
- const key=writingKey(raw),record=window.V43_INLINE_DATA?.[key];
- if(!record)return '<p class="explain-status">이 추가 문장은 아직 문맥 설명이 없습니다.</p>';
- const sentence=record.sentence;
+ const record=phraseRecord(raw),key=writingKey(raw);
+ if(!record)return '<p class="explain-status">이 문장은 직접 추가·수정한 문장입니다. 저장된 표현 설명이 아직 없습니다.</p>';
  let cursor=0;
- const words=record.tokens.map((token,i)=>{
-  const gap=sentence.slice(cursor,token.offset);cursor=token.offset+token.word.length;
-  return esc(gap)+`<button type="button" class="inline-word" data-word-index="${i}" aria-pressed="false" onclick="event.stopPropagation();selectInlineWord(this)">${esc(token.word)}</button>`;
- }).join('')+esc(sentence.slice(cursor));
- return `<div class="inline-explanation" data-inline-sentence="${esc(key)}" data-inline-id="${record.id}"><nav class="explain-nav inline-words" aria-label="궁금한 단어 선택">${words}</nav><p class="explain-status inline-help">궁금한 단어를 눌러보세요.</p><div class="inline-word-result" aria-live="polite"></div></div>`;
+ const groups=record.phrases.map((phrase,i)=>{
+  const gap=record.sentence.slice(cursor,phrase.offset);cursor=phrase.offset+phrase.text.length;
+  return esc(gap)+`<button type="button" class="inline-word inline-phrase" data-word-index="${i}" aria-pressed="false" onclick="event.stopPropagation();selectInlineWord(this)">${esc(phrase.text)}</button>`;
+ }).join('')+esc(record.sentence.slice(cursor));
+ return `<div class="inline-explanation" data-inline-sentence="${esc(key)}"><nav class="explain-nav inline-words" aria-label="표현 묶음 선택">${groups}</nav><p class="explain-status inline-help">궁금한 표현 묶음을 눌러보세요.</p><div class="inline-word-result" aria-live="polite"></div></div>`;
 }
 function closeInlineWord(button){
  const root=button.closest('.inline-explanation');
- root.querySelectorAll('.inline-word').forEach(b=>b.setAttribute('aria-pressed','false'));
- root.querySelector('.inline-word-result').replaceChildren();
- root.querySelector('.inline-help').hidden=false;
- const selected=root.querySelector(`[data-word-index="${button.dataset.selectedIndex}"]`);
- selected?.focus({preventScroll:true});
+ root.querySelectorAll(':scope > .inline-words > .inline-word').forEach(b=>b.setAttribute('aria-pressed','false'));
+ root.querySelector(':scope > .inline-word-result').replaceChildren();
+ root.querySelector(':scope > .inline-help').hidden=false;
+ root.querySelector(`:scope > .inline-words > [data-word-index="${button.dataset.selectedIndex}"]`)?.focus({preventScroll:true});
 }
 function inlineExample(example){
- const [ko,en,why]=example;
- return `<div class="writing-example inline-example"><p>${esc(ko)}</p><div class="writing-fold"><button type="button" class="writing-toggle" aria-expanded="false" onclick="event.stopPropagation();toggleWriting(this)"><span>영어</span><span class="writing-action">보기</span></button><div class="writing-answer" hidden><p lang="en">${esc(en)}</p><button class="speak-btn" type="button" data-speech="${esc(en)}" onclick="event.stopPropagation();speakText(this.dataset.speech,'sentence')">🔊 듣기</button>${wordOrderExplanation(en,true)}</div></div>${why?`<p class="explain-status">${esc(why)}</p>`:''}</div>`;
+ const [ko,en]=example,record=phraseRecord(en);
+ const decomposition=record?.phrases.map(p=>p.meaning||p.text).join(' / ');
+ return `<div class="writing-example inline-example"><p>${esc(ko)}</p>${decomposition?`<div class="writing-fold"><button type="button" class="writing-toggle" aria-expanded="false" onclick="event.stopPropagation();toggleWriting(this)"><span>① 나눈 해석</span><span class="writing-action">보기</span></button><div class="writing-hint" hidden>${esc(decomposition)}</div></div>`:''}<div class="writing-fold"><button type="button" class="writing-toggle" aria-expanded="false" onclick="event.stopPropagation();toggleWriting(this)"><span>② 영어</span><span class="writing-action">보기</span></button><div class="writing-answer" hidden><p lang="en">${linkedSentence(en)}</p><button class="speak-btn" type="button" data-speech="${esc(en)}" onclick="event.stopPropagation();speakText(this.dataset.speech,'sentence')">🔊 듣기</button></div></div>${wordOrderExplanation(en,true)}${record?`<details class="writing-notes phrase-example-notes"><summary>💡 왜 이 표현을 사용했을까요?</summary>${inlineExplanationPanel(en)}</details>`:''}</div>`;
 }
 function selectInlineWord(button){
- const root=button.closest('.inline-explanation'),record=window.V43_INLINE_DATA[root.dataset.inlineSentence];
- const index=Number(button.dataset.wordIndex),word=record.tokens[index];
- root.querySelectorAll('.inline-word').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
- root.querySelector('.inline-help').hidden=true;
- const section=(title,body)=>body?`<section><strong>${esc(title)}</strong><p style="white-space:pre-line">${esc(body)}</p></section>`:'';
- root.querySelector('.inline-word-result').innerHTML=`<div class="writing-note inline-selected" data-selected-index="${index}"><div class="inline-heading"><strong>${esc(word.word)} · ${esc(word.meaning)}</strong><button type="button" class="inline-close" data-selected-index="${index}" onclick="event.stopPropagation();closeInlineWord(this)">설명 닫기</button></div><p>${word.ipa?esc('/'+word.ipa+'/')+' · ':''}${esc(word.pron||'')}<br>${esc(word.role)}</p><p class="explain-status">한글 발음은 실제 영어 소리의 근사 표기입니다.</p>${section('이 문장에서의 뜻',word.context)}${section('왜 이 표현을 썼나요?',word.why)}${section('왜 이 자리에 있나요?',word.position)}${section('함께 쓰는 구조',word.usage)}${section('바꿔 쓰면 무엇이 달라지나요?',word.compare)}${section('단어 형태',word.form)}${section('자주 하는 실수 → 바른 표현',word.error)}${word.examples.length?`<section><strong>여행에서 써보기</strong>${word.examples.map(inlineExample).join('')}</section>`:''}</div>`;
- // Replace the selected explanation in place; don't navigate or scroll the card.
+ const root=button.closest('.inline-explanation'),record=phraseRecord(root.dataset.inlineSentence);
+ const index=Number(button.dataset.wordIndex),phrase=record?.phrases[index];if(!phrase)return;
+ root.querySelectorAll(':scope > .inline-words > .inline-word').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+ root.querySelector(':scope > .inline-help').hidden=true;
+ const sections=phrase.sections.map(([title,body])=>`<section class="phrase-section"><strong>${esc(title)}</strong><p style="white-space:pre-line">${esc(body)}</p></section>`).join('');
+ const words=phrase.words?.length?`<details class="phrase-word-detail"><summary>발음·단어장 보기</summary><p class="explain-status">한글 발음은 실제 소리의 근사 표기입니다.</p>${phrase.words.map(w=>`<p>${linkedSentence(w.word)}${w.ipa?' · '+esc('/'+w.ipa+'/'):''}${w.pron?' · '+esc(w.pron):''}${w.form?'<br>'+esc(w.form):''}</p>`).join('')}</details>`:'';
+ root.querySelector(':scope > .inline-word-result').innerHTML=`<div class="writing-note inline-selected" data-selected-index="${index}"><div class="inline-heading"><strong>${esc(phrase.text)}</strong><button type="button" class="inline-close" data-selected-index="${index}" onclick="event.stopPropagation();closeInlineWord(this)">설명 닫기</button></div>${phrase.meaning?`<p class="phrase-meaning">${esc(phrase.meaning)}</p>`:''}${sections}${words}${phrase.examples?.length?`<section class="phrase-section"><strong>같은 구조로 써보기</strong>${phrase.examples.map(inlineExample).join('')}</section>`:''}</div>`;
 }
 function captureInlinePanels(){
  sentenceState.inlinePanels={};
  document.querySelectorAll('#main .writing-card').forEach(row=>{
   const panel=row.querySelector('.inline-notes');if(!panel)return;
-  const selected=panel.querySelector('.inline-word[aria-pressed="true"]');
-  sentenceState.inlinePanels[foldIdentity(row)]={open:panel.open,selected:selected?Number(selected.dataset.wordIndex):null,order:row.querySelector(':scope > .word-order-panel')?.open||false,exampleOrder:[...panel.querySelectorAll('.inline-example .word-order-panel')].map(p=>p.open),examples:[...panel.querySelectorAll('.inline-example .writing-toggle')].map(b=>b.getAttribute('aria-expanded')==='true')};
+  const root=panel.querySelector('.inline-explanation');
+  const capture=r=>{
+   const selected=r?.querySelector(':scope > .inline-words > .inline-word[aria-pressed="true"]');
+   const result=r?.querySelector(':scope > .inline-word-result');
+   return {selected:selected?Number(selected.dataset.wordIndex):null,examples:[...(result?.querySelectorAll(':scope > .inline-selected > .phrase-section > .inline-example')||[])].map(ex=>({toggles:[...ex.querySelectorAll(':scope > .writing-fold > .writing-toggle')].map(b=>b.getAttribute('aria-expanded')==='true'),open:!!ex.querySelector(':scope > .phrase-example-notes')?.open,order:!!ex.querySelector(':scope > .word-order-panel')?.open,state:capture(ex.querySelector(':scope > .phrase-example-notes > .inline-explanation'))}))};
+  };
+  sentenceState.inlinePanels[foldIdentity(row)]={open:panel.open,order:row.querySelector(':scope > .word-order-panel')?.open||false,state:capture(root)};
  });
 }
 function restoreInlinePanels(){
  document.querySelectorAll('#main .writing-card').forEach(row=>{
-  const state=sentenceState.inlinePanels?.[foldIdentity(row)],panel=row.querySelector('.inline-notes');
-  if(!state||!panel)return;panel.open=state.open;const order=row.querySelector(':scope > .word-order-panel');if(order)order.open=!!state.order;
-  if(state.selected!==null){
-   const button=panel.querySelector(`[data-word-index="${state.selected}"]`);
-   if(button)selectInlineWord(button);
-   panel.querySelectorAll('.inline-example .writing-toggle').forEach((b,i)=>{if(state.examples[i])toggleWriting(b)});
-   panel.querySelectorAll('.inline-example .word-order-panel').forEach((p,i)=>{p.open=!!state.exampleOrder?.[i]});
-  }
+  const state=sentenceState.inlinePanels?.[foldIdentity(row)],panel=row.querySelector('.inline-notes');if(!state||!panel)return;
+  panel.open=state.open;const order=row.querySelector(':scope > .word-order-panel');if(order)order.open=!!state.order;
+  const restore=(root,s)=>{
+   if(!root||!s||s.selected===null)return;
+   const button=root.querySelector(`:scope > .inline-words > [data-word-index="${s.selected}"]`);if(!button)return;selectInlineWord(button);
+   root.querySelectorAll(':scope > .inline-word-result > .inline-selected > .phrase-section > .inline-example').forEach((ex,i)=>{
+    const saved=s.examples?.[i];if(!saved)return;
+    ex.querySelectorAll(':scope > .writing-fold > .writing-toggle').forEach((b,j)=>{if(saved.toggles[j])toggleWriting(b)});
+    const notes=ex.querySelector(':scope > .phrase-example-notes');if(notes){notes.open=saved.open;restore(notes.querySelector('.inline-explanation'),saved.state)}
+    const order=ex.querySelector(':scope > .word-order-panel');if(order)order.open=saved.order;
+   });
+  };
+  restore(panel.querySelector('.inline-explanation'),state.state);
  });
 }
 

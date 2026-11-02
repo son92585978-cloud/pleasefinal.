@@ -1,7 +1,7 @@
-const CACHE = 'travel-english-v43-upload-split-20261102-r6';
+const CACHE = 'travel-english-v48-phrases-20261102-r1';
 const ASSETS = [
   './index.html',
-  './inline-word-data.js','./inline-word-data-2.js','./inline-word-data-3.js','./inline-word-data-4.js','./inline-word-data-5.js','./inline-word-data-6.js','./inline-word-data-7.js','./word-order-data.js',
+  './phrase-data.js','./phrase-data-2.js','./word-order-data.js',
   './404.html',
   './audio-engine.js',
   './audio/index.json',
