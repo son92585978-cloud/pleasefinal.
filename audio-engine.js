@@ -1,90 +1,22 @@
-/* V9: bundled neural MP3 clips, with local neural generation for added text. */
+/* Device speech fallback; original Michael/Heart recordings and engine were absent. */
 window.TravelAudio=(()=>{
-  let player=null, activeURL=null, finish=null, generation=0;
-  let indexPromise=null, worker=null, request=0;
-  const packs=new Map(), generated=new Map(), pending=new Map();
-  let stateListener=()=>{};
-  function status(text){stateListener(text);}
-  function stop(){
-    generation++;
-    if(player){player.pause();player.onended=null;player.onerror=null;}
-    if(finish){finish(false);finish=null;}
-    if(activeURL){URL.revokeObjectURL(activeURL);activeURL=null;}
-    for(const p of pending.values()){clearTimeout(p.timeout);p.resolve(null);}
-    pending.clear();
-    if(worker)worker.postMessage({type:'cancel',id:++request});
-  }
-  function unlock(){
-    if(!player){player=new Audio();player.preload='auto';player.preservesPitch=true;}
-    // Start this persistent element during the tap so later async MP3 loads can play on mobile.
-    if(!player.src){
-      player.src='data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQIAAACAgA==';
-      const p=player.play();if(p)p.catch(()=>{});
-    }
-  }
-  function ensureWorker(){
-    if(worker)return worker;
-    worker=new Worker('./neural/worker.js',{type:'module'});
-    worker.onmessage=({data})=>{
-      const p=pending.get(data.id);if(!p)return;
-      if(data.type==='progress'){status('추가 단어용 음성 모델 준비 중 · '+data.progress+'%');return;}
-      clearTimeout(p.timeout);pending.delete(data.id);
-      if(data.type==='error'){console.error('AI voice:',data.message);p.reject(new Error('추가 단어의 AI 음성을 만들지 못했습니다. 인터넷 연결을 확인하고 다시 눌러주세요.'));}
-      else if(data.type==='audio'){generated.set(p.key,data.blob);if(generated.size>40)generated.delete(generated.keys().next().value);p.resolve(data.blob);}
-    };
-    worker.onerror=()=>{
-      for(const p of pending.values()){clearTimeout(p.timeout);p.reject(new Error('AI 음성 실행에 실패했습니다. 최신 Chrome에서 다시 열어주세요.'));}
-      pending.clear();worker.terminate();worker=null;
-    };
-    return worker;
-  }
-  async function customClip(text,gender){
-    const key=gender+'|'+text;
-    if(generated.has(key))return generated.get(key);
-    status('추가 단어 AI 음성 준비 중… 처음에는 모델 다운로드로 시간이 걸립니다.');
-    const w=ensureWorker(), id=++request;
-    return new Promise((resolve,reject)=>{
-      const timeout=setTimeout(()=>{
-        if(!pending.has(id))return;
-        pending.delete(id);w.terminate();worker=null;
-        reject(new Error('음성 준비 시간이 초과됐습니다. Wi-Fi에서 다시 눌러주세요.'));
-      },300000);
-      pending.set(id,{resolve,reject,key,timeout});
-      w.postMessage({type:'generate',id,text,gender});
-    });
-  }
-  async function clip(text,gender,token){
-    if(!indexPromise)indexPromise=fetch('./audio/index.json').then(r=>{if(!r.ok)throw Error('음성 목록 파일을 불러오지 못했습니다. 사이트 파일을 모두 올렸는지 확인해주세요.');return r.json();}).catch(e=>{indexPromise=null;throw e});
-    const manifest=await indexPromise;
-    if(token!==generation)return null;
-    const entry=manifest.clips[text]?.[gender];
-    if(!entry)return customClip(text,gender);
-    const [name,offset,length]=entry;
-    if(!packs.has(name)){
-      const promise=fetch('./audio/'+name).then(r=>{if(!r.ok)throw Error('음성 파일을 불러오지 못했습니다. 인터넷 연결과 audio 폴더를 확인해주세요.');return r.arrayBuffer();}).catch(e=>{packs.delete(name);throw e});
-      packs.set(name,promise);
-      if(packs.size>3)packs.delete(packs.keys().next().value);
-    }
-    const bytes=await packs.get(name);
-    return new Blob([bytes.slice(offset,offset+length)],{type:'audio/mpeg'});
-  }
-  async function play(text,gender,rate){
-    const token=generation;
-    status('음성 준비 중…');
-    try{
-      const blob=await clip(text,gender,token);
-      if(!blob||token!==generation)return false;
-      if(activeURL)URL.revokeObjectURL(activeURL);
-      activeURL=URL.createObjectURL(blob);player.src=activeURL;
-      player.playbackRate=rate;player.preservesPitch=true;player.mozPreservesPitch=true;player.webkitPreservesPitch=true;
-      status((gender==='male'?'남성 Michael':'여성 Heart')+' · 재생 중');
-      return await new Promise((resolve,reject)=>{
-        finish=resolve;
-        player.onended=()=>{if(token!==generation)return;finish=null;status('재생 완료');resolve(true);};
-        player.onerror=()=>{if(token!==generation)return;finish=null;reject(new Error('음성을 재생하지 못했습니다. 다시 눌러주세요.'));};
-        player.play().catch(e=>{if(token!==generation)return;finish=null;reject(new Error(e.name==='NotAllowedError'?'음성이 준비됐습니다. 재생 버튼을 한 번 더 눌러주세요.':'재생에 실패했습니다. 다시 눌러주세요.'));});
-      });
-    }catch(e){if(token===generation)status(e.message);return false;}
-  }
-  return {stop,unlock,play,onStatus(fn){stateListener=fn;}};
+ let listener=()=>{},pending=null,generation=0;
+ const emit=t=>listener(t);
+ function stop(){generation++;const resolve=pending;pending=null;if(resolve)resolve(false);if('speechSynthesis' in window)window.speechSynthesis.cancel();}
+ function voices(){return 'speechSynthesis' in window?window.speechSynthesis.getVoices().filter(v=>/^en(?:[-_]|$)/i.test(v.lang)):[];}
+ function select(g){const v=voices();const pattern=g==='male'?/david|mark|daniel|george|james|michael|guy|(?:^|\W)male\b/i:/zira|samantha|karen|victoria|susan|jenny|aria|female/i;return v.find(x=>pattern.test(x.name))||v.find(x=>/^en-US$/i.test(x.lang))||v[0];}
+ return {onStatus(fn){listener=typeof fn==='function'?fn:()=>{};},unlock(){},stop,async play(text,gender,rate){
+  stop();const request=generation;
+  if(!('speechSynthesis' in window)){emit('이 브라우저는 음성을 지원하지 않습니다.');return false;}
+  if(!text)return false;
+  if(!voices().length)await new Promise(resolve=>{let done=false;const finish=()=>{if(done)return;done=true;clearTimeout(timer);speechSynthesis.removeEventListener('voiceschanged',finish);resolve();};const timer=setTimeout(finish,1000);speechSynthesis.addEventListener('voiceschanged',finish);});
+  if(request!==generation)return false;
+  const voice=select(gender);
+  if(!voice){emit('설치된 영어 음성이 없습니다. 기기 설정에서 영어 읽기 음성을 설치해 주세요.');return false;}
+  return new Promise(resolve=>{const utterance=new SpeechSynthesisUtterance(text);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=Math.max(.5,Math.min(1.5,Number(rate)||1));pending=resolve;
+   utterance.onend=()=>{if(request!==generation)return;pending=null;emit('재생 완료 · '+voice.name);resolve(true);};
+   utterance.onerror=e=>{if(request!==generation)return;pending=null;emit('음성 재생 실패 · '+e.error);resolve(false);};
+   emit('기기 음성 · '+voice.name+' · '+utterance.rate.toFixed(2)+'배');speechSynthesis.speak(utterance);
+  });
+ },availableVoices:voices};
 })();

@@ -1,54 +1,8 @@
-const CACHE = 'travel-v48-1-navfix-20261102c';
-const ASSETS = [
-  './index.html',
-  './phrase-data.js','./phrase-data-2.js','./word-order-data.js',
-  './404.html',
-  './audio-engine.js',
-  './audio/index.json',
-  './manifest.webmanifest',
-  './icon-192.png',
-  './icon-512.png'
-];
-
-self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
-  self.skipWaiting();
-});
-
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(key => key.startsWith('travel-') && key !== CACHE).map(key => caches.delete(key)))
-    )
-  );
-  self.clients.claim();
-});
-
-self.addEventListener('fetch', event => {
-  const req=event.request;
-  if(req.method!=='GET'||new URL(req.url).origin!==self.location.origin)return;
-  if(new URL(req.url).pathname.includes('/audio/')||new URL(req.url).pathname.includes('/neural/')){
-    event.respondWith(caches.open(CACHE).then(async cache=>{
-      const cached=await cache.match(req);if(cached)return cached;
-      const res=await fetch(req);if(res.ok)await cache.put(req,res.clone());return res;
-    }));
-    return;
-  }
-  if(req.mode==='navigate'){
-    event.respondWith(
-      fetch(req,{cache:'no-store'}).then(res=>{
-        const copy=res.clone();
-        caches.open(CACHE).then(cache=>cache.put('./index.html',copy));
-        return res;
-      }).catch(()=>caches.open(CACHE).then(cache=>cache.match('./index.html')))
-    );
-    return;
-  }
-  event.respondWith(
-    fetch(req).then(res=>{
-      const copy=res.clone();
-      caches.open(CACHE).then(cache=>cache.put(req,copy));
-      return res;
-    }).catch(()=>caches.open(CACHE).then(cache=>cache.match(req)))
-  );
+const CACHE='travelEnglish-v49-review-20261104-1';
+const FILES=['./','./index.html','./404.html','./audio-engine.js','./phrase-data.js','./phrase-data-2.js','./word-order-data.js','./grammar-guide.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)));self.skipWaiting();});
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('travelEnglish-v49-review-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting();});
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET'||new URL(e.request.url).origin!==self.location.origin)return;
+ e.respondWith(fetch(e.request).then(res=>{if(res.ok){const copy=res.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));}return res;}).catch(async()=>await caches.match(e.request)||(e.request.mode==='navigate'?await caches.match('./index.html'):Response.error())));
 });

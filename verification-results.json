@@ -1,0 +1,90 @@
+{
+  "environment": "Node VM + minimal DOM/history stubs; not a browser",
+  "results": [
+    {
+      "name": "JavaScript syntax: every inline and external script",
+      "status": "PASS",
+      "evidence": "10 script tags and sw.js compiled by Node VM"
+    },
+    {
+      "name": "1,289 canonical records and click-group coverage",
+      "status": "PASS",
+      "evidence": "All records align; no lost English words or overlapping offsets"
+    },
+    {
+      "name": "Every sentence renders both initially closed curtains",
+      "status": "PASS",
+      "evidence": "1289 HTML fragments generated"
+    },
+    {
+      "name": "Clickable phrase offsets preserve all 1,289 English texts",
+      "status": "PASS",
+      "evidence": "5693 phrase groups checked"
+    },
+    {
+      "name": "All card-pair copies match canonical reviewed Korean",
+      "status": "PASS",
+      "evidence": "4404 duplicate sentence instances checked"
+    },
+    {
+      "name": "Existing study data, local edits and custom cards load",
+      "status": "PASS",
+      "evidence": "Seeded legacy storage loaded without reset"
+    },
+    {
+      "name": "Known translation/semantic regressions",
+      "status": "PASS",
+      "evidence": "Known incomplete and reversed-intent translations corrected"
+    },
+    {
+      "name": "Manifest and local dependency paths",
+      "status": "PASS",
+      "evidence": "Relative paths exist, including PWA icons"
+    },
+    {
+      "name": "Navigation simulation: detail opened from examples",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "name": "Navigation simulation: internal back returns one entry",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "name": "Navigation simulation: browser back after internal back",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "name": "Navigation simulation: system-style back to search",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "name": "Navigation simulation: detail immediate-parent return",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "name": "Navigation simulation: return to study consumes parents",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "name": "Wrong-list storage persists through simulated navigation",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "name": "Actual browser UI and native Android back",
+      "status": "UNVERIFIED",
+      "evidence": "Local Chromium launch denied: AF_UNIX socket operation not permitted. Separate cloud browser cannot connect to workspace localhost (ERR_CONNECTION_REFUSED). Simulations above are not browser UI verification."
+    },
+    {
+      "name": "Actual audio playback and male/female voice quality",
+      "status": "UNVERIFIED",
+      "evidence": "Original audio assets absent. Device English speech fallback implemented; no installed voices or audible playback verified."
+    }
+  ]
+}

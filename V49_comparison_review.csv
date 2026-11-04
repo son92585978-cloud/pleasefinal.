@@ -1,0 +1,667 @@
+﻿pair_id,dialogue,type,before,after,status,reason
+1,"A: Hi, I would like to check in.
+B: Of course. May I see your passport?",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+7,"A: Is baggage storage free for hotel guests?
+B: Yes, until the end of your checkout day.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+8,"A: When does boarding start?
+B: In twenty minutes, at gate twelve.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+11,"A: These cups are fragile. Could you wrap them carefully?
+B: Of course. I will wrap each one separately.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+22,"A: What time does the walking tour leave?
+B: It starts from the main square at ten.",비교,"{""left"": ""What time does the walking tour leave?"", ""leftKo"": ""투어가 출발하는 시각을 물어요."", ""right"": ""How long does the tour last?"", ""rightKo"": ""투어는 얼마나 오래 진행되나요?"", ""why"": ""언제 시작하는지와 얼마나 오래 하는지는 다른 정보입니다.""}","{""left"": ""What time does the walking tour leave?"", ""leftKo"": ""도보 투어는 몇 시에 출발하나요?"", ""right"": ""How long does the tour last?"", ""rightKo"": ""투어는 얼마나 오래 진행되나요?"", ""why"": ""언제 시작하는지와 얼마나 오래 하는지는 다른 정보입니다.""}",고유 비교문 35종 내용 1차 대조,문장 해석 칸의 설명체를 직접 번역으로 교정
+22,"A: What time does the walking tour leave?
+B: It starts from the main square at ten.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+22,"A: What time does the walking tour leave?
+B: It starts from the main square at ten.",주의,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+23,"A: What time is your flight?
+B: At ten, so I need to leave soon.",비교,"{""left"": ""What time is your flight?"", ""leftKo"": ""항공편의 출발 시각을 물어요."", ""right"": ""How long is the flight?"", ""rightKo"": ""비행시간은 얼마나 되나요?"", ""why"": ""출발 시각과 비행에 걸리는 시간은 다릅니다. 10시는 시각, 두 시간은 기간이에요.""}","{""left"": ""What time is your flight?"", ""leftKo"": ""당신의 항공편은 몇 시인가요?"", ""right"": ""How long is the flight?"", ""rightKo"": ""비행시간은 얼마나 되나요?"", ""why"": ""출발 시각과 비행에 걸리는 시간은 다릅니다. 10시는 시각, 두 시간은 기간이에요.""}",고유 비교문 35종 내용 1차 대조,문장 해석 칸의 설명체를 직접 번역으로 교정
+35,"A: I will unpack after we come back from dinner.
+B: Okay, let us leave the bags by the bed for now.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+36,"A: Could I have an extra towel?
+B: Certainly. I will bring one to your room.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+38,"A: How can I contact the hotel after midnight?
+B: Call this number. The front desk is open all night.",주의,"contact to the hotel → contact the hotel
+contact는 보통 상대를 바로 목적어로 붙여요. 전화 연결 성공을 묻고 싶으면 Did you reach the hotel by phone?이 더 분명합니다.","contact to the hotel → contact the hotel
+contact는 보통 상대를 바로 목적어로 붙여요. 전화 연결 성공을 묻고 싶으면 Did you reach the hotel by phone?이 더 분명합니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+39,"A: Please contact me if the tour time changes.
+B: Sure. What number should we use?",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+39,"A: Please contact me if the tour time changes.
+B: Sure. What number should we use?",주의,"contact to the hotel → contact the hotel
+contact는 보통 상대를 바로 목적어로 붙여요. 전화 연결 성공을 묻고 싶으면 Did you reach the hotel by phone?이 더 분명합니다.","contact to the hotel → contact the hotel
+contact는 보통 상대를 바로 목적어로 붙여요. 전화 연결 성공을 묻고 싶으면 Did you reach the hotel by phone?이 더 분명합니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+40,"A: Do I need to put on a life jacket?
+B: Yes, please wear one before getting on the boat.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+43,"A: What should I do if I lose my passport abroad?
+B: Contact your embassy as soon as possible.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+43,"A: What should I do if I lose my passport abroad?
+B: Contact your embassy as soon as possible.",주의,"contact to the hotel → contact the hotel
+contact는 보통 상대를 바로 목적어로 붙여요. 전화 연결 성공을 묻고 싶으면 Did you reach the hotel by phone?이 더 분명합니다.","contact to the hotel → contact the hotel
+contact는 보통 상대를 바로 목적어로 붙여요. 전화 연결 성공을 묻고 싶으면 Did you reach the hotel by phone?이 더 분명합니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+44,"A: Let me check the map before we leave.
+B: Good idea. I do not want to get lost again.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+50,"A: Would you mind switching seats with me?
+B: Sure. Which seat is yours?",비교,"{""left"": ""Could you turn on the light?"", ""leftKo"": ""불을 켜 주시겠어요?"", ""right"": ""Would you mind turning on the light?"", ""rightKo"": ""괜찮으시면 불을 켜 주시겠어요?"", ""why"": ""둘 다 정중한 부탁입니다. could 뒤에는 원형, mind 뒤에는 -ing를 씁니다.""}","{""left"": ""Could you turn on the light?"", ""leftKo"": ""불을 켜 주시겠어요?"", ""right"": ""Would you mind turning on the light?"", ""rightKo"": ""괜찮으시면 불을 켜 주시겠어요?"", ""why"": ""둘 다 정중한 부탁입니다. could 뒤에는 원형, mind 뒤에는 -ing를 씁니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+50,"A: Would you mind switching seats with me?
+B: Sure. Which seat is yours?",주의,"Would you mind turn on …? → Would you mind turning on …?
+mind 뒤 행동은 -ing로 씁니다. Could you turn on …?의 could 뒤에는 원형을 써요.","Would you mind turn on …? → Would you mind turning on …?
+mind 뒤 행동은 -ing로 씁니다. Could you turn on …?의 could 뒤에는 원형을 써요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+50,"A: Would you mind switching seats with me?
+B: Sure. Which seat is yours?",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+52,"A: Could I have an aisle seat?
+B: Yes, there is one in row twenty.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+61,"A: You look like you need a hand with those bags.
+B: Thanks. Could you hold this one for a second?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+62,"A: Could you give me a hand with my bag?
+B: Of course. Where would you like it?",주의,"질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.","질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+62,"A: Could you give me a hand with my bag?
+B: Of course. Where would you like it?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+63,"A: Could you give me a hand finding this address?
+B: Sure, let me check the map.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+64,"A: Can you store my bags until this evening?
+B: Yes. Please collect them before ten.",비교,"{""left"": ""Where can I collect my baggage?"", ""leftKo"": ""제 수하물은 어디서 찾나요?"", ""right"": ""Where can I pick up my baggage?"", ""rightKo"": ""제 수하물은 어디서 찾나요?"", ""why"": ""이 상황에서는 둘 다 자연스럽습니다. collect는 수령하다, pick up은 찾아 가져가다이며 하나만 정답이라고 외울 필요는 없어요.""}","{""left"": ""Where can I collect my baggage?"", ""leftKo"": ""제 수하물은 어디서 찾나요?"", ""right"": ""Where can I pick up my baggage?"", ""rightKo"": ""제 수하물은 어디서 찾나요?"", ""why"": ""이 상황에서는 둘 다 자연스럽습니다. collect는 수령하다, pick up은 찾아 가져가다이며 하나만 정답이라고 외울 필요는 없어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+67,"A: What is the weight limit for this bag?
+B: Twenty-three kilos.",비교,"{""left"": ""What is the weight limit?"", ""leftKo"": ""허용 무게는 얼마인가요?"", ""right"": ""How heavy is this bag?"", ""rightKo"": ""이 가방은 얼마나 무거운가요?"", ""why"": ""허용되는 최대치와 실제 가방의 무게를 구분합니다.""}","{""left"": ""What is the weight limit?"", ""leftKo"": ""허용 무게는 얼마인가요?"", ""right"": ""How heavy is this bag?"", ""rightKo"": ""이 가방은 얼마나 무거운가요?"", ""why"": ""허용되는 최대치와 실제 가방의 무게를 구분합니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+68,"A: Is there a time limit for the luggage lockers?
+B: Yes, you can use them for up to twenty-four hours.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+71,"A: Do you have change for a twenty-dollar bill?
+B: Yes. Would two tens be okay?",주의,"a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.","a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+72,"A: Could I change my seat?
+B: Let me see what is available.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+77,"A: How early should I arrive for an international flight?
+B: About three hours before departure.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+78,"A: Where can I collect my baggage?
+B: At carousel five, downstairs.",비교,"{""left"": ""Where can I collect my baggage?"", ""leftKo"": ""제 수하물은 어디서 찾나요?"", ""right"": ""Where can I pick up my baggage?"", ""rightKo"": ""제 수하물은 어디서 찾나요?"", ""why"": ""이 상황에서는 둘 다 자연스럽습니다. collect는 수령하다, pick up은 찾아 가져가다이며 하나만 정답이라고 외울 필요는 없어요.""}","{""left"": ""Where can I collect my baggage?"", ""leftKo"": ""제 수하물은 어디서 찾나요?"", ""right"": ""Where can I pick up my baggage?"", ""rightKo"": ""제 수하물은 어디서 찾나요?"", ""why"": ""이 상황에서는 둘 다 자연스럽습니다. collect는 수령하다, pick up은 찾아 가져가다이며 하나만 정답이라고 외울 필요는 없어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+78,"A: Where can I collect my baggage?
+B: At carousel five, downstairs.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+79,"A: My baggage did not arrive on the carousel.
+B: Please report it at the service counter.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+82,"A: What time will we arrive in Osaka?
+B: At about six this evening.",주의,will 뒤 동사는 원형이에요. What time will the shuttle picks us up? → What time will the shuttle pick us up?,will 뒤 동사는 원형이에요. What time will the shuttle picks us up? → What time will the shuttle pick us up?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+87,"A: When does the next train depart?
+B: At seven ten, from platform three.",비교,"{""left"": ""What time does the shuttle leave?"", ""leftKo"": ""셔틀은 몇 시에 출발하나요?"", ""right"": ""What time will the shuttle leave?"", ""rightKo"": ""셔틀이 몇 시에 출발할 예정인가요?"", ""why"": ""does는 정해진 시간표·운행 일정에, will은 앞으로 있을 이번 출발에 흔합니다. 문맥에 따라 둘 다 가능합니다.""}","{""left"": ""What time does the shuttle leave?"", ""leftKo"": ""셔틀은 몇 시에 출발하나요?"", ""right"": ""What time will the shuttle leave?"", ""rightKo"": ""셔틀이 몇 시에 출발할 예정인가요?"", ""why"": ""does는 정해진 시간표·운행 일정에, will은 앞으로 있을 이번 출발에 흔합니다. 문맥에 따라 둘 다 가능합니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+87,"A: When does the next train depart?
+B: At seven ten, from platform three.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+88,"A: Does this ferry depart from pier four?
+B: Yes, boarding begins ten minutes before departure.",주의,"leave for the airport는 공항으로 출발하다, leave the airport는 공항을 떠나다예요. 목적지와 출발지를 뒤바꾸지 않도록 주의하세요.","leave for the airport는 공항으로 출발하다, leave the airport는 공항을 떠나다예요. 목적지와 출발지를 뒤바꾸지 않도록 주의하세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+99,"A: Do you mind if I sit here?
+B: Not at all. Go ahead.",비교,"{""left"": ""Can I open the window?"", ""leftKo"": ""제가 창문을 열어도 되나요?"", ""right"": ""Do you mind if I open the window?"", ""rightKo"": ""제가 창문을 열면 불편하신가요?"", ""why"": ""첫 질문의 Yes는 허락입니다. 두 번째 질문은 불편한지를 물어 No, not at all.이 허락이 됩니다.""}","{""left"": ""Can I open the window?"", ""leftKo"": ""제가 창문을 열어도 되나요?"", ""right"": ""Do you mind if I open the window?"", ""rightKo"": ""제가 창문을 열면 불편하신가요?"", ""why"": ""첫 질문의 Yes는 허락입니다. 두 번째 질문은 불편한지를 물어 No, not at all.이 허락이 됩니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+99,"A: Do you mind if I sit here?
+B: Not at all. Go ahead.",주의,"허락하려면 No, not at all. Go ahead.가 명확해요. mind는 싫거나 불편한지를 물어서 Yes만 말하면 반대 뜻으로 들릴 수 있습니다.","허락하려면 No, not at all. Go ahead.가 명확해요. mind는 싫거나 불편한지를 물어서 Yes만 말하면 반대 뜻으로 들릴 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+100,"A: Do you mind if I open the window?
+B: Not at all. Go ahead.",비교,"{""left"": ""Can I open the window?"", ""leftKo"": ""제가 창문을 열어도 되나요?"", ""right"": ""Do you mind if I open the window?"", ""rightKo"": ""제가 창문을 열면 불편하신가요?"", ""why"": ""첫 질문의 Yes는 허락입니다. 두 번째 질문은 불편한지를 물어 No, not at all.이 허락이 됩니다.""}","{""left"": ""Can I open the window?"", ""leftKo"": ""제가 창문을 열어도 되나요?"", ""right"": ""Do you mind if I open the window?"", ""rightKo"": ""제가 창문을 열면 불편하신가요?"", ""why"": ""첫 질문의 Yes는 허락입니다. 두 번째 질문은 불편한지를 물어 No, not at all.이 허락이 됩니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+100,"A: Do you mind if I open the window?
+B: Not at all. Go ahead.",주의,"허락하려면 No, not at all. Go ahead.가 명확해요. mind는 싫거나 불편한지를 물어서 Yes만 말하면 반대 뜻으로 들릴 수 있습니다.","허락하려면 No, not at all. Go ahead.가 명확해요. mind는 싫거나 불편한지를 물어서 Yes만 말하면 반대 뜻으로 들릴 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+101,"A: After you.
+B: Thank you. That is very kind.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+102,"A: After you. The elevator is almost full.
+B: Thanks. I will hold the door for you.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+106,"A: I appreciate you calling a taxi for us.
+B: No problem. It should be here in five minutes.",주의,for us는 우리를 위해예요. for our만으로는 끝내지 못하며 for our group처럼 our 뒤에 명사가 필요합니다.,for us는 우리를 위해예요. for our만으로는 끝내지 못하며 for our group처럼 our 뒤에 명사가 필요합니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+107,"A: What would you like to order?
+B: I will have the chicken, please.",비교,"{""left"": ""What would you like to order?"", ""leftKo"": ""무엇을 주문하시겠어요?"", ""right"": ""How would you like to order?"", ""rightKo"": ""어떤 방법으로 주문하시겠어요?"", ""why"": ""what은 주문할 음식, how는 앱·전화·대면 같은 주문 방법을 묻습니다.""}","{""left"": ""What would you like to order?"", ""leftKo"": ""무엇을 주문하시겠어요?"", ""right"": ""How would you like to order?"", ""rightKo"": ""어떤 방법으로 주문하시겠어요?"", ""why"": ""what은 주문할 음식, how는 앱·전화·대면 같은 주문 방법을 묻습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+107,"A: What would you like to order?
+B: I will have the chicken, please.",주의,음식만 말하면 I would like the chicken. 행동까지 말하면 I would like to order the chicken.이에요. I would like order …처럼 to를 빼지 마세요.,음식만 말하면 I would like the chicken. 행동까지 말하면 I would like to order the chicken.이에요. I would like order …처럼 to를 빼지 마세요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+114,"A: Could you turn on the reading light, please?
+B: Sure, the switch is right above you.",비교,"{""left"": ""Could you turn on the light?"", ""leftKo"": ""불을 켜 주시겠어요?"", ""right"": ""Would you mind turning on the light?"", ""rightKo"": ""괜찮으시면 불을 켜 주시겠어요?"", ""why"": ""둘 다 정중한 부탁입니다. could 뒤에는 원형, mind 뒤에는 -ing를 씁니다.""}","{""left"": ""Could you turn on the light?"", ""leftKo"": ""불을 켜 주시겠어요?"", ""right"": ""Would you mind turning on the light?"", ""rightKo"": ""괜찮으시면 불을 켜 주시겠어요?"", ""why"": ""둘 다 정중한 부탁입니다. could 뒤에는 원형, mind 뒤에는 -ing를 씁니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+114,"A: Could you turn on the reading light, please?
+B: Sure, the switch is right above you.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+115,"A: Could you turn up the volume a little?
+B: Sure. Is that better?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+116,"A: My friend did not turn up for the tour.
+B: We can wait five more minutes before we leave.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+118,"A: Where is customs?
+B: Just past the baggage claim area.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+125,"A: What should I write for my first name?
+B: Write the given name exactly as it appears on your passport.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+128,"A: Do you have anything to declare?
+B: Yes, I have some food. Where should I list it?",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+130,"A: What is your occupation?
+B: I am a dental technician.",비교,"{""left"": ""What is your occupation?"", ""leftKo"": ""직업이 무엇인가요?"", ""right"": ""Where do you work?"", ""rightKo"": ""어디에서 일하시나요?"", ""why"": ""직업명과 근무 장소는 서로 다른 정보입니다. 한국어의 어떻게 되세요만 보고 how를 고르지 않아요.""}","{""left"": ""What is your occupation?"", ""leftKo"": ""직업이 무엇인가요?"", ""right"": ""Where do you work?"", ""rightKo"": ""어디에서 일하시나요?"", ""why"": ""직업명과 근무 장소는 서로 다른 정보입니다. 한국어의 어떻게 되세요만 보고 how를 고르지 않아요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+130,"A: What is your occupation?
+B: I am a dental technician.",주의,"직업명은 What is your occupation?, 근무 장소는 Where do you work?로 구분해요. 한국어의 어떻게 되세요를 그대로 How is your occupation?으로 옮기면 질문 의도가 달라집니다.","직업명은 What is your occupation?, 근무 장소는 Where do you work?로 구분해요. 한국어의 어떻게 되세요를 그대로 How is your occupation?으로 옮기면 질문 의도가 달라집니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+131,"A: What should I put for occupation on this form?
+B: Write your current job title.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+132,"A: What is your nationality?
+B: I am South Korean.",비교,"{""left"": ""What is your nationality?"", ""leftKo"": ""국적이 어떻게 되나요?"", ""right"": ""Where are you from?"", ""rightKo"": ""어디 출신인가요?"", ""why"": ""국적과 출신 지역은 다를 수 있습니다. 서류가 nationality를 물으면 국적을 답해요.""}","{""left"": ""What is your nationality?"", ""leftKo"": ""국적이 어떻게 되나요?"", ""right"": ""Where are you from?"", ""rightKo"": ""어디 출신인가요?"", ""why"": ""국적과 출신 지역은 다를 수 있습니다. 서류가 nationality를 물으면 국적을 답해요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+136,"A: Should I bring my passport on the tour?
+B: Yes, please bring it with you.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+137,"A: Should I bring a jacket on the boat tour?
+B: Yes, it can get windy on the water.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+143,"A: Could you email me the itinerary?
+B: Of course. It includes all the meeting times.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+146,"A: Could you repeat the room number, please?
+B: Certainly. It is eight twelve.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+147,"A: Could you repeat the gate number, please?
+B: Gate twenty-six.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+148,"A: Could you write down the address?
+B: Sure. I will write it on this card.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+149,"A: Could you write down the hotel address for the driver?
+B: Sure, I will write it on this card.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+150,"A: Could you spell out your last name?
+B: Yes. S-O-N.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+151,"A: Could you spell out the street name for me?
+B: Sure. It is B-R-O-O-K Street.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+154,"A: Could I reserve a table for two at seven?
+B: Certainly. May I have your name?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+155,"A: I would like to reserve a table by the window.
+B: Certainly. What time would you like to come?",비교,"{""left"": ""What time does the tour start?"", ""leftKo"": ""투어는 몇 시에 시작하나요?"", ""right"": ""How long does the tour last?"", ""rightKo"": ""투어는 얼마나 오래 진행되나요?"", ""why"": ""시작 시각과 지속 기간을 구분합니다. 10시와 두 시간은 서로 다른 종류의 답이에요.""}","{""left"": ""What time does the tour start?"", ""leftKo"": ""투어는 몇 시에 시작하나요?"", ""right"": ""How long does the tour last?"", ""rightKo"": ""투어는 얼마나 오래 진행되나요?"", ""why"": ""시작 시각과 지속 기간을 구분합니다. 10시와 두 시간은 서로 다른 종류의 답이에요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+155,"A: I would like to reserve a table by the window.
+B: Certainly. What time would you like to come?",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+167,"A: What are your business hours on Sunday?
+B: We open at ten and close at six.",비교,"{""left"": ""What are your business hours?"", ""leftKo"": ""영업시간대가 어떻게 되나요?"", ""right"": ""What time do you open?"", ""rightKo"": ""몇 시에 문을 여나요?"", ""why"": ""영업시간 전체와 개점 시각 하나를 구분합니다.""}","{""left"": ""What are your business hours?"", ""leftKo"": ""영업시간대가 어떻게 되나요?"", ""right"": ""What time do you open?"", ""rightKo"": ""몇 시에 문을 여나요?"", ""why"": ""영업시간 전체와 개점 시각 하나를 구분합니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+168,"A: What are your business hours on Sundays?
+B: We are open from ten to four.",비교,"{""left"": ""What are your business hours?"", ""leftKo"": ""영업시간대가 어떻게 되나요?"", ""right"": ""What time do you open?"", ""rightKo"": ""몇 시에 문을 여나요?"", ""why"": ""영업시간 전체와 개점 시각 하나를 구분합니다.""}","{""left"": ""What are your business hours?"", ""leftKo"": ""영업시간대가 어떻게 되나요?"", ""right"": ""What time do you open?"", ""rightKo"": ""몇 시에 문을 여나요?"", ""why"": ""영업시간 전체와 개점 시각 하나를 구분합니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+179,"A: I need to withdraw some cash before we leave town.
+B: There is an ATM across from the station.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+180,"A: I would like to confirm my reservation for tonight.
+B: Certainly. What name is it under?",비교,"{""left"": ""What is your name?"", ""leftKo"": ""성함이 어떻게 되세요?"", ""right"": ""What name is the reservation under?"", ""rightKo"": ""예약은 어떤 이름으로 되어 있나요?"", ""why"": ""말하는 사람의 이름과 예약 등록명은 다를 수 있습니다. 예약을 찾는 상황에는 등록명을 묻는 것이 더 정확해요.""}","{""left"": ""What is your name?"", ""leftKo"": ""성함이 어떻게 되세요?"", ""right"": ""What name is the reservation under?"", ""rightKo"": ""예약은 어떤 이름으로 되어 있나요?"", ""why"": ""말하는 사람의 이름과 예약 등록명은 다를 수 있습니다. 예약을 찾는 상황에는 등록명을 묻는 것이 더 정확해요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+180,"A: I would like to confirm my reservation for tonight.
+B: Certainly. What name is it under?",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+181,"A: Could you confirm my pickup time for tomorrow?
+B: Yes, the driver will be here at seven thirty.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+185,"A: How long does the show last?
+B: About an hour.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+187,"A: Let us take a break before we climb the hill.
+B: Good idea. There is a cafe over there.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+190,"A: What happens if the rental car breaks down?
+B: Call this number and roadside assistance will come.",주의,what이 무엇이·무슨 일이인 주어이면 별도로 does를 넣지 않아요. What attracts visitors?가 맞고 What does attracts visitors?라고 하지 않습니다.,what이 무엇이·무슨 일이인 주어이면 별도로 does를 넣지 않아요. What attracts visitors?가 맞고 What does attracts visitors?라고 하지 않습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+194,"A: Which floor has the photography exhibit?
+B: The exhibit is on the second floor.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+196,"A: Could you take a picture of us?
+B: Of course. Stand a little closer together.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+197,"A: Could you take a picture of us in front of the temple?
+B: Of course. Stand a little closer together.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+202,"A: Which tourist attraction is closest to the hotel?
+B: The palace. It is a ten-minute walk.",비교,"{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}","{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+202,"A: Which tourist attraction is closest to the hotel?
+B: The palace. It is a ten-minute walk.",주의,"a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.","a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+202,"A: Which tourist attraction is closest to the hotel?
+B: The palace. It is a ten-minute walk.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+208,"A: When should we go to avoid the crowds?
+B: Before nine in the morning.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+219,"A: Can I get to the airport by public transportation?
+B: Yes. The subway goes straight there.",비교,"{""left"": ""How do I get to the station?"", ""leftKo"": ""역까지 어떻게 가나요?"", ""right"": ""Where is the station?"", ""rightKo"": ""역은 어디에 있나요?"", ""why"": ""how는 목적지에 도착하는 경로·수단, where는 목적지 위치에 초점이 있습니다. go to도 가능하지만 get to는 도착에 초점을 둬요.""}","{""left"": ""How do I get to the station?"", ""leftKo"": ""역까지 어떻게 가나요?"", ""right"": ""Where is the station?"", ""rightKo"": ""역은 어디에 있나요?"", ""why"": ""how는 목적지에 도착하는 경로·수단, where는 목적지 위치에 초점이 있습니다. go to도 가능하지만 get to는 도착에 초점을 둬요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+219,"A: Can I get to the airport by public transportation?
+B: Yes. The subway goes straight there.",주의,get to the station은 도착할 곳을 to로 연결해요. 다만 get home에는 보통 to를 붙이지 않습니다. get to home으로 모든 목적지를 똑같이 만들지 마세요.,get to the station은 도착할 곳을 to로 연결해요. 다만 get home에는 보통 to를 붙이지 않습니다. get to home으로 모든 목적지를 똑같이 만들지 마세요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+222,"A: Which station is closest to the old town?
+B: Central Station. It is about a ten-minute walk.",비교,"{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}","{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+222,"A: Which station is closest to the old town?
+B: Central Station. It is about a ten-minute walk.",주의,"a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.","a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+222,"A: Which station is closest to the old town?
+B: Central Station. It is about a ten-minute walk.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+223,"A: Which stop should I get off at?
+B: The next stop, Central Market.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+223,"A: Which stop should I get off at?
+B: The next stop, Central Market.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+227,"A: Shall we head to the hotel?
+B: Yes. I would like to drop off my bags.",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+232,"A: Should I keep this receipt?
+B: Yes, you need it to collect your luggage.",비교,"{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}","{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+232,"A: Should I keep this receipt?
+B: Yes, you need it to collect your luggage.",비교,"{""left"": ""Where can I collect my baggage?"", ""leftKo"": ""제 수하물은 어디서 찾나요?"", ""right"": ""Where can I pick up my baggage?"", ""rightKo"": ""제 수하물은 어디서 찾나요?"", ""why"": ""이 상황에서는 둘 다 자연스럽습니다. collect는 수령하다, pick up은 찾아 가져가다이며 하나만 정답이라고 외울 필요는 없어요.""}","{""left"": ""Where can I collect my baggage?"", ""leftKo"": ""제 수하물은 어디서 찾나요?"", ""right"": ""Where can I pick up my baggage?"", ""rightKo"": ""제 수하물은 어디서 찾나요?"", ""why"": ""이 상황에서는 둘 다 자연스럽습니다. collect는 수령하다, pick up은 찾아 가져가다이며 하나만 정답이라고 외울 필요는 없어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+232,"A: Should I keep this receipt?
+B: Yes, you need it to collect your luggage.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+234,"A: I would like to rent a bicycle for two hours.
+B: Sure. Please choose one over here.",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+236,"A: What is the nightly rate?
+B: Eighty dollars, including tax.",비교,"{""left"": ""What is the nightly rate?"", ""leftKo"": ""1박 요금이 얼마인가요?"", ""right"": ""How much is a room per night?"", ""rightKo"": ""방 한 개에 1박 얼마인가요?"", ""why"": ""같은 요금 정보를 물을 수 있습니다. what은 rate라는 항목의 값, how much는 돈의 액수에 초점을 둡니다.""}","{""left"": ""What is the nightly rate?"", ""leftKo"": ""1박 요금이 얼마인가요?"", ""right"": ""How much is a room per night?"", ""rightKo"": ""방 한 개에 1박 얼마인가요?"", ""why"": ""같은 요금 정보를 물을 수 있습니다. what은 rate라는 항목의 값, how much는 돈의 액수에 초점을 둡니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+237,"A: What is the nightly rate for a double room?
+B: It is one hundred and forty dollars before tax.",비교,"{""left"": ""What is the nightly rate?"", ""leftKo"": ""1박 요금이 얼마인가요?"", ""right"": ""How much is a room per night?"", ""rightKo"": ""방 한 개에 1박 얼마인가요?"", ""why"": ""같은 요금 정보를 물을 수 있습니다. what은 rate라는 항목의 값, how much는 돈의 액수에 초점을 둡니다.""}","{""left"": ""What is the nightly rate?"", ""leftKo"": ""1박 요금이 얼마인가요?"", ""right"": ""How much is a room per night?"", ""rightKo"": ""방 한 개에 1박 얼마인가요?"", ""why"": ""같은 요금 정보를 물을 수 있습니다. what은 rate라는 항목의 값, how much는 돈의 액수에 초점을 둡니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+239,"A: How do I get to the old town?
+B: Take bus number five from this stop.",비교,"{""left"": ""How do I get to the station?"", ""leftKo"": ""역까지 어떻게 가나요?"", ""right"": ""Where is the station?"", ""rightKo"": ""역은 어디에 있나요?"", ""why"": ""how는 목적지에 도착하는 경로·수단, where는 목적지 위치에 초점이 있습니다. go to도 가능하지만 get to는 도착에 초점을 둬요.""}","{""left"": ""How do I get to the station?"", ""leftKo"": ""역까지 어떻게 가나요?"", ""right"": ""Where is the station?"", ""rightKo"": ""역은 어디에 있나요?"", ""why"": ""how는 목적지에 도착하는 경로·수단, where는 목적지 위치에 초점이 있습니다. go to도 가능하지만 get to는 도착에 초점을 둬요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+239,"A: How do I get to the old town?
+B: Take bus number five from this stop.",주의,get to the station처럼 목적지 앞에 to를 쓰지만 get home에는 보통 to를 넣지 않아요.,get to the station처럼 목적지 앞에 to를 쓰지만 get home에는 보통 to를 넣지 않아요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+239,"A: How do I get to the old town?
+B: Take bus number five from this stop.",주의,get to the station은 도착할 곳을 to로 연결해요. 다만 get home에는 보통 to를 붙이지 않습니다. get to home으로 모든 목적지를 똑같이 만들지 마세요.,get to the station은 도착할 곳을 to로 연결해요. 다만 get home에는 보통 to를 붙이지 않습니다. get to home으로 모든 목적지를 똑같이 만들지 마세요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+240,"A: What is the easiest way to get to the airport?
+B: Take the express train from Central Station.",비교,"{""left"": ""How do I get to the station?"", ""leftKo"": ""역까지 어떻게 가나요?"", ""right"": ""Where is the station?"", ""rightKo"": ""역은 어디에 있나요?"", ""why"": ""how는 목적지에 도착하는 경로·수단, where는 목적지 위치에 초점이 있습니다. go to도 가능하지만 get to는 도착에 초점을 둬요.""}","{""left"": ""How do I get to the station?"", ""leftKo"": ""역까지 어떻게 가나요?"", ""right"": ""Where is the station?"", ""rightKo"": ""역은 어디에 있나요?"", ""why"": ""how는 목적지에 도착하는 경로·수단, where는 목적지 위치에 초점이 있습니다. go to도 가능하지만 get to는 도착에 초점을 둬요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+240,"A: What is the easiest way to get to the airport?
+B: Take the express train from Central Station.",주의,get to the station은 도착할 곳을 to로 연결해요. 다만 get home에는 보통 to를 붙이지 않습니다. get to home으로 모든 목적지를 똑같이 만들지 마세요.,get to the station은 도착할 곳을 to로 연결해요. 다만 get home에는 보통 to를 붙이지 않습니다. get to home으로 모든 목적지를 똑같이 만들지 마세요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+250,"A: Where should I insert my card?
+B: In the slot at the bottom.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+253,"A: What is this fine for?
+B: For parking in a restricted area.",비교,"{""left"": ""What is this fine for?"", ""leftKo"": ""이 벌금은 무엇 때문에 부과됐나요?"", ""right"": ""How much is the fine?"", ""rightKo"": ""벌금은 얼마인가요?"", ""why"": ""what … for는 부과 이유, how much는 벌금 액수입니다.""}","{""left"": ""What is this fine for?"", ""leftKo"": ""이 벌금은 무엇 때문에 부과됐나요?"", ""right"": ""How much is the fine?"", ""rightKo"": ""벌금은 얼마인가요?"", ""why"": ""what … for는 부과 이유, how much는 벌금 액수입니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+266,"A: Could I request a quiet room?
+B: Certainly. I will check what is available.",비교,"{""left"": ""I would like to request a quiet room."", ""leftKo"": ""조용한 방을 요청하고 싶어요."", ""right"": ""A passport is required for check-in."", ""rightKo"": ""체크인에는 여권이 필요합니다."", ""why"": ""request는 희망을 요청하다, require는 필수 조건으로 요구하다입니다. 발음뿐 아니라 의미·상황도 다릅니다.""}","{""left"": ""I would like to request a quiet room."", ""leftKo"": ""조용한 방을 요청하고 싶어요."", ""right"": ""A passport is required for check-in."", ""rightKo"": ""체크인에는 여권이 필요합니다."", ""why"": ""request는 희망을 요청하다, require는 필수 조건으로 요구하다입니다. 발음뿐 아니라 의미·상황도 다릅니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+266,"A: Could I request a quiet room?
+B: Certainly. I will check what is available.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+267,"A: I would like to request a room away from the elevator.
+B: I will add that request to your booking.",비교,"{""left"": ""I would like to request a quiet room."", ""leftKo"": ""조용한 방을 요청하고 싶어요."", ""right"": ""A passport is required for check-in."", ""rightKo"": ""체크인에는 여권이 필요합니다."", ""why"": ""request는 희망을 요청하다, require는 필수 조건으로 요구하다입니다. 발음뿐 아니라 의미·상황도 다릅니다.""}","{""left"": ""I would like to request a quiet room."", ""leftKo"": ""조용한 방을 요청하고 싶어요."", ""right"": ""A passport is required for check-in."", ""rightKo"": ""체크인에는 여권이 필요합니다."", ""why"": ""request는 희망을 요청하다, require는 필수 조건으로 요구하다입니다. 발음뿐 아니라 의미·상황도 다릅니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+267,"A: I would like to request a room away from the elevator.
+B: I will add that request to your booking.",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+269,"A: Could we sit outside, if possible?
+B: Certainly. A patio table will be free in a few minutes.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+276,"A: Could you leave this package at the front desk?
+B: Sure, we will keep it there for you.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+290,"A: Could I extend my stay by one night?
+B: Let me check if your room is available tomorrow.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+295,"A: Is there a local market nearby?
+B: Yes, it is a five-minute walk from here.",주의,"a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.","a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+310,"A: Can I return this without a receipt?
+B: Our store policy requires a receipt for returns.",비교,"{""left"": ""I would like to request a quiet room."", ""leftKo"": ""조용한 방을 요청하고 싶어요."", ""right"": ""A passport is required for check-in."", ""rightKo"": ""체크인에는 여권이 필요합니다."", ""why"": ""request는 희망을 요청하다, require는 필수 조건으로 요구하다입니다. 발음뿐 아니라 의미·상황도 다릅니다.""}","{""left"": ""I would like to request a quiet room."", ""leftKo"": ""조용한 방을 요청하고 싶어요."", ""right"": ""A passport is required for check-in."", ""rightKo"": ""체크인에는 여권이 필요합니다."", ""why"": ""request는 희망을 요청하다, require는 필수 조건으로 요구하다입니다. 발음뿐 아니라 의미·상황도 다릅니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+312,"A: I would like to return this shirt.
+B: Of course. Do you have the receipt?",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+314,"A: When should I return the rental car?
+B: By ten tomorrow morning.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+321,"A: Is there anything in particular you want to see?
+B: I would really like to visit the old temple.",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+322,"A: Can I help you find anything?
+B: Thank you, but I would just like to look around.",주의,"질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.","질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+322,"A: Can I help you find anything?
+B: Thank you, but I would just like to look around.",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+327,"A: Could you help me with this ticket machine?
+B: Sure. Where are you going?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+328,"A: Could you help me with this ticket machine?
+B: Sure, first choose your destination.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+329,"A: Does this jacket suit me?
+B: Yes, that color looks great on you.",비교,"{""left"": ""Does this jacket fit me?"", ""leftKo"": ""이 재킷의 크기가 제게 맞나요?"", ""right"": ""Does this jacket suit me?"", ""rightKo"": ""이 재킷이 제게 어울리나요?"", ""why"": ""fit은 크기·모양의 적합, suit는 색·스타일의 어울림입니다.""}","{""left"": ""Does this jacket fit me?"", ""leftKo"": ""이 재킷의 크기가 제게 맞나요?"", ""right"": ""Does this jacket suit me?"", ""rightKo"": ""이 재킷이 제게 어울리나요?"", ""why"": ""fit은 크기·모양의 적합, suit는 색·스타일의 어울림입니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+331,"A: Which dish is the most popular?
+B: The grilled fish is our best seller.",비교,"{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}","{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+331,"A: Which dish is the most popular?
+B: The grilled fish is our best seller.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+332,"A: Which beach is most popular with local families?
+B: Sunset Beach is usually the busiest.",비교,"{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}","{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+332,"A: Which beach is most popular with local families?
+B: Sunset Beach is usually the busiest.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+339,"A: Can I use this coupon today?
+B: Yes. Please show it before you pay.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+342,"A: Could you measure my feet?
+B: Of course. Please stand on this mat.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+343,"A: Could you measure this bag to see if it is carry-on size?
+B: Sure, place it on the measuring stand.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+354,"A: Does this camera come with a warranty?
+B: Yes, it has a one-year warranty.",주의,"a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.","a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+355,"A: Does this adapter come with a warranty?
+B: Yes, it has a one-year warranty.",주의,"a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.","a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+356,"A: Have you decided which tour to take?
+B: Yes, the morning boat tour.",비교,"{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}","{""left"": ""Which dish would you like?"", ""leftKo"": ""그중 어느 요리를 원하세요?"", ""right"": ""What would you like?"", ""rightKo"": ""무엇을 원하세요?"", ""why"": ""which는 후보 범위에서 고르는 느낌이고 what은 원하는 대상을 더 열어 두고 묻습니다. 문맥에 따라 둘 다 자연스러울 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+356,"A: Have you decided which tour to take?
+B: Yes, the morning boat tour.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+357,"A: We have not decided which island to visit yet.
+B: Check the ferry times before you decide.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+357,"A: We have not decided which island to visit yet.
+B: Check the ferry times before you decide.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+358,"A: Are you ready to order?
+B: Could you give me a minute, please?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+362,"A: Could I have this without onions?
+B: Of course. I will let the kitchen know.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+363,"A: Could I get this sandwich without cheese?
+B: Of course. We can leave the cheese out.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+373,"A: The restaurant looks full. Should we wait?
+B: The host said a table will open in ten minutes.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+374,"A: Could we have the check, please?
+B: Of course. I will bring it over.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+375,"A: Could you check my reservation?
+B: Of course. May I have your name?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+376,"A: Where do I claim my checked baggage?
+B: Go downstairs to carousel six.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+377,"A: Could we have separate checks?
+B: Sure. What did each of you order?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+378,"A: Could we have separate checks, please?
+B: Sure, I can split the bill by person.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+379,"A: Could I get a refill of coffee?
+B: Certainly. Regular or decaf?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+382,"A: Can we pay for everything together?
+B: Yes, I will put it all on one bill.",비교,"{""left"": ""Yes, you can pay together."", ""leftKo"": ""네, 함께 계산하실 수 있어요."", ""right"": ""I will put everything on one bill."", ""rightKo"": ""제가 전부 한 계산서에 합쳐 드릴게요."", ""why"": ""can은 결제 가능 여부, will은 직원이 실행할 처리 행동입니다. 답의 목적이 달라 조동사도 달라져요.""}","{""left"": ""Yes, you can pay together."", ""leftKo"": ""네, 함께 계산하실 수 있어요."", ""right"": ""I will put everything on one bill."", ""rightKo"": ""제가 전부 한 계산서에 합쳐 드릴게요."", ""why"": ""can은 결제 가능 여부, will은 직원이 실행할 처리 행동입니다. 답의 목적이 달라 조동사도 달라져요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+382,"A: Can we pay for everything together?
+B: Yes, I will put it all on one bill.",주의,I will pay the bill.이라고 하면 직원 본인이 돈을 내겠다는 다른 뜻이 됩니다. 계산서를 합쳐 준다는 답에는 put it all on one bill이 맞아요.,I will pay the bill.이라고 하면 직원 본인이 돈을 내겠다는 다른 뜻이 됩니다. 계산서를 합쳐 준다는 답에는 put it all on one bill이 맞아요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+387,"A: Could I have a to-go box?
+B: Sure. Would you like me to pack this for you?",주의,"질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.","질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+387,"A: Could I have a to-go box?
+B: Sure. Would you like me to pack this for you?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+388,"A: Could I have a to-go box for the rest of this pizza?
+B: Of course, I will bring one right away.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+389,"A: Could we have some tap water?
+B: Of course. I will bring a jug.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+391,"A: I am allergic to peanuts. Does this sauce contain any?
+B: Let me check with the chef before you order.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+391,"A: I am allergic to peanuts. Does this sauce contain any?
+B: Let me check with the chef before you order.",주의,"I am allergic peanuts. → I am allergic to peanuts.
+원인 물질을 to로 연결해요. have a peanut allergy처럼 명사 표현으로도 말할 수 있습니다.","I am allergic peanuts. → I am allergic to peanuts.
+원인 물질을 to로 연결해요. have a peanut allergy처럼 명사 표현으로도 말할 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+392,"A: I am allergic to peanuts. Does this sauce contain any?
+B: I will check with the kitchen.",주의,"I am allergic peanuts. → I am allergic to peanuts.
+원인 물질을 to로 연결해요. have a peanut allergy처럼 명사 표현으로도 말할 수 있습니다.","I am allergic peanuts. → I am allergic to peanuts.
+원인 물질을 to로 연결해요. have a peanut allergy처럼 명사 표현으로도 말할 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+398,"A: Can I place an order for pickup?
+B: Yes. What would you like?",주의,"질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.","질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+399,"A: I would like to place an order for room service.
+B: Certainly. What would you like to have?",주의,"I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.","I would like check in. → I would like to check in.
+하고 싶은 행동이면 would like to + 동사원형입니다. 물건만 말하는 I would like coffee.에는 to가 필요 없어요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+404,"A: How long does it last?
+B: The boat tour takes about ninety minutes.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+405,"A: I need to cancel my dinner reservation.
+B: Certainly. What name is it under?",비교,"{""left"": ""What is your name?"", ""leftKo"": ""성함이 어떻게 되세요?"", ""right"": ""What name is the reservation under?"", ""rightKo"": ""예약은 어떤 이름으로 되어 있나요?"", ""why"": ""말하는 사람의 이름과 예약 등록명은 다를 수 있습니다. 예약을 찾는 상황에는 등록명을 묻는 것이 더 정확해요.""}","{""left"": ""What is your name?"", ""leftKo"": ""성함이 어떻게 되세요?"", ""right"": ""What name is the reservation under?"", ""rightKo"": ""예약은 어떤 이름으로 되어 있나요?"", ""why"": ""말하는 사람의 이름과 예약 등록명은 다를 수 있습니다. 예약을 찾는 상황에는 등록명을 묻는 것이 더 정확해요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+407,"A: Could I get a refund for this canceled tour?
+B: Yes. We will return the payment to your card.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+411,"A: What time does happy hour start?
+B: At five, and it ends at seven.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+411,"A: What time does happy hour start?
+B: At five, and it ends at seven.",주의,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+412,"A: What time does happy hour start?
+B: From five to seven, all cocktails are half price.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+412,"A: What time does happy hour start?
+B: From five to seven, all cocktails are half price.",주의,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+415,"A: Could we see the menu, please?
+B: Of course. Here are two menus.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+416,"A: Could we see the menu before we sit down?
+B: Of course, here is one for each of you.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+416,"A: Could we see the menu before we sit down?
+B: Of course, here is one for each of you.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+417,"A: What flavors do you have?
+B: Chocolate, vanilla, and strawberry.",비교,"{""left"": ""What flavor is this?"", ""leftKo"": ""이것은 무슨 맛인가요?"", ""right"": ""How does it taste?"", ""rightKo"": ""맛이 어떤가요?"", ""why"": ""what flavor에는 망고·바닐라 같은 종류를, how에는 달다·시다 같은 맛의 느낌을 답할 수 있어요.""}","{""left"": ""What flavor is this?"", ""leftKo"": ""이것은 무슨 맛인가요?"", ""right"": ""How does it taste?"", ""rightKo"": ""맛이 어떤가요?"", ""why"": ""what flavor에는 망고·바닐라 같은 종류를, how에는 달다·시다 같은 맛의 느낌을 답할 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+418,"A: What flavor of ice cream is this?
+B: It is mango with a little coconut.",비교,"{""left"": ""What flavor is this?"", ""leftKo"": ""이것은 무슨 맛인가요?"", ""right"": ""How does it taste?"", ""rightKo"": ""맛이 어떤가요?"", ""why"": ""what flavor에는 망고·바닐라 같은 종류를, how에는 달다·시다 같은 맛의 느낌을 답할 수 있어요.""}","{""left"": ""What flavor is this?"", ""leftKo"": ""이것은 무슨 맛인가요?"", ""right"": ""How does it taste?"", ""rightKo"": ""맛이 어떤가요?"", ""why"": ""what flavor에는 망고·바닐라 같은 종류를, how에는 달다·시다 같은 맛의 느낌을 답할 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+419,"A: Could you check on our order?
+B: Certainly. I will ask the kitchen now.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+420,"A: Could you check on our order? It has been thirty minutes.
+B: I will ask the kitchen right away.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+423,"A: What name is the reservation under?
+B: It is under Son.",비교,"{""left"": ""What is your name?"", ""leftKo"": ""성함이 어떻게 되세요?"", ""right"": ""What name is the reservation under?"", ""rightKo"": ""예약은 어떤 이름으로 되어 있나요?"", ""why"": ""말하는 사람의 이름과 예약 등록명은 다를 수 있습니다. 예약을 찾는 상황에는 등록명을 묻는 것이 더 정확해요.""}","{""left"": ""What is your name?"", ""leftKo"": ""성함이 어떻게 되세요?"", ""right"": ""What name is the reservation under?"", ""rightKo"": ""예약은 어떤 이름으로 되어 있나요?"", ""why"": ""말하는 사람의 이름과 예약 등록명은 다를 수 있습니다. 예약을 찾는 상황에는 등록명을 묻는 것이 더 정확해요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+430,"A: We have a five-hour layover in Singapore.
+B: That is enough time to have a meal and rest.",비교,"{""left"": ""We have a five-hour layover."", ""leftKo"": ""우리 일정에 5시간의 경유 대기가 있어요."", ""right"": ""We will wait for five hours."", ""rightKo"": ""우리는 5시간 기다릴 거예요."", ""why"": ""have는 경유 일정을 가지고 있다는 뜻, wait는 기다리는 행동입니다. have를 여기서 먹다로 해석하지 않아요.""}","{""left"": ""We have a five-hour layover."", ""leftKo"": ""우리 일정에 5시간의 경유 대기가 있어요."", ""right"": ""We will wait for five hours."", ""rightKo"": ""우리는 5시간 기다릴 거예요."", ""why"": ""have는 경유 일정을 가지고 있다는 뜻, wait는 기다리는 행동입니다. have를 여기서 먹다로 해석하지 않아요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+430,"A: We have a five-hour layover in Singapore.
+B: That is enough time to have a meal and rest.",주의,"a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.","a five hours layover → a five-hour layover
+숫자와 단위가 명사 앞에서 한 덩어리로 꾸미면 단위는 보통 단수예요. five hours라고 기간 자체를 말할 때는 s를 붙입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+433,"A: Could I have a receipt, please?
+B: Of course. Here you are.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+434,"A: Could I get a receipt for this taxi ride?
+B: Sure, I can print one for you.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+437,"A: What do you recommend for someone who does not like spicy food?
+B: The grilled chicken is mild and very popular.",비교,"{""left"": ""What do you recommend?"", ""leftKo"": ""무엇을 추천하시나요?"", ""right"": ""Do you recommend this dish?"", ""rightKo"": ""이 요리를 추천하시나요?"", ""why"": ""what 질문에는 추천할 대상을 답하고, do 질문에는 지정된 대상을 추천하는지 예·아니요로 답할 수 있어요.""}","{""left"": ""What do you recommend?"", ""leftKo"": ""무엇을 추천하시나요?"", ""right"": ""Do you recommend this dish?"", ""rightKo"": ""이 요리를 추천하시나요?"", ""why"": ""what 질문에는 추천할 대상을 답하고, do 질문에는 지정된 대상을 추천하는지 예·아니요로 답할 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+460,"A: What do you suggest we do on a rainy day?
+B: You could visit the art museum.",비교,"{""left"": ""What do you recommend?"", ""leftKo"": ""무엇을 추천하시나요?"", ""right"": ""Do you recommend this dish?"", ""rightKo"": ""이 요리를 추천하시나요?"", ""why"": ""what 질문에는 추천할 대상을 답하고, do 질문에는 지정된 대상을 추천하는지 예·아니요로 답할 수 있어요.""}","{""left"": ""What do you recommend?"", ""leftKo"": ""무엇을 추천하시나요?"", ""right"": ""Do you recommend this dish?"", ""rightKo"": ""이 요리를 추천하시나요?"", ""why"": ""what 질문에는 추천할 대상을 답하고, do 질문에는 지정된 대상을 추천하는지 예·아니요로 답할 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+460,"A: What do you suggest we do on a rainy day?
+B: You could visit the art museum.",주의,"suggest us to go → suggest that we go / suggest going
+누가 무엇을 할지 붙일 때 suggest + 사람 + to동사로 기계적으로 옮기지 마세요.","suggest us to go → suggest that we go / suggest going
+누가 무엇을 할지 붙일 때 suggest + 사람 + to동사로 기계적으로 옮기지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+461,"A: What do you suggest for a rainy afternoon?
+B: The art museum is a good choice.",비교,"{""left"": ""What do you recommend?"", ""leftKo"": ""무엇을 추천하시나요?"", ""right"": ""Do you recommend this dish?"", ""rightKo"": ""이 요리를 추천하시나요?"", ""why"": ""what 질문에는 추천할 대상을 답하고, do 질문에는 지정된 대상을 추천하는지 예·아니요로 답할 수 있어요.""}","{""left"": ""What do you recommend?"", ""leftKo"": ""무엇을 추천하시나요?"", ""right"": ""Do you recommend this dish?"", ""rightKo"": ""이 요리를 추천하시나요?"", ""why"": ""what 질문에는 추천할 대상을 답하고, do 질문에는 지정된 대상을 추천하는지 예·아니요로 답할 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+461,"A: What do you suggest for a rainy afternoon?
+B: The art museum is a good choice.",주의,"suggest us to go → suggest that we go / suggest going
+누가 무엇을 할지 붙일 때 suggest + 사람 + to동사로 기계적으로 옮기지 마세요.","suggest us to go → suggest that we go / suggest going
+누가 무엇을 할지 붙일 때 suggest + 사람 + to동사로 기계적으로 옮기지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+463,"A: Which direction should I walk for the station?
+B: Head east for two blocks.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+463,"A: Which direction should I walk for the station?
+B: Head east for two blocks.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+464,"A: Could you give me directions to the beach?
+B: Go straight for two blocks, then turn left.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+465,"A: Could you give me directions to the ferry terminal?
+B: Go straight and turn right at the second light.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+469,"A: What is the bus fare to the airport?
+B: It is eight dollars if you pay by card.",비교,"{""left"": ""What is the bus fare to the airport?"", ""leftKo"": ""공항행 버스 요금이 얼마인가요?"", ""right"": ""How much is a bus ticket to the airport?"", ""rightKo"": ""공항까지 가는 버스표는 얼마인가요?"", ""why"": ""둘 다 요금을 물을 수 있습니다. what은 fare라는 요금 항목의 값, how much는 돈의 액수를 직접 묻습니다.""}","{""left"": ""What is the bus fare to the airport?"", ""leftKo"": ""공항행 버스 요금이 얼마인가요?"", ""right"": ""How much is a bus ticket to the airport?"", ""rightKo"": ""공항까지 가는 버스표는 얼마인가요?"", ""why"": ""둘 다 요금을 물을 수 있습니다. what은 fare라는 요금 항목의 값, how much는 돈의 액수를 직접 묻습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+474,"A: Could I see the ferry schedule?
+B: Yes. The next ferry leaves at two.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+478,"A: Is there luggage storage at the station?
+B: Yes, beside the ticket office.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+479,"A: How much does luggage storage cost for six hours?
+B: It is five dollars per bag.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+480,"A: Which currency do you accept?
+B: We only accept euros.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+486,"A: Could you verify my booking details?
+B: Certainly. May I have your booking number?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+487,"A: Could you verify the departure time for me?
+B: Yes, the train leaves at 8:45.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+489,"A: Do these shoes fit?
+B: They are a little tight. Can I try a larger size?",비교,"{""left"": ""Does this jacket fit me?"", ""leftKo"": ""이 재킷의 크기가 제게 맞나요?"", ""right"": ""Does this jacket suit me?"", ""rightKo"": ""이 재킷이 제게 어울리나요?"", ""why"": ""fit은 크기·모양의 적합, suit는 색·스타일의 어울림입니다.""}","{""left"": ""Does this jacket fit me?"", ""leftKo"": ""이 재킷의 크기가 제게 맞나요?"", ""right"": ""Does this jacket suit me?"", ""rightKo"": ""이 재킷이 제게 어울리나요?"", ""why"": ""fit은 크기·모양의 적합, suit는 색·스타일의 어울림입니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+490,"A: Does this suitcase fit in the overhead bin?
+B: Yes, it should fit without a problem.",비교,"{""left"": ""Does this jacket fit me?"", ""leftKo"": ""이 재킷의 크기가 제게 맞나요?"", ""right"": ""Does this jacket suit me?"", ""rightKo"": ""이 재킷이 제게 어울리나요?"", ""why"": ""fit은 크기·모양의 적합, suit는 색·스타일의 어울림입니다.""}","{""left"": ""Does this jacket fit me?"", ""leftKo"": ""이 재킷의 크기가 제게 맞나요?"", ""right"": ""Does this jacket suit me?"", ""rightKo"": ""이 재킷이 제게 어울리나요?"", ""why"": ""fit은 크기·모양의 적합, suit는 색·스타일의 어울림입니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+491,"A: Can I put my suitcase on the luggage rack?
+B: Yes, if it fits securely.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+494,"A: Could you help me lift this bag?
+B: Sure. Let us put it on the rack.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+499,"A: Is there space on the luggage rack for this suitcase?
+B: Yes, put it on the lower shelf.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+503,"A: These bags occupy too much space in the aisle.
+B: I will move them to the luggage rack.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+504,"A: Do you sell phone chargers?
+B: Yes. What type of phone do you have?",비교,"{""left"": ""What type of phone do you have?"", ""leftKo"": ""어떤 종류의 휴대전화를 쓰세요?"", ""right"": ""Do you have a phone?"", ""rightKo"": ""휴대전화가 있으세요?"", ""why"": ""what type은 종류·모델을, do you have는 소유 여부를 묻습니다.""}","{""left"": ""What type of phone do you have?"", ""leftKo"": ""어떤 종류의 휴대전화를 쓰세요?"", ""right"": ""Do you have a phone?"", ""rightKo"": ""휴대전화가 있으세요?"", ""why"": ""what type은 종류·모델을, do you have는 소유 여부를 묻습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+512,"A: Where is baggage claim?
+B: Downstairs. Follow the signs for arrivals.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+513,"A: Which baggage claim is for flight 402?
+B: Carousel seven on the lower level.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+513,"A: Which baggage claim is for flight 402?
+B: Carousel seven on the lower level.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+516,"A: Please check that you have all your belongings before leaving.
+B: Thanks. I almost forgot my umbrella.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+518,"A: Could you refill my water bottle?
+B: Sure, the fountain is right here.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+521,"A: Which platform does the airport train leave from?
+B: Platform four. Take the stairs on your right.",비교,"{""left"": ""Which platform does the train leave from?"", ""leftKo"": ""어느 승강장에서 출발하나요?"", ""right"": ""Where does the train leave from?"", ""rightKo"": ""기차는 어디에서 출발하나요?"", ""why"": ""which platform은 여러 승강장 중 번호를 골라 달라는 말입니다. where는 출발 장소를 더 넓게 물을 수 있어요.""}","{""left"": ""Which platform does the train leave from?"", ""leftKo"": ""어느 승강장에서 출발하나요?"", ""right"": ""Where does the train leave from?"", ""rightKo"": ""기차는 어디에서 출발하나요?"", ""why"": ""which platform은 여러 승강장 중 번호를 골라 달라는 말입니다. where는 출발 장소를 더 넓게 물을 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+521,"A: Which platform does the airport train leave from?
+B: Platform four. Take the stairs on your right.",주의,"What/Which platform does the train leaves from? → What/Which platform does the train leave from?
+does 뒤에는 leave 원형을 씁니다.","What/Which platform does the train leaves from? → What/Which platform does the train leave from?
+does 뒤에는 leave 원형을 씁니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+521,"A: Which platform does the airport train leave from?
+B: Platform four. Take the stairs on your right.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+522,"A: Which platform does the airport train leave from?
+B: Platform nine.",비교,"{""left"": ""Which platform does the train leave from?"", ""leftKo"": ""어느 승강장에서 출발하나요?"", ""right"": ""Where does the train leave from?"", ""rightKo"": ""기차는 어디에서 출발하나요?"", ""why"": ""which platform은 여러 승강장 중 번호를 골라 달라는 말입니다. where는 출발 장소를 더 넓게 물을 수 있어요.""}","{""left"": ""Which platform does the train leave from?"", ""leftKo"": ""어느 승강장에서 출발하나요?"", ""right"": ""Where does the train leave from?"", ""rightKo"": ""기차는 어디에서 출발하나요?"", ""why"": ""which platform은 여러 승강장 중 번호를 골라 달라는 말입니다. where는 출발 장소를 더 넓게 물을 수 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+522,"A: Which platform does the airport train leave from?
+B: Platform nine.",주의,"What/Which platform does the train leaves from? → What/Which platform does the train leave from?
+does 뒤에는 leave 원형을 씁니다.","What/Which platform does the train leaves from? → What/Which platform does the train leave from?
+does 뒤에는 leave 원형을 씁니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+522,"A: Which platform does the airport train leave from?
+B: Platform nine.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+523,"A: Which way should I walk?
+B: Head toward the river, then turn left.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+523,"A: Which way should I walk?
+B: Head toward the river, then turn left.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+528,"A: Are you allergic to any foods?
+B: Yes, shellfish. Could you check with the kitchen?",주의,"I am allergic peanuts. → I am allergic to peanuts.
+원인 물질을 to로 연결해요. have a peanut allergy처럼 명사 표현으로도 말할 수 있습니다.","I am allergic peanuts. → I am allergic to peanuts.
+원인 물질을 to로 연결해요. have a peanut allergy처럼 명사 표현으로도 말할 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+528,"A: Are you allergic to any foods?
+B: Yes, shellfish. Could you check with the kitchen?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+529,"A: I am allergic to nuts. Can you recommend something safe?
+B: Yes, I will show you the nut-free dishes.",주의,"I am allergic peanuts. → I am allergic to peanuts.
+원인 물질을 to로 연결해요. have a peanut allergy처럼 명사 표현으로도 말할 수 있습니다.","I am allergic peanuts. → I am allergic to peanuts.
+원인 물질을 to로 연결해요. have a peanut allergy처럼 명사 표현으로도 말할 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+530,"A: Should I insert my card?
+B: You can just tap it here.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+532,"A: Could you drop me off at the hotel entrance?
+B: Sure. It is just around the corner.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+532,"A: Could you drop me off at the hotel entrance?
+B: Sure. It is just around the corner.",주의,"pick up us → pick us up / drop off me → drop me off
+us·it·me 같은 대명사는 이 표현에서 동사와 up/off 사이에 놓습니다.","pick up us → pick us up / drop off me → drop me off
+us·it·me 같은 대명사는 이 표현에서 동사와 up/off 사이에 놓습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+533,"A: Can the taxi drop us off at the museum entrance?
+B: Yes, there is a drop-off zone there.",주의,"pick up us → pick us up / drop off me → drop me off
+us·it·me 같은 대명사는 이 표현에서 동사와 up/off 사이에 놓습니다.","pick up us → pick us up / drop off me → drop me off
+us·it·me 같은 대명사는 이 표현에서 동사와 up/off 사이에 놓습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+534,"A: Where will you pick us up tomorrow?
+B: Outside the hotel at eight thirty.",주의,will 뒤 동사는 원형이에요. What time will the shuttle picks us up? → What time will the shuttle pick us up?,will 뒤 동사는 원형이에요. What time will the shuttle picks us up? → What time will the shuttle pick us up?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+534,"A: Where will you pick us up tomorrow?
+B: Outside the hotel at eight thirty.",주의,"pick up us → pick us up / drop off me → drop me off
+us·it·me 같은 대명사는 이 표현에서 동사와 up/off 사이에 놓습니다.","pick up us → pick us up / drop off me → drop me off
+us·it·me 같은 대명사는 이 표현에서 동사와 up/off 사이에 놓습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+535,"A: What time will the shuttle pick us up?
+B: At six forty-five in front of the hotel.",비교,"{""left"": ""What time does the shuttle pick us up?"", ""leftKo"": ""셔틀은 몇 시에 우리를 데리러 오나요?"", ""right"": ""What time will the shuttle pick us up?"", ""rightKo"": ""셔틀이 이번에 몇 시에 우리를 데리러 올 예정인가요?"", ""why"": ""does는 정해진 운행 일정에, will은 앞으로 있을 이번 픽업에 흔합니다. 둘 다 가능한 문맥이 있고, 어느 하나가 무조건 틀린 것은 아니에요.""}","{""left"": ""What time does the shuttle pick us up?"", ""leftKo"": ""셔틀은 몇 시에 우리를 데리러 오나요?"", ""right"": ""What time will the shuttle pick us up?"", ""rightKo"": ""셔틀이 우리를 몇 시에 데리러 올 예정인가요?"", ""why"": ""does는 정해진 운행 일정에, will은 앞으로 있을 이번 픽업에 흔합니다. 둘 다 가능한 문맥이 있고, 어느 하나가 무조건 틀린 것은 아니에요.""}",고유 비교문 35종 내용 1차 대조,문장 해석 칸의 설명체를 직접 번역으로 교정
+535,"A: What time will the shuttle pick us up?
+B: At six forty-five in front of the hotel.",비교,"{""left"": ""What time will the shuttle pick us up?"", ""leftKo"": ""셔틀이 우리를 데리러 오는 시각을 물어요."", ""right"": ""How long does the shuttle ride take?"", ""rightKo"": ""셔틀을 타고 가는 데 얼마나 걸리나요?"", ""why"": ""what time은 픽업 시각, how long은 이동에 걸리는 기간입니다. 6시 45분과 30분은 다른 종류의 답이에요.""}","{""left"": ""What time will the shuttle pick us up?"", ""leftKo"": ""셔틀이 우리를 몇 시에 데리러 올 예정인가요?"", ""right"": ""How long does the shuttle ride take?"", ""rightKo"": ""셔틀을 타고 가는 데 얼마나 걸리나요?"", ""why"": ""what time은 픽업 시각, how long은 이동에 걸리는 기간입니다. 6시 45분과 30분은 다른 종류의 답이에요.""}",고유 비교문 35종 내용 1차 대조,문장 해석 칸의 설명체를 직접 번역으로 교정
+535,"A: What time will the shuttle pick us up?
+B: At six forty-five in front of the hotel.",주의,will 뒤 동사는 원형이에요. What time will the shuttle picks us up? → What time will the shuttle pick us up?,will 뒤 동사는 원형이에요. What time will the shuttle picks us up? → What time will the shuttle pick us up?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+535,"A: What time will the shuttle pick us up?
+B: At six forty-five in front of the hotel.",주의,"pick up us → pick us up / drop off me → drop me off
+us·it·me 같은 대명사는 이 표현에서 동사와 up/off 사이에 놓습니다.","pick up us → pick us up / drop off me → drop me off
+us·it·me 같은 대명사는 이 표현에서 동사와 up/off 사이에 놓습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+538,"A: There is some damage to my suitcase.
+B: Please bring it to the baggage service desk.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+539,"A: I noticed damage on my suitcase after the flight.
+B: Please report it before leaving the baggage area.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+539,"A: I noticed damage on my suitcase after the flight.
+B: Please report it before leaving the baggage area.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+542,"A: What is this donation box for?
+B: It is for the museum’s restoration fund.",비교,"{""left"": ""What is this box for?"", ""leftKo"": ""이 상자는 무엇에 쓰는 건가요?"", ""right"": ""Where is this box?"", ""rightKo"": ""이 상자는 어디에 있나요?"", ""why"": ""what … for는 용도·목적, where는 위치를 묻습니다.""}","{""left"": ""What is this box for?"", ""leftKo"": ""이 상자는 무엇에 쓰는 건가요?"", ""right"": ""Where is this box?"", ""rightKo"": ""이 상자는 어디에 있나요?"", ""why"": ""what … for는 용도·목적, where는 위치를 묻습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+550,"A: What attracts so many visitors to this island?
+B: The beaches and hiking trails are the main reasons.",주의,what이 무엇이·무슨 일이인 주어이면 별도로 does를 넣지 않아요. What attracts visitors?가 맞고 What does attracts visitors?라고 하지 않습니다.,what이 무엇이·무슨 일이인 주어이면 별도로 does를 넣지 않아요. What attracts visitors?가 맞고 What does attracts visitors?라고 하지 않습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+551,"A: What attracts visitors to this village?
+B: Its traditional houses and local food.",주의,what이 무엇이·무슨 일이인 주어이면 별도로 does를 넣지 않아요. What attracts visitors?가 맞고 What does attracts visitors?라고 하지 않습니다.,what이 무엇이·무슨 일이인 주어이면 별도로 does를 넣지 않아요. What attracts visitors?가 맞고 What does attracts visitors?라고 하지 않습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+556,"A: Could you put a fragile sticker on this box?
+B: Of course. Please place it on the counter.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+557,"A: Could you put a fragile sticker on this box?
+B: Sure, I will mark it on two sides.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+563,"A: The screen says, “Now boarding.” Should we line up?
+B: Yes, our group has just been called.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+564,"A: Could you hold my luggage until three?
+B: Certainly. Here is your claim ticket.",비교,"{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}","{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+564,"A: Could you hold my luggage until three?
+B: Certainly. Here is your claim ticket.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+564,"A: Could you hold my luggage until three?
+B: Certainly. Here is your claim ticket.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+565,"A: Could you hold my luggage after I check out?
+B: Of course, you can pick it up this evening.",비교,"{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}","{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+565,"A: Could you hold my luggage after I check out?
+B: Of course, you can pick it up this evening.",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+565,"A: Could you hold my luggage after I check out?
+B: Of course, you can pick it up this evening.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+566,"A: Can you store my luggage after I check out?
+B: Yes. What time will you collect it?",비교,"{""left"": ""What time does the tour start?"", ""leftKo"": ""투어는 몇 시에 시작하나요?"", ""right"": ""How long does the tour last?"", ""rightKo"": ""투어는 얼마나 오래 진행되나요?"", ""why"": ""시작 시각과 지속 기간을 구분합니다. 10시와 두 시간은 서로 다른 종류의 답이에요.""}","{""left"": ""What time does the tour start?"", ""leftKo"": ""투어는 몇 시에 시작하나요?"", ""right"": ""How long does the tour last?"", ""rightKo"": ""투어는 얼마나 오래 진행되나요?"", ""why"": ""시작 시각과 지속 기간을 구분합니다. 10시와 두 시간은 서로 다른 종류의 답이에요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+566,"A: Can you store my luggage after I check out?
+B: Yes. What time will you collect it?",비교,"{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}","{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+566,"A: Can you store my luggage after I check out?
+B: Yes. What time will you collect it?",주의,will 뒤 동사는 원형이에요. What time will the shuttle picks us up? → What time will the shuttle pick us up?,will 뒤 동사는 원형이에요. What time will the shuttle picks us up? → What time will the shuttle pick us up?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+566,"A: Can you store my luggage after I check out?
+B: Yes. What time will you collect it?",주의,"before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.","before go → before going / before we go
+before·after 뒤에는 명사·-ing 또는 주어가 있는 절을 씁니다. 동사원형만 바로 붙이지 마세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+567,"A: Can you store my luggage until my train leaves?
+B: Yes, we can keep it until nine tonight.",비교,"{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}","{""left"": ""Could you hold my luggage?"", ""leftKo"": ""제 짐을 잠시 맡아 주실래요?"", ""right"": ""Could you hold this bag for a second?"", ""rightKo"": ""이 가방을 잠깐 들어 주실래요?"", ""why"": ""hold는 짐 보관과 잠깐 손에 들어 주기 모두 가능합니다. luggage/this bag과 기간·상황까지 봐야 정확해져요. store는 보관에 더 초점이 있어요.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+567,"A: Can you store my luggage until my train leaves?
+B: Yes, we can keep it until nine tonight.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+582,"A: Which option should I choose for a cash withdrawal?
+B: Choose “Withdraw cash,” then enter the amount.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+582,"A: Which option should I choose for a cash withdrawal?
+B: Choose “Withdraw cash,” then enter the amount.",주의,"which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.","which를 썼다고 언제나 두 가지 중 하나라는 뜻은 아니에요. 서로 떠올릴 수 있는 후보 범위에서 고르는 말이며, 상황에 따라 what도 자연스러울 수 있습니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+584,"A: What is the withdrawal limit on this machine?
+B: Three hundred dollars per transaction.",비교,"{""left"": ""What is the withdrawal limit?"", ""leftKo"": ""인출 한도는 얼마인가요?"", ""right"": ""Is there a withdrawal fee?"", ""rightKo"": ""인출 수수료가 있나요?"", ""why"": ""limit은 꺼낼 수 있는 최대 금액, fee는 인출하면서 내는 수수료입니다.""}","{""left"": ""What is the withdrawal limit?"", ""leftKo"": ""인출 한도는 얼마인가요?"", ""right"": ""Is there a withdrawal fee?"", ""rightKo"": ""인출 수수료가 있나요?"", ""why"": ""limit은 꺼낼 수 있는 최대 금액, fee는 인출하면서 내는 수수료입니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+585,"A: What is the daily withdrawal limit?
+B: You can withdraw up to five hundred dollars a day.",비교,"{""left"": ""What is the withdrawal limit?"", ""leftKo"": ""인출 한도는 얼마인가요?"", ""right"": ""Is there a withdrawal fee?"", ""rightKo"": ""인출 수수료가 있나요?"", ""why"": ""limit은 꺼낼 수 있는 최대 금액, fee는 인출하면서 내는 수수료입니다.""}","{""left"": ""What is the withdrawal limit?"", ""leftKo"": ""인출 한도는 얼마인가요?"", ""right"": ""Is there a withdrawal fee?"", ""rightKo"": ""인출 수수료가 있나요?"", ""why"": ""limit은 꺼낼 수 있는 최대 금액, fee는 인출하면서 내는 수수료입니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+599,"A: I am interested in the boat tour. How long does it last?
+B: About ninety minutes.",비교,"{""left"": ""I am interested in the tour."", ""leftKo"": ""저는 그 투어에 관심이 있어요."", ""right"": ""The tour is interesting."", ""rightKo"": ""그 투어는 흥미로워요."", ""why"": ""interested는 관심을 느끼는 사람의 상태, interesting은 흥미를 주는 대상의 성질입니다.""}","{""left"": ""I am interested in the tour."", ""leftKo"": ""저는 그 투어에 관심이 있어요."", ""right"": ""The tour is interesting."", ""rightKo"": ""그 투어는 흥미로워요."", ""why"": ""interested는 관심을 느끼는 사람의 상태, interesting은 흥미를 주는 대상의 성질입니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+599,"A: I am interested in the boat tour. How long does it last?
+B: About ninety minutes.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+599,"A: I am interested in the boat tour. How long does it last?
+B: About ninety minutes.",주의,"I am interesting in the tour. → I am interested in the tour.
+내가 관심 있는 상태는 interested, 흥미를 주는 투어는 interesting입니다. 여기서는 in을 씁니다.","I am interesting in the tour. → I am interested in the tour.
+내가 관심 있는 상태는 interested, 흥미를 주는 투어는 interesting입니다. 여기서는 in을 씁니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+603,"A: Could you break a fifty-dollar bill?
+B: Yes. Would you like some smaller notes?",주의,"질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.","질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+603,"A: Could you break a fifty-dollar bill?
+B: Yes. Would you like some smaller notes?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+604,"A: Could you break a fifty-dollar bill for me?
+B: Sure. Do you want tens and fives?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+605,"A: When does the exhibition close?
+B: At six. Last admission is at five thirty.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+606,"A: When does the photography exhibition close?
+B: It runs until the end of the month.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+611,"A: Does this ticket include the special exhibit?
+B: No, that requires a separate ticket.",비교,"{""left"": ""I would like to request a quiet room."", ""leftKo"": ""조용한 방을 요청하고 싶어요."", ""right"": ""A passport is required for check-in."", ""rightKo"": ""체크인에는 여권이 필요합니다."", ""why"": ""request는 희망을 요청하다, require는 필수 조건으로 요구하다입니다. 발음뿐 아니라 의미·상황도 다릅니다.""}","{""left"": ""I would like to request a quiet room."", ""leftKo"": ""조용한 방을 요청하고 싶어요."", ""right"": ""A passport is required for check-in."", ""rightKo"": ""체크인에는 여권이 필요합니다."", ""why"": ""request는 희망을 요청하다, require는 필수 조건으로 요구하다입니다. 발음뿐 아니라 의미·상황도 다릅니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+616,"A: Could I have something hot to drink?
+B: Of course. Would you like tea or coffee?",주의,"질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.","질문과 답의 조동사를 기계적으로 맞추지 마세요. 할 수 있는지, 실제로 해 주겠다는지, 상대가 무엇을 원하는지에 따라 can/will/would like가 달라집니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+616,"A: Could I have something hot to drink?
+B: Of course. Would you like tea or coffee?",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+619,"A: What time should we leave for the airport?
+B: At six, to avoid the traffic.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+619,"A: What time should we leave for the airport?
+B: At six, to avoid the traffic.",주의,"leave for the airport는 공항으로 출발하다, leave the airport는 공항을 떠나다예요. 목적지와 출발지를 뒤바꾸지 않도록 주의하세요.","leave for the airport는 공항으로 출발하다, leave the airport는 공항을 떠나다예요. 목적지와 출발지를 뒤바꾸지 않도록 주의하세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+620,"A: How many pieces of luggage do you have?
+B: Two suitcases and a backpack.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+621,"A: Can I leave my luggage here for a few hours?
+B: Yes, we can store it behind the desk.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+622,"A: Could I have a blanket, please?
+B: Of course. I will bring one to your seat.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+623,"A: Could I get another blanket? It is cold in here.
+B: Of course, I will bring one right away.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+626,"A: Should I book the tour in advance?
+B: Yes, it often sells out.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+627,"A: What time should we leave for the airport?
+B: Around six should be safe.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+627,"A: What time should we leave for the airport?
+B: Around six should be safe.",주의,"leave for the airport는 공항으로 출발하다, leave the airport는 공항을 떠나다예요. 목적지와 출발지를 뒤바꾸지 않도록 주의하세요.","leave for the airport는 공항으로 출발하다, leave the airport는 공항을 떠나다예요. 목적지와 출발지를 뒤바꾸지 않도록 주의하세요.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+628,"A: Where should I wait for the shuttle?
+B: Outside the main entrance.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+629,"A: Where should I wait for the shuttle?
+B: Wait by the main entrance.",비교,"{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}","{""left"": ""Can I leave my bag here?"", ""leftKo"": ""여기에 가방을 둬도 되나요?"", ""right"": ""Should I leave my bag here?"", ""rightKo"": ""여기에 가방을 두는 게 좋을까요?"", ""why"": ""can은 허락·가능 여부, should는 권장·조언에 초점이 있습니다.""}",고유 비교문 35종 내용 1차 대조,의미 차이·번역 1차 대조 후 유지
+630,"A: What time does the restaurant open?
+B: At eleven thirty.",비교,"{""left"": ""What time does the restaurant open?"", ""leftKo"": ""식당이 문을 여는 시각을 물어요."", ""right"": ""How long is the restaurant open each day?"", ""rightKo"": ""식당은 하루에 몇 시간 영업하나요?"", ""why"": ""what time은 개점 시각, how long은 영업 시간의 길이입니다.""}","{""left"": ""What time does the restaurant open?"", ""leftKo"": ""식당은 몇 시에 문을 여나요?"", ""right"": ""How long is the restaurant open each day?"", ""rightKo"": ""식당은 하루에 몇 시간 영업하나요?"", ""why"": ""what time은 개점 시각, how long은 영업 시간의 길이입니다.""}",고유 비교문 35종 내용 1차 대조,문장 해석 칸의 설명체를 직접 번역으로 교정
+630,"A: What time does the restaurant open?
+B: At eleven thirty.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+630,"A: What time does the restaurant open?
+B: At eleven thirty.",주의,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+631,"A: What time does the museum open tomorrow?
+B: It opens at nine thirty.",비교,"{""left"": ""What time does the museum open tomorrow?"", ""leftKo"": ""박물관이 문을 여는 시각을 물어요."", ""right"": ""How long is the museum open each day?"", ""rightKo"": ""박물관은 하루에 몇 시간 동안 열려 있나요?"", ""why"": ""몇 시에 열리는지와 몇 시간 영업하는지는 다릅니다. what time은 시각, how long은 기간을 묻습니다.""}","{""left"": ""What time does the museum open tomorrow?"", ""leftKo"": ""박물관은 내일 몇 시에 문을 여나요?"", ""right"": ""How long is the museum open each day?"", ""rightKo"": ""박물관은 하루에 몇 시간 동안 열려 있나요?"", ""why"": ""몇 시에 열리는지와 몇 시간 영업하는지는 다릅니다. what time은 시각, how long은 기간을 묻습니다.""}",고유 비교문 35종 내용 1차 대조,문장 해석 칸의 설명체를 직접 번역으로 교정
+631,"A: What time does the museum open tomorrow?
+B: It opens at nine thirty.",주의,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,does 뒤 동사에 s를 한 번 더 붙이지 마세요. What time does it leaves? → What time does it leave?,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+631,"A: What time does the museum open tomorrow?
+B: It opens at nine thirty.",주의,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,does가 현재 단수형 역할을 하므로 뒤 동사는 원형입니다. does it leaves가 아니라 does it leave예요.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+634,"A: Is baggage storage available after checkout?
+B: Yes, guests can use it for free until midnight.",주의,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,일반적인 여행 짐을 말할 때 luggages/baggages로 복수를 만들지 않아요. 개수는 two pieces of luggage 또는 two bags처럼 말할 수 있습니다.,고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+643,"A: Could you draw the route on this map?
+B: Sure. Start here and follow this street.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+644,"A: Could you draw a circle around the station on this map?
+B: Sure, it is right here.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
+646,"A: Could you refill my water bottle?
+B: Sure. Please take the lid off.",주의,"정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.","정중한 부탁의 Could I/you …?를 과거에 했나요로 옮기지 마세요. Could you …?는 상대에게 부탁, Could I …?는 내가 해도 되는지 묻는 말입니다.",고유 주의문 26종 내용 1차 대조,내용 유지; 개별 대화와의 관련성 추가 검수 필요
