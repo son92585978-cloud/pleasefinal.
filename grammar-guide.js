@@ -1,8 +1,9 @@
 /* Curated reference rules applied to actual tokens. This is supplementary, not certification of full manual review. */
 window.V49Grammar=(()=>{
  const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const terms={ '평서문':'질문이 아닌 보통 문장', '도치':'질문을 만들려고 앞뒤 순서를 바꾸기', '조동사':'질문·가능성·의무 등을 덧붙이는 도움말', '목적격':'행동을 받거나 전치사 뒤에 쓰는 모양', '목적어':'행동의 대상이 되는 말', '주어':'누가·무엇이 행동하거나 어떤 상태인지 나타내는 말', '과거분사':'완료·처리된 상태 등에 쓰는 동사의 모양', '동사원형':'동사의 기본 모양', '부정사':'to와 동사의 기본 모양을 연결한 표현', '형용사':'성질이나 상태를 설명하는 말', '자동사':'대상을 바로 뒤에 붙이지 않고 쓰는 동사', '타동사':'행동의 대상을 바로 뒤에 붙이는 동사', '전치사':'명사 앞에서 장소·시간·관계 등을 연결하는 말', '명사':'사람·물건·활동 등의 이름', '절':'누가·무엇이와 행동·상태가 함께 있는 작은 문장' };
- function plain(s){return String(s??'').replace(/평서문|도치|조동사|목적격|목적어|주어|과거분사|동사원형|부정사|형용사|자동사|타동사|전치사|명사/g,t=>t+'('+terms[t]+')');}
+ const terms={"평서문": "질문이 아닌 보통 문장", "의문문": "질문하는 문장", "부정문": "아니라고 말하는 문장", "도치": "질문 등을 만들려고 앞뒤 순서를 바꾸기", "조동사": "질문·가능성·의무 등을 덧붙이는 도움말", "목적격": "행동을 받거나 전치사 뒤에 쓰는 모양", "소유격": "누구의 것인지 나타내는 모양", "목적어": "행동의 대상이 되는 말", "주어": "누가·무엇이 행동하거나 어떤 상태인지 나타내는 말", "보어": "대상의 정체·상태를 채워 설명하는 말", "과거분사": "완료·처리된 상태 등에 쓰는 동사의 모양", "현재분사": "행동·상태를 나타내는 -ing 모양", "분사": "행동말을 상태 설명 등에 쓰도록 바꾼 모양", "동사원형": "동사의 기본 모양", "부정사": "to와 동사의 기본 모양을 연결한 표현", "동명사": "행동을 이름처럼 나타낸 -ing 표현", "형용사": "성질이나 상태를 설명하는 말", "부사": "행동·성질·문장에 정도·때·방식 등을 덧붙이는 말", "자동사": "대상을 바로 뒤에 붙이지 않고 쓰는 동사", "타동사": "행동의 대상을 바로 뒤에 붙이는 동사", "전치사": "이름 앞에서 장소·시간·관계 등을 연결하는 말", "대명사": "사람·물건 등의 이름을 대신하는 말", "명사": "사람·물건·활동 등의 이름", "의문절": "무엇인지·왜 그런지 같은 내용을 담는 작은 문장", "관계대명사": "앞에서 말한 사람·대상을 뒤에서 설명하도록 연결하는 말", "수동태": "대상이 어떤 처리를 받는다는 구조", "능동태": "주체가 행동한다는 구조", "수동 관계": "대상이 어떤 처리를 받는 관계", "현재완료": "과거의 일과 지금의 경험·결과·이어짐을 연결하는 형태", "과거완료": "과거의 기준 시점보다 앞선 일을 연결하는 형태", "현재형": "현재의 상태·습관·일정 등을 말하는 모양", "과거형": "지난 일을 말하는 모양", "완료형": "기준 시점과 이전의 일을 연결하는 형태", "진행형": "be와 -ing를 연결해 진행 중인 행동이나 잡힌 계획 등을 나타내는 형태", "단수": "하나를 가리키는 말", "복수": "여럿을 가리키는 말", "관사": "a·an·the처럼 이름 앞에서 대상을 정하는 말", "한정사": "this·my·some처럼 어떤 대상·범위인지 정하는 말", "수식어": "다른 말이 어떤 것인지 덧붙이는 설명", "비교급": "다른 것보다 더하다고 비교하는 모양", "최상급": "후보 중 가장 그렇다고 말하는 모양"};
+ const termPattern=new RegExp(Object.keys(terms).sort((a,b)=>b.length-a.length).join("|"),"g");
+ function plain(s){return String(s??'').replace(termPattern,t=>t+'('+terms[t]+')');}
  const rules=[];
  function add(match,title,why,position,form,compare,mistake){rules.push({match,title,body:[['① 왜 이 표현인가요?',why],['② 왜 이 위치인가요?',position],['③ 왜 이 모양인가요?',form],['④ 바꾸면 어떻게 달라지나요?',compare],['⑤ 흔한 실수',mistake]]});}
  add(/\bwhat\b/i,'what · 무엇/어떤', '사물·내용·행동·종류처럼 알고 싶은 정보를 묻습니다. what time은 몇 시, what kind는 어떤 종류라는 묶음입니다.','직접 질문할 때는 보통 앞에 둡니다. decide what to buy처럼 문장 안에 들어가면 무엇을 살지라는 내용이 됩니다.','What attracts visitors?의 what은 끌어들이는 주체라 do를 덧붙이지 않습니다. What do visitors like?에서는 visitors가 행동하는 사람들이라 do가 필요합니다.','What tour?는 종류를 넓게 묻고 Which tour?는 염두에 둔 선택지 중 고르는 데 초점이 있습니다. 둘 다 가능한 상황도 있습니다.','what 뒤에 항상 do를 넣는다고 외우지 마세요. who/what 자체가 행동의 주체인지 확인합니다.');
@@ -33,10 +34,26 @@ window.V49Grammar=(()=>{
  add(/\bfrom\b/i,'from · 출발점·출처', '어디에서 출발하는지·얼마나 떨어졌는지·어디서 온 것인지 나타냅니다. from ten to four는 시간 범위의 시작입니다.','from 뒤의 말이 출발점·기준점이 됩니다. from A to B에서는 A가 시작, B가 끝입니다.','from the station처럼 이름과 함께 씁니다. across from은 맞은편이라는 묶음입니다.','from the hotel → 호텔에서부터 / to the hotel → 호텔로. 출발점과 도착점이 바뀝니다.','across from the station을 역에서 건너다라고 읽지 않습니다. 역 맞은편이라는 위치입니다.');
  add(/\bwith\b/i,'with · 동행·도구·동반 제공', 'with my wife는 아내와 함께, with a card는 카드로, room with a view는 전망이 있는 객실, check with는 담당자에게 확인한다는 뜻입니다.','함께하는 대상·도구·특징 앞에 놓아 어느 관계인지 덧붙입니다.','with me/us처럼 받는 모양을 씁니다. with I/we라고 하지 않습니다.','come with breakfast → 조식이 포함되어 제공되다 / come for breakfast → 아침을 먹으러 오다.','come with를 항상 함께 오다로 직역하지 마세요. 물건·객실의 제공 항목을 말할 수 있습니다.');
  function render(raw){const s=String(raw).replace(/^[AB]:\s*/,'');const selected=rules.filter(r=>r.match.test(s));if(!selected.length)return '';
- return '<details class="word-order-panel"><summary>📖 초보자 설명 · 뜻·위치·형태·비교·주의</summary><p class="explain-status">현재 문장에 등장하는 표현의 참고 설명입니다. 문맥별 상세 설명은 아래 표현 묶음에서 확인하세요. 이 참고 설명의 자동 연결은 수동 전수검수 완료를 뜻하지 않습니다.</p>'+selected.map(r=>'<details class="word-order-section"><summary>'+E(r.title)+'</summary>'+r.body.map(([t,b])=>'<p><b>'+E(t)+'</b><br>'+E(b)+'</p>').join('')+'</details>').join('')+'</details>';}
+ return '<details class="word-order-panel"><summary>📖 초보자 설명 · 뜻·위치·형태·비교·주의</summary><p class="explain-status">현재 문장에 등장하는 표현의 참고 설명입니다. 문맥별 상세 설명은 아래 표현 묶음에서 확인하세요. 이 참고 설명의 자동 연결은 수동 전수검수 완료를 뜻하지 않습니다.</p>'+selected.map(r=>'<details class="word-order-section"><summary>'+E(r.title)+'</summary>'+r.body.map(([t,b])=>'<p><b>'+E(t)+'</b><br>'+E(plain(b))+'</p>').join('')+'</details>').join('')+'</details>';}
  function sections(raw,phrase){
+  const normalize=s=>String(s||'').replace(/^[AB]:\s*/,'').replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim();
+  const record=window.V48_PHRASE_DATA?.[normalize(raw)];
+  const part=record?.phrases?.find(p=>p.text===phrase);
+  const start=part?.offset??-1,end=start+String(phrase).length;
+  const target=[];
+  for(const note of record?.notes||[]){
+   const g=note[4];if(!g?.answers)continue;
+   let hit=Number.isInteger(g.offset)&&start>=0&&g.offset<end&&g.offset+g.length>start;
+   if(!hit&&g.kind==='question_or_modal'){
+    const tokens=g.expression.match(/(?<![A-Za-z])(?:what|which|who|whose|where|when|why|how|do|does|did|have|has|had|will|would|can|could|should|may|might|must|shall)(?![A-Za-z])/gi)||[];
+    hit=tokens.some(t=>new RegExp('(?:^|[^A-Za-z])'+t+'(?:$|[^A-Za-z])','i').test(phrase));
+   }
+   if(!hit&&['be_question','be_statement','be_imperative','modal_be','existence','perfect_be','handover'].includes(g.kind))hit=/\b(?:am|is|are|was|were|be|been)\b/i.test(phrase);
+   if(hit)target.push(g);
+  }
+  const labels=['① 표현 선택','② 위치','③ 형태','④ 바꾸면','⑤ 흔한 실수'];
   const picked=rules.filter(r=>r.match.test(phrase));
-  const out=picked.flatMap(r=>r.body.map(([title,body])=>[r.title+' · '+title,body]));
+  const out=target.length?target.flatMap(g=>g.answers.map((answer,i)=>[g.expression+' · '+labels[i],answer])):picked.flatMap(r=>r.body.map(([title,body])=>[r.title+' · '+title,body]));
   const key=String(raw);
   if(/more of these adapters/.test(key)&&/of these adapters/.test(phrase))out.unshift(['이 문장의 of','more가 더 필요한 수량을 말하고 of these adapters가 그 수량이 이 종류의 어댑터에 속함을 연결합니다. 지금 가리키는 어댑터와 같은 종류를 더 찾는 말입니다. of these adapter가 아니라 여러 개라 adapters입니다. more adapters라고 하면 종류를 덜 구체적으로 지정합니다.']);
   if(/in stock/.test(phrase))out.unshift(['왜 in stock인가요?','매장이 재고를 보유한 상태라는 고정 표현입니다. 물리적으로 어디 안쪽인지 묻는 말이 아닙니다. Do you have ... in stock?에서 물건 뒤에 붙여 재고 상태를 지정합니다. out of stock이면 품절입니다. in the stock이라고 the를 넣지 않습니다.']);
