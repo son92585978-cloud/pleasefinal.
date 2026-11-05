@@ -288,6 +288,7 @@ textarea.input{min-height:85px;resize:vertical}
 
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" href="./icon.svg" type="image/svg+xml">
+<style>.full-sentence-notes{margin-top:10px}.full-sentence-notes>summary{font-size:14px;font-weight:800}.full-sentence-content .writing-note p{white-space:pre-line}</style>
 </head>
 <body>
 <div class="app">
@@ -481,6 +482,12 @@ function toggleWriting(button){const panel=button.nextElementSibling,opened=butt
 // Beginner-first question explanation: explain the visible word order without jargon.
 function beginnerQuestionGuide(raw){return '';}
 function beginnerAllExamples(raw){return '';}
+function sentenceExplanation(raw,notesOverride){
+ const lesson=writingLesson(raw),record=phraseRecord(raw);
+ const notes=lesson?.notes?.length?lesson.notes:(Array.isArray(notesOverride)&&notesOverride.length?notesOverride:(record?.notes||[]));
+ const content=notes.length?explanationNavigation(notes,null)+notes.map(writingNote).join(''):'<p class="explain-status">이 문장에 저장된 전체 설명이 없습니다.</p>';
+ return `<details class="writing-notes full-sentence-notes" onclick="event.stopPropagation()"><summary>문장 전체 설명${notes.length?' ('+notes.length+'개)':''}</summary><div class="full-sentence-content">${content}</div></details>`;
+}
 function writingRow(raw,translation,notesOverride){
  const notes=notesOverride===undefined?(writingLesson(raw)?.notes||[]):notesOverride;
  if(!String(raw).trim())return '';
@@ -496,7 +503,8 @@ function writingRow(raw,translation,notesOverride){
  ${beginnerAllExamples(raw)}
  ${window.V49Grammar?.render(raw)||''}
  ${wordOrderExplanation(raw)}
- ${phrase?`<details class="writing-notes inline-notes"><summary>💡 왜 이 표현을 사용했을까요?</summary>${inlineExplanationPanel(raw)}</details>`:''}</article>`;
+ ${sentenceExplanation(raw,notesOverride)}
+ ${phrase?`<details class="writing-notes inline-notes"><summary>💡 표현 묶음 설명</summary>${inlineExplanationPanel(raw,false)}</details>`:''}</article>`;
 }
 
 /* Only the explanation panel uses this handler. linkedSentence stays unchanged. */
@@ -511,15 +519,15 @@ function wordOrderExplanation(raw,compact=false){
 /* V48: the explanation panel selects meaning groups, not individual words. */
 function phraseRecord(raw){return window.V48_PHRASE_DATA?.[writingKey(raw)];}
 function rawSentence(record){return record.sentence||'';}
-function inlineExplanationPanel(raw){
+function inlineExplanationPanel(raw,showFull=true){
  const record=phraseRecord(raw),key=writingKey(raw);
- if(!record)return '<p class="explain-status">이 문장은 직접 추가·수정한 문장입니다. 저장된 표현 설명이 아직 없습니다.</p>';
+ if(!record)return '<p class="explain-status">저장된 표현 묶음 데이터가 없습니다.</p>'+(showFull?sentenceExplanation(raw):'');
  let cursor=0;
  const groups=record.phrases.map((phrase,i)=>{
   const gap=record.sentence.slice(cursor,phrase.offset);cursor=phrase.offset+phrase.text.length;
   return esc(gap)+`<button type="button" class="inline-word inline-phrase" data-word-index="${i}" aria-pressed="false" onclick="event.stopPropagation();selectInlineWord(this)">${esc(phrase.text)}</button>`;
  }).join('')+esc(record.sentence.slice(cursor));
- return `<div class="inline-explanation" data-inline-sentence="${esc(key)}"><nav class="explain-nav inline-words" aria-label="표현 묶음 선택">${groups}</nav><p class="explain-status inline-help">궁금한 표현 묶음을 눌러보세요.</p><div class="inline-word-result" aria-live="polite"></div><details class="writing-notes"><summary>문장 전체 상세 설명 · 문법 전문 전수검수 미완료</summary>${(record.notes||[]).map(writingNote).join()}</details></div>`;
+ return `<div class="inline-explanation" data-inline-sentence="${esc(key)}"><nav class="explain-nav inline-words" aria-label="표현 묶음 선택">${groups}</nav><p class="explain-status inline-help">궁금한 표현 묶음을 눌러보세요.</p><div class="inline-word-result" aria-live="polite"></div>${showFull?sentenceExplanation(raw):''}</div>`;
 }
 function closeInlineWord(button){
  const root=button.closest('.inline-explanation');
@@ -545,20 +553,21 @@ function selectInlineWord(button){
 function captureInlinePanels(){
  sentenceState.inlinePanels={};
  document.querySelectorAll('#main .writing-card').forEach(row=>{
-  const panel=row.querySelector('.inline-notes');if(!panel)return;
-  const root=panel.querySelector('.inline-explanation');
+  const panel=row.querySelector('.inline-notes'),full=row.querySelector(':scope > .full-sentence-notes');if(!panel&&!full)return;
+  const root=panel?.querySelector('.inline-explanation');
   const capture=r=>{
    const selected=r?.querySelector(':scope > .inline-words > .inline-word[aria-pressed="true"]');
    const result=r?.querySelector(':scope > .inline-word-result');
    return {selected:selected?Number(selected.dataset.wordIndex):null,examples:[...(result?.querySelectorAll(':scope > .inline-selected > .phrase-section > .inline-example')||[])].map(ex=>({toggles:[...ex.querySelectorAll(':scope > .writing-fold > .writing-toggle')].map(b=>b.getAttribute('aria-expanded')==='true'),open:!!ex.querySelector(':scope > .phrase-example-notes')?.open,order:!!ex.querySelector(':scope > .word-order-panel')?.open,state:capture(ex.querySelector(':scope > .phrase-example-notes > .inline-explanation'))}))};
   };
-  sentenceState.inlinePanels[foldIdentity(row)]={open:panel.open,order:row.querySelector(':scope > .word-order-panel')?.open||false,state:capture(root)};
+  sentenceState.inlinePanels[foldIdentity(row)]={open:!!panel?.open,full:!!full?.open,order:row.querySelector(':scope > .word-order-panel')?.open||false,state:capture(root)};
  });
 }
 function restoreInlinePanels(){
  document.querySelectorAll('#main .writing-card').forEach(row=>{
-  const state=sentenceState.inlinePanels?.[foldIdentity(row)],panel=row.querySelector('.inline-notes');if(!state||!panel)return;
-  panel.open=state.open;const order=row.querySelector(':scope > .word-order-panel');if(order)order.open=!!state.order;
+  const state=sentenceState.inlinePanels?.[foldIdentity(row)],panel=row.querySelector('.inline-notes');if(!state)return;
+  const full=row.querySelector(':scope > .full-sentence-notes');if(full)full.open=!!state.full;
+  if(panel)panel.open=state.open;const order=row.querySelector(':scope > .word-order-panel');if(order)order.open=!!state.order;
   const restore=(root,s)=>{
    if(!root||!s||s.selected===null)return;
    const button=root.querySelector(`:scope > .inline-words > [data-word-index="${s.selected}"]`);if(!button)return;selectInlineWord(button);
@@ -569,7 +578,7 @@ function restoreInlinePanels(){
     const order=ex.querySelector(':scope > .word-order-panel');if(order)order.open=saved.order;
    });
   };
-  restore(panel.querySelector('.inline-explanation'),state.state);
+  restore(panel?.querySelector('.inline-explanation'),state.state);
  });
 }
 
