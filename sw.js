@@ -1,4 +1,4 @@
-const CACHE='travelEnglish-v49-review-20261105-3';
+const CACHE='travelEnglish-v49-review-20261104-1';
 const FILES=['./','./index.html','./404.html','./audio-engine.js','./phrase-data.js','./phrase-data-2.js','./word-order-data.js','./grammar-guide.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)));self.skipWaiting();});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('travelEnglish-v49-review-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
