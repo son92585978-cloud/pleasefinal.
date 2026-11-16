@@ -1,0 +1,18 @@
+실제 영화 원본 출처 및 이용허락
+
+Sintel · 낯선 곳에서 만난 사람 (11개)
+© copyright Blender Foundation | durian.blender.org. 원작 음성을 발췌·MP3 변환, 영어 자막 정리 및 한국어 번역 추가.
+원작/배포 조건: https://durian.blender.org/sharing/
+라이선스: CC BY 3.0 https://creativecommons.org/licenses/by/3.0/
+
+Tears of Steel · 질문·격려·사과 (33개)
+(CC) Blender Foundation | mango.blender.org. 원작 영화 음성을 발췌·MP3 변환, 공식 영어 자막에서 학습 구간 선택 및 한국어 번역 추가.
+원작/배포 조건: https://mango.blender.org/sharing/
+라이선스: CC BY 3.0 https://creativecommons.org/licenses/by/3.0/
+
+영화 원본 음성 일부를 MP3로 변환하고 영어 자막 구간을 선택했으며 한국어 번역과 학습 UI를 추가했습니다. 별도 발매 OST 앨범은 사용하지 않았습니다.
+원본 다운로드 및 자막 출처:
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
+https://download.blender.org/demo/movies/ToS/subtitles/TOS-en.srt
+https://raw.githubusercontent.com/iandevlin/iandevlin.github.io/master/mdn/video-player-with-captions/video/sintel-short.mp4
+https://raw.githubusercontent.com/iandevlin/iandevlin.github.io/master/mdn/video-player-with-captions/subtitles/vtt/sintel-en.vtt
