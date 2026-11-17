@@ -62,7 +62,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>영단어 · Friends 통합 RC1</title>
+<title>영단어 · Friends Hybrid V5</title>
 <style>
 :root{
   --bg:#120b07;--panel:#21130c;--card:#fffaf6;--text:#2a221e;--muted:#8c7467;
@@ -293,8 +293,8 @@ textarea.input{min-height:85px;resize:vertical}
 <body>
 <div class="app">
   <div class="top">
-    <div class="brand">영단어 · Friends 통합 RC1 <button type="button" id="check-update-btn" class="version-update">업데이트 확인</button></div>
-    <a class="iconbtn" href="./travel-conversation.html" style="text-decoration:none;font-size:15px" onclick="rememberRoute();stopSpeech()">🎧 Friends</a><button class="iconbtn" id="sentenceBtn" title="예문 목록">💬</button><button class="iconbtn" id="searchBtn" title="검색">🔍</button>
+    <div class="brand">영단어 · Friends Hybrid V5 <button type="button" id="check-update-btn" class="version-update">업데이트 확인</button></div>
+    <a class="iconbtn" href="./travel-conversation.html" style="text-decoration:none;font-size:12px;max-width:140px;white-space:normal" onclick="rememberRoute();stopSpeech()">🎧 FRIENDS HYBRID ENGLISH</a><button class="iconbtn" id="sentenceBtn" title="예문 목록">💬</button><button class="iconbtn" id="searchBtn" title="검색">🔍</button>
     <button class="iconbtn" id="shuffleBtn" title="무작위">🔀</button>
     <button class="iconbtn" id="hideBtn" title="뜻 가리기">🙈뜻</button>
     <button class="iconbtn" id="hideMnemonicBtn" title="연상법 가리기">🧠</button>
@@ -712,7 +712,7 @@ function renderSearch(){
   main.innerHTML=`<div class="searchPanel">
     <div class="panelTitle">🔍 단어 검색</div>
     <input id="searchInput" class="input" placeholder="영어 또는 뜻을 검색하세요" value="${esc(query)}">
-    <div id="results">${q?(res.length?res.map(c=>`<div class="result" data-word="${esc(c.word)}"><b>${esc(c.word)}</b><div class="small">${esc(c.meaning)}</div></div>`).join(''):`<div class="empty">검색 결과가 없습니다.</div>`):`<div class="empty">예: deposit, 보증금, 환불, 관광...</div>`}</div>
+    <div id="results">${q?(res.length?res.map(c=>`<div class="result" data-word="${esc(c.word)}" data-friends-id="${esc(c.friendsId||'')}"><b>${esc(c.word)}</b><div class="small">${esc(c.meaning)}</div></div>`).join(''):`<div class="empty">검색 결과가 없습니다.</div>`):`<div class="empty">예: deposit, 보증금, 환불, 관광...</div>`}</div>
   </div>`;
   const inp=document.getElementById('searchInput');
   inp.focus();inp.setSelectionRange(query.length,query.length);
@@ -732,7 +732,7 @@ function renderSearch(){
     renderSearch();
   });
 
-  document.querySelectorAll('.result').forEach(el=>el.addEventListener('click',()=>jumpToWord(el.dataset.word)));
+  document.querySelectorAll('.result').forEach(el=>el.addEventListener('click',()=>{if(el.dataset.friendsId){const fid=el.dataset.friendsId;openTemporary(()=>{mode='cards';lookupOnly=true;wrongOnly=false;index=Math.max(0,activeCards().findIndex(c=>c.friendsId===fid));});}else jumpToWord(el.dataset.word);}));
   document.getElementById('pt').textContent='검색';document.getElementById('bar').style.width='0%';
 }
 function renderAdd(){
@@ -1188,7 +1188,7 @@ document.getElementById('mnemonic-edit-form').onsubmit=e=>{e.preventDefault();co
   try{const response=await fetch('./index.html?update-check='+Date.now(),{cache:'no-store'});if(!response.ok)throw new Error();const html=await response.text();const match=html.match(/writing-version">(V[0-9]+)/);const version=match?match[1]:null;
    if('serviceWorker' in navigator){const registration=await navigator.serviceWorker.getRegistration();if(registration)await registration.update();}
    if(version&&version!=='V43'&&version!=='V49'){ready=true;button.textContent=version+' 적용';status('새 버전을 찾았어요. 위 버튼을 눌러 적용하세요.');}
-   else if(!ready){button.textContent='업데이트 확인';status('Friends 통합 RC1 · 업데이트 확인 완료');}
+   else if(!ready){button.textContent='업데이트 확인';status('Friends Hybrid V5.2 · 업데이트 확인 완료');}
   }catch(e){button.textContent='업데이트 확인';status('연결을 확인한 뒤 다시 눌러 주세요.');}finally{button.disabled=false;}
  };
 })();
@@ -1196,8 +1196,8 @@ document.getElementById('mnemonic-edit-form').onsubmit=e=>{e.preventDefault();co
 <script>
 // Bridge from Friends: keep the existing glossary and word-learning engine.
 (()=>{const q=new URLSearchParams(location.search),w=q.get('friendWord');if(!w)return;
- const card=allCards().find(c=>c.word.toLowerCase()===w.toLowerCase());
- if(card)openSentenceWord(card.word);else openTemporary(()=>{mode='search';query=w});
+ const fid=q.get('friendId');const card=(fid&&allCards().find(c=>c.friendsId===fid))||allCards().find(c=>c.word.toLowerCase()===w.toLowerCase());
+ navParents=[];if(card){mode=card.friendsId?'cards':'glossary';glossaryWord=card.word;glossarySurface=card.word;lookupOnly=true;wrongOnly=false;index=Math.max(0,activeCards().findIndex(c=>card.friendsId?c.friendsId===card.friendsId:c.word===card.word));}else{mode='search';query=w;}render();rememberRoute();
  const b=document.createElement('button');b.textContent='← 프렌즈 학습으로 돌아가기';b.style.cssText='position:fixed;bottom:12px;left:12px;z-index:10001;padding:14px;border-radius:12px';
  b.onclick=()=>location.assign('./travel-conversation.html');document.body.append(b);
 })();
