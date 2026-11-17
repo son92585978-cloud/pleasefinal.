@@ -20,3 +20,11 @@ window.TravelAudio=(()=>{
   });
  },availableVoices:voices};
 })();
+// RC1: restore the recordings already present in this uploaded project.
+window.TravelAudio=(()=>{
+ const fallback=window.TravelAudio;let status=()=>{},generation=0,active=null,url=null,settle=null,indexPromise=null;const buffers=new Map();
+ function stop(){generation++;if(active){active.pause();active.src='';active=null;}if(url){URL.revokeObjectURL(url);url=null;}if(settle){settle(false);settle=null;}fallback.stop();}
+ async function index(){if(!indexPromise)indexPromise=fetch('./audio/index.json').then(r=>{if(!r.ok)throw Error('음성 목록 읽기 실패');return r.json()}).catch(e=>{indexPromise=null;throw e});return indexPromise;}
+ return {onStatus(fn){status=fn;fallback.onStatus(fn)},unlock(){fallback.unlock()},stop,availableVoices:fallback.availableVoices,async play(text,gender,rate){stop();const request=generation;try{const d=await index();if(request!==generation)return false;const key=Object.keys(d.clips).find(k=>k.toLowerCase()===String(text).trim().toLowerCase()),v=d.clips[key]?.[gender];if(!v){status('등록 음성 없음 · 기기 음성으로 재생');return fallback.play(text,gender,rate);}const [file,start,length]=v;if(!buffers.has(file)){const r=await fetch('./audio/'+file);if(!r.ok)throw Error('음성 파일 연결 실패');buffers.set(file,await r.arrayBuffer());if(buffers.size>4)buffers.delete(buffers.keys().next().value);}if(request!==generation)return false;const bytes=buffers.get(file);if(start+length>bytes.byteLength)throw Error('음성 범위 오류');url=URL.createObjectURL(new Blob([bytes.slice(start,start+length)],{type:'audio/mpeg'}));active=new Audio(url);active.playbackRate=Math.max(.5,Math.min(1.5,Number(rate)||1));status('단어 학습용 AI 음성 · '+(gender==='male'?'Michael':'Heart'));return await new Promise(resolve=>{settle=resolve;active.onended=()=>{settle=null;status('재생 완료');resolve(true)};active.onerror=()=>{settle=null;status('음성 파일 재생 실패');resolve(false)};active.play().catch(()=>{settle=null;status('재생 버튼을 다시 눌러 주세요.');resolve(false)});});}catch(e){if(request!==generation)return false;status(e.message+' · 기기 음성으로 전환');return fallback.play(text,gender,rate);}}
+ };
+})();
