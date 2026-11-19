@@ -1,1 +1,32 @@
-GitHub 저장소 루트에서 Add file > Upload files 로 travel-conversation.html 파일 하나만 업로드하고 Commit changes를 누르세요. 기존 index.html에 실전회화 메뉴 링크가 이미 있어야 합니다. 기존 V1 회화의 복습 저장 키는 유지합니다. V2는 심화 대화 확장 버전이며 모든 문장의 수작업 상세 해설을 완성한 버전은 아닙니다.
+REAL TALK V2 — 한 번에 적용하는 통합 업데이트 (한국시간 2026-11-19)
+
+이전 V2 업데이트 ZIP에는 반드시 필요한 JS 파일 일부가 빠져 있었습니다.
+이 패키지는 이전 파일이 일부 누락돼도 동작하도록 필요한 업데이트 파일을 모두 묶었습니다.
+회화 V2는 데이터·그림·학습 기능을 HTML에 포함해 독립적으로 열리게 했습니다.
+
+업로드 순서:
+1. ZIP을 먼저 압축 해제하세요. ZIP 자체를 GitHub에 올리면 안 됩니다.
+2. GitHub 저장소의 최상위 폴더에서 Add file > Upload files 선택.
+3. 이 폴더 안의 HTML 3개 + JS 파일들 + sw.js를 한 번에 모두 끌어다 놓으세요.
+4. 기존 파일과 같은 이름은 덮어쓰고, 나머지는 새 파일로 추가합니다.
+   기존의 다른 파일들은 삭제하지 마세요.
+5. Commit changes 한 번만 누르면 됩니다. GitHub Pages 반영 후 앱을 열어 확인하세요.
+
+구성:
+- index.html: 기존 단어장 + 1회 클릭 업데이트 적용
+- travel-conversation.html: 기존 800문장 학습 보존
+- travel-daily-conversation.html: 상황별 실전회화 V2 (핵심 의존성 내장)
+- study-quick-nav.js: 세 화면 하단 전환
+- travel-additions.js / travel-beginner.js / travel-enhance.js / travel-grade.js:
+  기존 800문장 학습 필수 스크립트
+- v2-scenes-data.js / v2-scene-art.js / v2-ui.js:
+  V2 백업 및 차후 수정용 (회화 화면은 이 내용도 내장)
+- sw.js: 새 버전 캐시 및 오프라인 지원
+
+주의:
+- 기존에 GitHub 저장소에 들어 있던 다른 단어장/프렌즈 구성 파일은 그대로 필요합니다.
+- 지금 ZIP은 기존 GitHub 저장소 '업데이트용'입니다. 최초 설치용 전체 앱 소스는 아닙니다.
+- GitHub Pages 배포가 끝나기 전에는 구버전이 표시될 수 있습니다.
+- 메인 화면 '업데이트 적용' 버튼은 이제 한 번 누르면 바로 최신 페이지를 다시 엽니다.
+- Android 홈화면 앱이 예전 화면을 계속 보여 주면 Chrome에서 기존 사이트를 한 번 연 뒤
+  새로고침하고, 홈 화면 앱도 완전히 닫았다가 다시 열어 보세요.
